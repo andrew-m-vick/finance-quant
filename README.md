@@ -1,5 +1,7 @@
 # Finance Quant Toolkit
 
+**Live:** <https://web-production-a0dcb.up.railway.app>
+
 Two quantitative personal-finance tools under one Flask app:
 
 1. **Financial Stress Test** — scores a user's balance sheet against five
