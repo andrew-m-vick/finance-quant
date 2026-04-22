@@ -47,13 +47,23 @@ worker precaches the app shell (HTML routes, CSS, JS, favicon, manifest)
 so the UI works offline; API calls fall through to the network and are
 never cached (results depend on user input).
 
-- `static/manifest.webmanifest` — app metadata, icon, theme color.
+- `static/manifest.webmanifest` — app metadata, icons, theme color.
 - `static/service-worker.js` — precache + runtime caching strategy.
-- `app.py` serves both at the root (`/manifest.webmanifest`,
-  `/service-worker.js`) so the worker has site-wide scope.
+- `static/icons/` — opaque PNG icons (180/192/512 + maskable 512) with
+  the brand color baked in. iOS ignores SVG apple-touch-icons and won't
+  fill transparency, so PNGs are required for a clean home-screen look.
+- `scripts/gen_icons.py` — regenerates the PNGs from the brand glyph
+  (run after changing colors or the chart mark): `python scripts/gen_icons.py`.
+- `app.py` serves the manifest and service worker at the root
+  (`/manifest.webmanifest`, `/service-worker.js`) so the worker has
+  site-wide scope.
 
 The browser "Install" prompt requires HTTPS — Railway provides this
 automatically. Locally the SW also works on `http://localhost`.
+
+> **Updating the home-screen icon on iOS:** iOS caches the old icon
+> aggressively. Remove the existing home-screen shortcut, then re-visit
+> the site in Safari and "Add to Home Screen" again.
 
 ## Deploy (Railway)
 
@@ -70,6 +80,8 @@ stress_test.py      Scenario scoring logic
 monte_carlo.py      NumPy GBM engine
 templates/          Jinja templates (base, index, stress, retirement, methodology)
 static/             style.css, favicon, per-page JS, manifest, service worker
+static/icons/       PNG home-screen icons (180/192/512 + maskable)
+scripts/            gen_icons.py — regenerate PNG icons from brand glyph
 tests/              pytest suite
 ```
 
