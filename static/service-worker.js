@@ -5,7 +5,7 @@
 //   - Static same-origin GETs: stale-while-revalidate.
 //   - API POSTs: always network (never cached — results depend on input).
 
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL_CACHE = `fq-shell-${VERSION}`;
 const RUNTIME_CACHE = `fq-runtime-${VERSION}`;
 
@@ -18,6 +18,10 @@ const SHELL_URLS = [
   "/static/stress_test.js",
   "/static/retirement.js",
   "/static/favicon.svg",
+  "/static/icons/apple-touch-icon.png",
+  "/static/icons/icon-192.png",
+  "/static/icons/icon-512.png",
+  "/static/icons/icon-maskable-512.png",
   "/manifest.webmanifest",
 ];
 
