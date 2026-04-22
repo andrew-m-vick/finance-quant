@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Monte Carlo Retirement Simulator{% endblock %}
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+{% endblock %}
+{% block content %}
+<section class="page-header">
+  <h1>Monte Carlo Retirement Simulator</h1>
+  <p class="lede">
+    10,000 simulated return paths using geometric Brownian motion. The fan
+    chart shows percentile bands over time; the histogram shows the
+    distribution of final outcomes.
+  </p>
+</section>
+<div class="split">
+  <form id="mc-form" class="panel">
+    <h2>Your inputs</h2>
+    <label>Current age
+      <input type="number" name="current_age" min="18" max="80" value="30" required />
+    </label>
+    <label>Retirement age
+      <input type="number" name="retirement_age" min="30" max="90" value="65" required />
+    </label>
+    <label>Current savings ($)
+      <input type="number" name="current_savings" min="0" step="1000" value="50000" required />
+    </label>
+    <label>Annual contribution ($)
+      <input type="number" name="annual_contribution" min="0" step="500" value="15000" required />
+    </label>
+    <label>Expected annual return (%)
+      <span class="hint">Historical US equity + bond mix ≈ 7%. This is arithmetic mean; the engine converts to geometric.</span>
+      <input type="number" name="expected_return_pct" step="0.1" value="7.0" required />
+    </label>
+    <label>Annual volatility (%)
+      <span class="hint">Standard deviation of annual returns. S&amp;P 500 ≈ 16%. 60/40 ≈ 11%.</span>
+      <input type="number" name="volatility_pct" step="0.1" value="12.0" required />
+    </label>
+    <label>Inflation (%)
+      <input type="number" name="inflation_pct" step="0.1" value="2.5" />
+    </label>
+    <label>Goal ($) <span class="hint">For probability-of-success.</span>
+      <input type="number" name="goal" min="0" step="10000" value="2000000" />
+    </label>
+    <label>Simulations
+      <input type="number" name="num_simulations" min="1000" max="50000" step="1000" value="10000" />
+    </label>
+
+    <button type="submit" class="primary">Run simulation</button>
+    <p id="mc-status" class="status"></p>
+  </form>
+
+  <section id="mc-results" class="panel results hidden">
+    <div class="score-row">
+      <div class="score-block">
+        <div class="score-label">Probability of meeting goal</div>
+        <div class="score-value" id="prob-value">—</div>
+        <div class="score-grade" id="prob-sub"></div>
+      </div>
+    </div>
+    <h3>Balance trajectory (nominal $)</h3>
+    <div class="chart-wrap"><canvas id="fan-chart"></canvas></div>
+    <h3>Distribution of final balances</h3>
+    <div class="chart-wrap"><canvas id="hist-chart"></canvas></div>
+    <h3>Key percentiles at retirement</h3>
+    <table class="pct-table">
+      <thead><tr><th>Percentile</th><th>Nominal $</th><th>Real $ (today's $)</th></tr></thead>
+      <tbody id="pct-body"></tbody>
+    </table>
+  </section>
+</div>
+<script src="{{ url_for('static', filename='retirement.js') }}"></script>
+{% endblock %}

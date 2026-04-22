@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+{% block title %}Methodology{% endblock %}
+{% block content %}
+<section class="page-header">
+  <h1>Methodology</h1>
+  <p class="lede">
+    The assumptions, the math, and what these models can and can't tell you.
+  </p>
+</section>
+
+<article class="prose">
+
+<h2>1. The Stress Test</h2>
+<p>
+  The stress test is a heuristic scorecard, not a statistical model. It runs
+  the user's balance sheet through five adverse scenarios and grades the
+  response on a weighted rubric.
+</p>
+
+<h3>1a. Scenarios</h3>
+<ul>
+  <li>
+    <strong>Job loss runway.</strong> Months of fixed expenses plus 50% of
+    variable expenses that liquid savings can cover with zero income.
+    Thresholds: 12+ months strong, 6–12 adequate, 3–6 weak, &lt;3 critical.
+    The 12-month bar is aggressive by mainstream advice (3–6 months is the
+    usual guidance), but it's the level at which you can realistically
+    survive a bad labor market for a technical role without forced fire sales.
+  </li>
+  <li>
+    <strong>30% market drawdown.</strong> Applies a 30% loss to invested
+    assets. This approximates the S&amp;P 500's behavior in 2008 (−37%),
+    2020 COVID crash (−34% intraday), and 2022 tech-led correction (−25%).
+    Marked informational because you can't "fix" being invested — the goal
+    is to confirm your liquid cushion exists <em>outside</em> the drawdown.
+  </li>
+  <li>
+    <strong>$5K emergency expense.</strong> A round-number shock that
+    approximates a medical deductible, a transmission, or a family
+    obligation. Measures whether one bad week empties your cushion.
+  </li>
+  <li>
+    <strong>Debt service ratio.</strong> Monthly debt payments ÷ monthly
+    income. Thresholds mirror mortgage-underwriting bands: &lt;15% strong,
+    &lt;28% adequate (the front-end DTI ceiling used by many lenders),
+    &lt;40% weak (back-end DTI ceiling), ≥40% critical.
+  </li>
+  <li>
+    <strong>5% inflation for 2 years.</strong> Compounds expenses at 5%
+    annually while growing income at 2% — modeling the real-world lag
+    between prices and wages. This was the lived experience of 2021–2023,
+    where CPI ran ~5–9% and wage growth trailed.
+  </li>
+</ul>
+
+<h3>1b. Scoring</h3>
+<p>
+  Each scenario maps to a 0–100 severity score. The final resilience score
+  is a weighted average:
+</p>
+<pre class="formula">
+score = 0.35·runway + 0.20·emergency + 0.20·DTI + 0.15·inflation + 0.10·drawdown
+</pre>
+<p>
+  Job loss gets the heaviest weight because it's the most common
+  catastrophic financial event for working-age adults. Market drawdown gets
+  the lowest because, unlike the others, you don't act on it — you wait.
+</p>
+
+<h2>2. The Monte Carlo Retirement Simulator</h2>
+
+<h3>2a. Model</h3>
+<p>
+  Portfolio balance is propagated year-by-year with contributions at the
+  start of each year and stochastic returns drawn from a log-normal
+  distribution:
+</p>
+<pre class="formula">
+B_{t+1} = (B_t + C) · exp(Z_t)
+Z_t ~ Normal(ln(1+μ) − σ²/2, σ²)
+</pre>
+<p>
+  Where <code>B</code> is balance, <code>C</code> is annual contribution,
+  <code>μ</code> is the expected arithmetic return (i.e. the average of
+  annual <code>(1+R)−1</code> outcomes), and <code>σ</code> is the standard
+  deviation of log-returns. Drawing <code>Z_t</code> from this shifted
+  distribution makes <code>E[1 + R] = 1 + μ</code> — so the long-run
+  <em>expected</em> portfolio value compounds at <code>(1+μ)^T</code>, not
+  <code>exp(μT)</code>. (Those differ noticeably over decades.)
+</p>
+
+<h3>2b. Why geometric, not arithmetic, returns</h3>
+<p>
+  This is the most common mistake in retirement projections. If you project
+  growth at the arithmetic mean return <code>μ</code>, you will systematically
+  overstate outcomes. The reason is that compounding is multiplicative, not
+  additive: a +50% year followed by a −50% year is not flat — it's −25%.
+</p>
+<p>
+  The relationship between the arithmetic mean <code>μ</code> and the
+  geometric mean <code>g</code> of log-normal returns is:
+</p>
+<pre class="formula">
+g ≈ μ − σ²/2
+</pre>
+<p>
+  So for an equity portfolio with <code>μ = 10%</code> and
+  <code>σ = 16%</code>, the geometric return is ≈ 8.7%. Over 40 years, that
+  1.3% drag compounds to roughly a 40% reduction in terminal wealth. The
+  engine draws log-returns from <code>Normal(μ − σ²/2, σ²)</code> so that
+  the expected <em>ending balance</em> is consistent with <code>μ</code>
+  while individual paths still capture volatility drag.
+</p>
+
+<h3>2c. Sequence of returns risk</h3>
+<p>
+  Two retirees with identical average returns can end up in wildly
+  different places depending on <em>when</em> the bad years hit. Bad years
+  early — when the portfolio is still small and contributions dominate —
+  are survivable. Bad years late — when the portfolio is large and you are
+  about to or already drawing down — are not.
+</p>
+<p>
+  This simulator captures sequence risk implicitly: each of the 10,000
+  paths has a unique return sequence. The 10th-percentile path is almost
+  always a path where the worst years clustered near the end. That is why
+  the fan chart fans out dramatically in the final decade — outcomes
+  diverge based on sequence, not just mean.
+</p>
+
+<h3>2d. Inflation and real vs. nominal</h3>
+<p>
+  Nominal dollars at retirement are deflated at the user's inflation rate
+  to produce real (today's) dollars:
+</p>
+<pre class="formula">
+real = nominal / (1 + i)^years
+</pre>
+<p>
+  The real column of the percentiles table is the honest number — it
+  represents purchasing power in today's terms. Nominal figures are larger
+  and look more impressive, but they are quoted in dollars that buy less.
+</p>
+
+<h3>2e. The 4% rule context</h3>
+<p>
+  A common way to convert a goal number into retirement income is the 4%
+  safe-withdrawal rule (Bengen 1994, Trinity Study 1998): a retiree
+  withdrawing 4% of their starting balance, adjusted for inflation, had a
+  ≥95% historical success rate over 30-year horizons on a 60/40 portfolio.
+  So a $2M target implies roughly $80,000/year of pretax inflation-adjusted
+  income. The rule has well-documented weaknesses (it's backtested on US
+  data, assumes a specific asset mix, and ignores sequence risk at the
+  start of retirement) but it remains a useful sanity check.
+</p>
+
+<h2>3. What these models can't tell you</h2>
+<ul>
+  <li>
+    <strong>Fat tails.</strong> Both tools assume returns are roughly
+    normal. Real markets have fatter tails — extreme events happen more
+    often than a Gaussian predicts. The 10th-percentile outcome is probably
+    optimistic about how bad the bad cases really are.
+  </li>
+  <li>
+    <strong>Stationary distributions.</strong> The simulator assumes
+    <code>μ</code> and <code>σ</code> are constant across the horizon.
+    Regimes change — interest rates, valuations, and correlations shift
+    over decades. Recalibrate periodically.
+  </li>
+  <li>
+    <strong>Correlated shocks.</strong> The stress test treats scenarios
+    independently, but in practice a job loss and a market drawdown often
+    happen together (2008, 2020). Your true resilience is lower than any
+    single scenario suggests.
+  </li>
+  <li>
+    <strong>Behavior.</strong> The biggest risk to any long-horizon plan is
+    the investor selling at the bottom. No model captures that.
+  </li>
+</ul>
+
+<h2>References</h2>
+<ul>
+  <li>Bengen, W. (1994). Determining Withdrawal Rates Using Historical Data.</li>
+  <li>Cooley, Hubbard, Walz (1998). Retirement Savings: Choosing a Withdrawal Rate That Is Sustainable (Trinity Study).</li>
+  <li>Hull, J. Options, Futures, and Other Derivatives — chapters on GBM and log-normal price models.</li>
+</ul>
+
+</article>
+{% endblock %}

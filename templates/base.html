@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}Finance Quant Toolkit{% endblock %}</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <nav class="topnav">
+    <a href="{{ url_for('index') }}" class="brand">
+      <img src="{{ url_for('static', filename='favicon.svg') }}" alt="" class="brand-icon" />
+      <span>Finance Quant</span>
+    </a>
+    <div class="nav-links">
+      <a href="{{ url_for('stress_test_page') }}">Stress Test</a>
+      <a href="{{ url_for('retirement_page') }}">Retirement Sim</a>
+      <a href="{{ url_for('methodology_page') }}">Methodology</a>
+    </div>
+  </nav>
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="footer">
+    <span>Educational tool. Not financial advice.</span>
+  </footer>
+</body>
+</html>

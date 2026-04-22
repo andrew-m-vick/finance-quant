@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Finance Quant Toolkit{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>Finance Quant Toolkit</h1>
+  <p class="lede">
+    Two quantitative tools for personal finance decisions. Built for people
+    who want the math, not the marketing.
+  </p>
+</section>
+<section class="cards">
+  <a class="card" href="{{ url_for('stress_test_page') }}">
+    <h2>Financial Stress Test</h2>
+    <p>
+      Run your finances through five adverse scenarios — job loss, market
+      drawdown, inflation shock, emergency expense, and debt service. Get a
+      resilience score and a ranked list of weak points.
+    </p>
+    <span class="cta">Open stress test &rarr;</span>
+  </a>
+  <a class="card" href="{{ url_for('retirement_page') }}">
+    <h2>Monte Carlo Retirement Simulator</h2>
+    <p>
+      10,000 simulated return paths using geometric Brownian motion. See the
+      probability distribution of your retirement outcomes, not just a single
+      point estimate.
+    </p>
+    <span class="cta">Open simulator &rarr;</span>
+  </a>
+</section>
+<section class="note">
+  <p>
+    Curious about the math? The <a href="{{ url_for('methodology_page') }}">methodology page</a>
+    explains every assumption, why geometric returns matter, and what these
+    models can and can't tell you.
+  </p>
+</section>
+{% endblock %}

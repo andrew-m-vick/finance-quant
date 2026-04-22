@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Financial Stress Test{% endblock %}
+{% block content %}
+<section class="page-header">
+  <h1>Financial Stress Test</h1>
+  <p class="lede">
+    Five scenarios. One resilience score. Inputs stay in your browser — nothing
+    is stored.
+  </p>
+</section>
+<div class="split">
+  <form id="stress-form" class="panel">
+    <h2>Your inputs</h2>
+
+    <label>Monthly take-home income ($)
+      <input type="number" name="monthly_income" min="0" step="100" value="6000" required />
+    </label>
+    <label>Monthly fixed expenses ($)
+      <span class="hint">Rent, utilities, insurance, minimum debt payments.</span>
+      <input type="number" name="monthly_fixed_expenses" min="0" step="50" value="3200" required />
+    </label>
+    <label>Monthly variable expenses ($)
+      <span class="hint">Food, transport, discretionary.</span>
+      <input type="number" name="monthly_variable_expenses" min="0" step="50" value="1200" />
+    </label>
+    <label>Liquid savings ($)
+      <span class="hint">Checking, savings, money market.</span>
+      <input type="number" name="liquid_savings" min="0" step="500" value="15000" required />
+    </label>
+    <label>Invested assets ($)
+      <span class="hint">Brokerage, 401(k), IRA, index funds.</span>
+      <input type="number" name="invested_assets" min="0" step="500" value="40000" />
+    </label>
+    <label>Total debt balance ($)
+      <input type="number" name="total_debt" min="0" step="500" value="22000" />
+    </label>
+    <label>Monthly debt payments ($)
+      <input type="number" name="monthly_debt_payments" min="0" step="50" value="450" />
+    </label>
+
+    <button type="submit" class="primary">Run stress test</button>
+  </form>
+
+  <section id="results" class="panel results hidden">
+    <div class="score-row">
+      <div class="score-block">
+        <div class="score-label">Resilience Score</div>
+        <div class="score-value" id="score-value">—</div>
+        <div class="score-grade" id="score-grade"></div>
+      </div>
+    </div>
+    <h3>Weak points</h3>
+    <ul id="weak-points" class="weak-list"></ul>
+    <h3>All scenarios</h3>
+    <div id="scenarios" class="scenario-list"></div>
+  </section>
+</div>
+<script src="{{ url_for('static', filename='stress_test.js') }}"></script>
+{% endblock %}
