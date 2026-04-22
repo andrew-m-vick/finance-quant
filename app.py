@@ -1,8 +1,28 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_from_directory
 from stress_test import run_stress_test
 from monte_carlo import run_monte_carlo
 
 app = Flask(__name__)
+
+
+@app.route("/service-worker.js")
+def service_worker():
+    # Served from the root so its scope covers the whole site.
+    response = send_from_directory(
+        app.static_folder, "service-worker.js", mimetype="application/javascript"
+    )
+    response.headers["Service-Worker-Allowed"] = "/"
+    response.headers["Cache-Control"] = "no-cache"
+    return response
+
+
+@app.route("/manifest.webmanifest")
+def manifest():
+    return send_from_directory(
+        app.static_folder,
+        "manifest.webmanifest",
+        mimetype="application/manifest+json",
+    )
 
 
 @app.route("/")

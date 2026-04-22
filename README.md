@@ -16,6 +16,7 @@ English — read that first if you're reviewing this for depth over polish.
 
 - Python 3.12, Flask 3, NumPy, Gunicorn
 - Vanilla JS + Chart.js (CDN)
+- Installable PWA (manifest + service worker, offline app shell)
 - No database. Fully stateless.
 
 ## Run locally
@@ -39,6 +40,21 @@ python -m pytest tests/ -q
 Covers the stress-test scoring thresholds and the Monte Carlo drift
 correction (verifies `E[B_T] = B_0 · (1+μ)^T` within MC error).
 
+## PWA
+
+The app is installable as a Progressive Web App. On first load the service
+worker precaches the app shell (HTML routes, CSS, JS, favicon, manifest)
+so the UI works offline; API calls fall through to the network and are
+never cached (results depend on user input).
+
+- `static/manifest.webmanifest` — app metadata, icon, theme color.
+- `static/service-worker.js` — precache + runtime caching strategy.
+- `app.py` serves both at the root (`/manifest.webmanifest`,
+  `/service-worker.js`) so the worker has site-wide scope.
+
+The browser "Install" prompt requires HTTPS — Railway provides this
+automatically. Locally the SW also works on `http://localhost`.
+
 ## Deploy (Railway)
 
 The repo includes `railway.json`, `Procfile`, and `runtime.txt`. Push to a
@@ -53,7 +69,7 @@ app.py              Flask routes + JSON APIs
 stress_test.py      Scenario scoring logic
 monte_carlo.py      NumPy GBM engine
 templates/          Jinja templates (base, index, stress, retirement, methodology)
-static/             style.css, favicon, per-page JS
+static/             style.css, favicon, per-page JS, manifest, service worker
 tests/              pytest suite
 ```
 

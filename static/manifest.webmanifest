@@ -1,0 +1,20 @@
+{
+  "name": "Finance Quant Toolkit",
+  "short_name": "Finance Quant",
+  "description": "Stress test and Monte Carlo retirement simulator.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafaf7",
+  "theme_color": "#1b5e20",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/static/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
