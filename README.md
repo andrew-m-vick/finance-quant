@@ -29,6 +29,16 @@ python app.py
 
 Open <http://localhost:5000>.
 
+## Tests
+
+```bash
+pip install pytest
+python -m pytest tests/ -q
+```
+
+Covers the stress-test scoring thresholds and the Monte Carlo drift
+correction (verifies `E[B_T] = B_0 · (1+μ)^T` within MC error).
+
 ## Deploy (Railway)
 
 The repo includes `railway.json`, `Procfile`, and `runtime.txt`. Push to a
@@ -43,14 +53,16 @@ app.py              Flask routes + JSON APIs
 stress_test.py      Scenario scoring logic
 monte_carlo.py      NumPy GBM engine
 templates/          Jinja templates (base, index, stress, retirement, methodology)
-static/             style.css, per-page JS
+static/             style.css, favicon, per-page JS
+tests/              pytest suite
 ```
 
 ## What to read first
 
-- [monte_carlo.py](monte_carlo.py) — the geometric-return drift correction
-  (`mu_geo = mu - 0.5 * sigma^2`) is the non-obvious bit. The methodology
-  page has the derivation.
+- [monte_carlo.py](monte_carlo.py) — the drift correction
+  (`m = ln(1+μ) − σ²/2`) is the non-obvious bit. It makes μ behave as the
+  arithmetic annual return so that `E[B_T] = B_0·(1+μ)^T`, avoiding the
+  classic volatility-drag inflation bug. Derivation on the methodology page.
 - [stress_test.py](stress_test.py) — the weighting rubric is explicit and
   the thresholds are documented in the methodology page.
 
