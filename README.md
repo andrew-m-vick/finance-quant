@@ -33,7 +33,7 @@ exactly with no floating-point drift.
 Everything personal (name, school, CPA plan, coursework, skills,
 experience) lives in **[about_me.py](about_me.py)**. Any value still in
 `[square brackets]` is a placeholder; while one remains, every page shows a
-yellow "unfinished profile" banner. To add a résumé, drop it at
+yellow "unfinished profile" banner. To add a resume, drop it at
 `static/resume.pdf` and the Résumé buttons appear automatically.
 
 A `/methodology` page explains every accounting rule, statistical test, and

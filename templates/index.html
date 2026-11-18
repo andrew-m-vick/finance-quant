@@ -22,7 +22,7 @@
     adjusting entries, and audit data analytics for accounts payable.
   </p>
   <div class="btn-row">
-    {% if resume_url %}<a class="btn primary-btn" href="{{ resume_url }}" target="_blank" rel="noopener">Download résumé (PDF)</a>{% endif %}
+    {% if resume_url %}<a class="btn primary-btn" href="{{ resume_url }}" target="_blank" rel="noopener">Download Resume (PDF)</a>{% endif %}
     {% if profile.email and not profile.email.startswith('[') %}<a class="btn" href="mailto:{{ profile.email }}">Email</a>{% endif %}
     {% if profile.linkedin %}<a class="btn" href="{{ profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
     {% if profile.github %}<a class="btn" href="{{ profile.github }}" target="_blank" rel="noopener">Source code</a>{% endif %}
