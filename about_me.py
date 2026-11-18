@@ -19,7 +19,8 @@ PROFILE = {
     "open_to": "Accounting internships and entry-level roles in staff accounting, AP/AR, audit, and tax",
     "email": "andrew.vick@outlook.com",
     "linkedin": "https://www.linkedin.com/in/andrew-m-vick",
-    "github": "https://github.com/andrew-m-vick/finance-quant",
+    "github": "https://github.com/andrew-m-vick",
+    "source_code": "https://github.com/andrew-m-vick/finance-quant",  # this site's repo
 
     # Shown under the main degree on the homepage.
     "other_education": [

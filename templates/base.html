@@ -49,6 +49,11 @@
     {% block content %}{% endblock %}
   </main>
   <footer class="footer">
+    <div class="footer-links">
+      {% if profile.email %}<a href="mailto:{{ profile.email }}">Email</a>{% endif %}
+      {% if profile.linkedin %}<a href="{{ profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+      {% if profile.github %}<a href="{{ profile.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+    </div>
     <span>Built by {{ profile.name }}. All sample companies and figures are fictional. Not financial, tax, or audit advice.</span>
   </footer>
 </body>
