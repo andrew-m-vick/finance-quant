@@ -2,10 +2,11 @@
 // Strategy:
 //   - Precache the app shell (HTML routes + CSS/JS/favicon/manifest) on install.
 //   - Navigation requests: network-first, fall back to cached shell (offline).
-//   - Static same-origin GETs: stale-while-revalidate.
+//   - Fingerprinted assets (?v=hash): network, cached copy as offline fallback.
+//   - Other static same-origin GETs: stale-while-revalidate.
 //   - API POSTs: always network (never cached — results depend on input).
 
-const VERSION = "v3";
+const VERSION = "v4";
 const SHELL_CACHE = `fq-shell-${VERSION}`;
 const RUNTIME_CACHE = `fq-runtime-${VERSION}`;
 
@@ -79,7 +80,25 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Static assets: stale-while-revalidate.
+  // Fingerprinted assets (?v=<hash>): the URL changes whenever the file does,
+  // so go to the network and keep a copy; offline, fall back to any cached
+  // version of the same file.
+  if (url.searchParams.has("v")) {
+    event.respondWith(
+      fetch(request)
+        .then((res) => {
+          if (res && res.status === 200) {
+            const copy = res.clone();
+            caches.open(RUNTIME_CACHE).then((c) => c.put(request, copy));
+          }
+          return res;
+        })
+        .catch(() => caches.match(request, { ignoreSearch: true }))
+    );
+    return;
+  }
+
+  // Other static assets: stale-while-revalidate.
   event.respondWith(
     caches.match(request).then((cached) => {
       const networkFetch = fetch(request)

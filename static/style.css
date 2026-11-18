@@ -499,3 +499,7 @@ table.journal td.cr-acct { padding-left: 28px; }
 .exp-grid .exp-item { margin-bottom: 0; }
 .exp-grid ul { margin: 10px 0 0; padding-left: 18px; }
 .exp-grid li { margin-bottom: 4px; }
+.credentials { list-style: none; padding: 0; margin: 12px 0 0; }
+.credentials li { color: var(--muted); font-size: 14px; margin: 2px 0; }
+.credentials li.primary { color: var(--ink); font-size: 15px; margin-bottom: 6px; }
+.hero.portfolio .lede + .lede { margin-top: -4px; }

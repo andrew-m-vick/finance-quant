@@ -1,4 +1,6 @@
+import hashlib
 import os
+from functools import lru_cache
 
 from flask import Flask, render_template, request, jsonify, send_from_directory
 
@@ -12,6 +14,23 @@ from stress_test import run_stress_test
 
 app = Flask(__name__)
 MAX_INPUT_CHARS = 2_000_000  # ~20k ledger rows; keeps one request from hogging the dyno
+
+
+@lru_cache(maxsize=None)
+def _fingerprint(filename: str) -> str:
+    with open(os.path.join(app.static_folder, filename), "rb") as f:
+        return hashlib.sha256(f.read()).hexdigest()[:10]
+
+
+def asset(filename: str) -> str:
+    """Static URL with a content hash, so browsers and the service worker
+    fetch a fresh copy whenever the file changes (no stale CSS after deploys)."""
+    if app.debug:
+        _fingerprint.cache_clear()
+    return f"/static/{filename}?v={_fingerprint(filename)}"
+
+
+app.jinja_env.globals["asset"] = asset
 
 
 @app.context_processor

@@ -3,34 +3,36 @@
 <section class="hero portfolio">
   <p class="eyebrow">{{ profile.headline }}</p>
   <h1>{{ profile.name }}</h1>
-  <p class="cred-line">
-    {{ profile.degree }}, {{ profile.school }}<span class="sep">|</span>{{ profile.graduation }}
-    {% if profile.gpa %}<span class="sep">|</span>GPA {{ profile.gpa }}{% endif %}
-    {% if profile.location %}<span class="sep">|</span>{{ profile.location }}{% endif %}
-  </p>
-  {% for e in profile.other_education %}
-  <p class="muted small" style="margin:4px 0 0">{{ e.credential }}, {{ e.school }}<span class="sep" style="color:var(--line);margin:0 8px">|</span>{{ e.date }}</p>
-  {% endfor %}
+  <ul class="credentials">
+    <li class="primary"><strong>{{ profile.degree }}</strong> · {{ profile.school }} · {{ profile.graduation }}{% if profile.gpa %} · GPA {{ profile.gpa }}{% endif %}</li>
+    {% for e in profile.other_education %}
+    <li>{{ e.credential }} · {{ e.school }} · {{ e.date }}</li>
+    {% endfor %}
+  </ul>
   <p class="lede">
-    I've kept the books for real: as a restaurant owner and manager I reconcile
-    daily cash and card sales, run payroll, pay vendors, and prepare sales tax
-    filings with our CPA. Now I'm earning my accounting degree and building the
-    tools I'd want on the job: a trial balance that points to its own errors, a
-    bank rec that matches itself and drafts the adjusting entries, and audit
-    analytics that catch what a random sample misses.
+    Accounting student at the C.T. Bauer College of Business with hands-on
+    bookkeeping experience in restaurant operations, including daily cash and
+    credit card reconciliation, payroll, accounts payable, and sales tax filings
+    prepared with the company's CPA. As a former restaurant owner, I held full
+    P&amp;L responsibility, including budgeting and cost control.
+  </p>
+  <p class="lede">
+    This site presents three accounting applications I built: financial
+    statement preparation from a trial balance, bank reconciliation with
+    adjusting entries, and audit data analytics for accounts payable.
   </p>
   <div class="btn-row">
     {% if resume_url %}<a class="btn primary-btn" href="{{ resume_url }}" target="_blank" rel="noopener">Download résumé (PDF)</a>{% endif %}
-    {% if profile.email and not profile.email.startswith('[') %}<a class="btn" href="mailto:{{ profile.email }}">Email me</a>{% endif %}
+    {% if profile.email and not profile.email.startswith('[') %}<a class="btn" href="mailto:{{ profile.email }}">Email</a>{% endif %}
     {% if profile.linkedin %}<a class="btn" href="{{ profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
     {% if profile.github %}<a class="btn" href="{{ profile.github }}" target="_blank" rel="noopener">Source code</a>{% endif %}
   </div>
-  {% if profile.open_to %}<p class="muted small" style="margin-top:14px">Open to: {{ profile.open_to }}.</p>{% endif %}
+  <p class="muted small" style="margin-top:14px">{% if profile.location %}Based in {{ profile.location }}. {% endif %}{% if profile.open_to %}Open to {{ profile.open_to[0]|lower }}{{ profile.open_to[1:] }}.{% endif %}</p>
 </section>
 
 <div class="section-head">
   <h2>Accounting work</h2>
-  <p>Each tool runs on real accounting logic with a fictional sample company loaded. Click one and press the button; it takes about ten seconds to see.</p>
+  <p>Each application runs in the browser and loads with sample data for a fictional company.</p>
 </div>
 <section class="cards three">
   <a class="card" href="{{ url_for('financial_statements_page') }}">
@@ -59,7 +61,7 @@
 {% if profile.experience %}
 <div class="section-head">
   <h2>Experience</h2>
-  <p>Years of hands-on bookkeeping, payroll, and P&amp;L ownership, plus data work.</p>
+  <p>Bookkeeping, payroll, and P&amp;L management in restaurant operations, and data analysis.</p>
 </div>
 <section class="exp-grid">
   {% for e in profile.experience %}
@@ -105,7 +107,7 @@
 
 <div class="section-head">
   <h2>Quantitative projects</h2>
-  <p>Earlier work in personal-finance modeling, showing the statistics and Python behind the accounting tools.</p>
+  <p>Earlier personal-finance modeling projects in statistics and Python.</p>
 </div>
 <section class="quant-list">
   <a class="quant-item" href="{{ url_for('retirement_page') }}">
