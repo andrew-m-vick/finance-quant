@@ -1,0 +1,2255 @@
+Date,Vendor,Invoice,Amount
+01/01/2026,Copperfield Chemicals,INV-70569,6780.37
+01/01/2026,Westline Distributors,INV-70633,8675.83
+01/01/2026,Keystone Insurance,INV-70945,598.98
+01/01/2026,Oakmont Catering,INV-71457,1442.64
+01/01/2026,Harbor Industrial Supply,INV-72595,4282.97
+01/01/2026,Atlas Fleet Fuel,INV-72752,209.89
+01/01/2026,Ridge Valley Printing,INV-72978,65.01
+01/01/2026,Evergreen Landscaping,INV-73271,835.48
+01/01/2026,Redwood IT Services,INV-73391,66.13
+01/01/2026,Brightline Consulting LLC,BC-74423,4861.79
+01/02/2026,Prairie Electric Co-op,INV-70604,71.42
+01/02/2026,Bluewater Janitorial,INV-70753,189.62
+01/02/2026,Ridge Valley Printing,INV-70829,812.12
+01/02/2026,Cedar Point Legal,INV-71157,665.80
+01/02/2026,Atlas Fleet Fuel,INV-71653,515.65
+01/02/2026,Oakmont Catering,INV-71678,181.94
+01/02/2026,Westline Distributors,INV-72231,2606.62
+01/02/2026,Tidewater Logistics,INV-72774,4963.55
+01/02/2026,Pioneer Packaging,INV-73197,1042.84
+01/03/2026,Redwood IT Services,INV-70308,555.12
+01/03/2026,Oakmont Catering,INV-70437,942.59
+01/03/2026,Union Telecom,INV-70618,924.99
+01/03/2026,Tidewater Logistics,INV-72108,4079.22
+01/03/2026,Evergreen Landscaping,INV-73724,3359.55
+01/04/2026,Cedar Point Legal,INV-70330,540.65
+01/04/2026,Keystone Insurance,INV-72185,23325.07
+01/04/2026,Oakmont Catering,INV-73964,4924.58
+01/04/2026,Union Telecom,INV-74192,3882.31
+01/05/2026,Cedar Point Legal,INV-70164,1112.71
+01/05/2026,Redwood IT Services,INV-70384,768.89
+01/05/2026,Oakmont Catering,INV-71576,185.74
+01/05/2026,Cedar Point Legal,INV-71959,2497.06
+01/05/2026,Lakeshore Maintenance,INV-71962,1050.54
+01/05/2026,Westline Distributors,INV-72255,670.64
+01/05/2026,Evergreen Landscaping,INV-73327,459.49
+01/05/2026,Pioneer Packaging,INV-74065,559.61
+01/05/2026,Redwood IT Services,INV-74197,405.21
+01/06/2026,Prairie Electric Co-op,INV-70256,459.65
+01/06/2026,Harbor Industrial Supply,INV-71065,265.85
+01/06/2026,Lakeshore Maintenance,INV-72065,10767.21
+01/06/2026,Copperfield Chemicals,INV-72072,567.42
+01/06/2026,Pioneer Packaging,INV-72264,325.83
+01/06/2026,Cedar Point Legal,INV-73188,1052.07
+01/06/2026,City Utilities,INV-73215,1594.93
+01/06/2026,Meridian Staffing,INV-73477,1029.44
+01/06/2026,Cedar Point Legal,INV-73862,486.89
+01/06/2026,Keystone Insurance,INV-74342,1821.24
+01/06/2026,Cedar Point Legal,RET-298,2500.00
+01/07/2026,Pioneer Packaging,INV-70667,2769.42
+01/07/2026,Copperfield Chemicals,INV-71016,700.50
+01/07/2026,Keystone Insurance,INV-71601,359.84
+01/07/2026,Atlas Fleet Fuel,INV-71966,405.61
+01/07/2026,Northgate Freight,INV-72697,297.08
+01/07/2026,Evergreen Landscaping,INV-72913,1980.04
+01/07/2026,Keystone Insurance,INV-73063,20.97
+01/07/2026,Bluewater Janitorial,INV-74026,2541.30
+01/07/2026,Brightline Consulting LLC,BC-74391,4858.84
+01/08/2026,Keystone Insurance,INV-70478,5661.16
+01/08/2026,Lakeshore Maintenance,INV-71190,896.46
+01/08/2026,Oakmont Catering,INV-71284,1616.45
+01/08/2026,Cedar Point Legal,INV-71562,68.14
+01/08/2026,Silverline Software,INV-73024,2377.54
+01/08/2026,Granite Equipment Rental,INV-73069,3360.63
+01/08/2026,Cedar Point Legal,INV-73081,4781.47
+01/08/2026,Granite Equipment Rental,INV-73251,344.95
+01/08/2026,Redwood IT Services,INV-73726,8909.77
+01/08/2026,Evergreen Landscaping,INV-73813,60.26
+01/08/2026,City Utilities,INV-74187,2387.80
+01/08/2026,Brightline Consulting LLC,BC-74416,4778.74
+01/09/2026,Oakmont Catering,INV-70908,138.34
+01/09/2026,Copperfield Chemicals,INV-71402,542.63
+01/09/2026,Ridge Valley Printing,INV-73607,547.43
+01/09/2026,Granite Equipment Rental,INV-73716,679.20
+01/09/2026,Calder & Sons,INV-73745,1776.55
+01/10/2026,Silverline Software,INV-70267,1910.23
+01/10/2026,Ironclad Security,INV-71138,1554.15
+01/10/2026,Pioneer Packaging,INV-71329,157.35
+01/10/2026,Brightline Consulting LLC,BC-74390,4818.86
+01/10/2026,Brightline Consulting LLC,BC-74396,4716.10
+01/11/2026,Lakeshore Maintenance,INV-70369,859.26
+01/11/2026,Union Telecom,INV-71813,747.74
+01/11/2026,Silverline Software,INV-71946,677.40
+01/11/2026,Union Telecom,INV-72511,2037.27
+01/11/2026,Prairie Electric Co-op,INV-72792,743.26
+01/11/2026,Bluewater Janitorial,INV-72874,3572.28
+01/11/2026,Prairie Electric Co-op,INV-73546,413.85
+01/12/2026,Union Telecom,INV-70129,329.35
+01/12/2026,Keystone Insurance,INV-70467,170.10
+01/12/2026,Westline Distributors,INV-70988,401.35
+01/12/2026,Bluewater Janitorial,INV-72101,1709.21
+01/12/2026,Keystone Insurance,INV-73733,2382.80
+01/13/2026,Harbor Industrial Supply,INV-70915,1284.31
+01/13/2026,Northgate Freight,INV-71226,1237.28
+01/13/2026,Cedar Point Legal,INV-73228,585.39
+01/13/2026,Westline Distributors,INV-73278,1623.67
+01/13/2026,Evergreen Landscaping,INV-73452,445.61
+01/13/2026,Evergreen Landscaping,INV-74344,418.33
+01/14/2026,Granite Equipment Rental,INV-70166,1039.64
+01/14/2026,Tidewater Logistics,INV-70657,7105.37
+01/14/2026,Silverline Software,INV-70711,179.63
+01/14/2026,Granite Equipment Rental,INV-71286,196.33
+01/14/2026,Silverline Software,INV-71366,7965.59
+01/14/2026,Atlas Fleet Fuel,INV-72418,360.81
+01/14/2026,Silverline Software,INV-72837,305.25
+01/14/2026,Copperfield Chemicals,INV-72995,135.95
+01/14/2026,Ironclad Security,INV-74359,1005.14
+01/15/2026,Copperfield Chemicals,INV-70688,14125.48
+01/15/2026,City Utilities,INV-70890,451.59
+01/15/2026,Oakmont Catering,INV-70976,200.14
+01/15/2026,Union Telecom,INV-72341,10235.01
+01/15/2026,Bluewater Janitorial,INV-72742,292.85
+01/15/2026,Northgate Freight,INV-72786,5599.88
+01/15/2026,Bluewater Janitorial,INV-73624,5346.53
+01/16/2026,Silverline Software,INV-70148,4891.99
+01/16/2026,Evergreen Landscaping,INV-70698,1614.95
+01/16/2026,City Utilities,INV-70792,1015.44
+01/16/2026,Meridian Staffing,INV-71464,457.94
+01/16/2026,Bluewater Janitorial,INV-72299,852.62
+01/16/2026,Pioneer Packaging,INV-72640,725.15
+01/16/2026,Ironclad Security,INV-73806,7755.37
+01/17/2026,Redwood IT Services,INV-70126,13370.66
+01/17/2026,Northgate Freight,INV-70605,378.50
+01/17/2026,Tidewater Logistics,INV-72074,1348.84
+01/17/2026,Oakmont Catering,INV-72113,9878.75
+01/17/2026,Atlas Fleet Fuel,INV-72134,4446.87
+01/17/2026,Atlas Fleet Fuel,INV-73107,690.21
+01/17/2026,Bluewater Janitorial,INV-73793,1560.87
+01/17/2026,Northgate Freight,INV-74225,381.47
+01/18/2026,Meridian Staffing,INV-70278,1786.26
+01/18/2026,Prairie Electric Co-op,INV-71585,537.67
+01/18/2026,Cedar Point Legal,INV-72363,16.99
+01/18/2026,Westline Distributors,INV-72603,7517.75
+01/18/2026,Lakeshore Maintenance,INV-74272,2667.34
+01/18/2026,Brightline Consulting LLC,BC-74418,4844.62
+01/19/2026,Northgate Freight,INV-70336,44.11
+01/19/2026,Atlas Fleet Fuel,INV-70486,529.67
+01/19/2026,Cedar Point Legal,INV-72350,60882.49
+01/19/2026,Westline Distributors,INV-72396,438.17
+01/19/2026,Redwood IT Services,INV-73044,347.31
+01/19/2026,Meridian Staffing,INV-73797,209.33
+01/20/2026,Redwood IT Services,INV-70475,162.91
+01/20/2026,Union Telecom,INV-70744,238.06
+01/20/2026,Northgate Freight,INV-70798,356.62
+01/20/2026,Pioneer Packaging,INV-71253,8125.27
+01/20/2026,Westline Distributors,INV-72144,4550.71
+01/20/2026,Lakeshore Maintenance,INV-72473,731.97
+01/20/2026,Bluewater Janitorial,INV-73323,188.83
+01/20/2026,Silverline Software,INV-73583,1037.53
+01/20/2026,Prairie Electric Co-op,INV-73946,133.61
+01/20/2026,Northgate Freight,INV-74104,1611.00
+01/21/2026,Redwood IT Services,INV-70709,1008.23
+01/21/2026,Harbor Industrial Supply,INV-70734,88.89
+01/21/2026,City Utilities,INV-70771,134.54
+01/21/2026,Cedar Point Legal,INV-72598,1256.25
+01/21/2026,Redwood IT Services,INV-73611,980.76
+01/21/2026,Union Telecom,INV-73931,3394.55
+01/21/2026,Pioneer Packaging,INV-74145,3224.02
+01/22/2026,Atlas Fleet Fuel,INV-71206,11417.98
+01/22/2026,Silverline Software,INV-71647,2556.21
+01/22/2026,Atlas Fleet Fuel,INV-71763,333.62
+01/22/2026,Bluewater Janitorial,INV-72097,3342.07
+01/22/2026,Westline Distributors,INV-73644,789.98
+01/22/2026,Redwood IT Services,INV-74168,761.28
+01/22/2026,Oakmont Catering,INV-74314,4993.53
+01/23/2026,Union Telecom,INV-71195,13190.08
+01/23/2026,Calder & Sons,INV-71525,343.98
+01/23/2026,Granite Equipment Rental,INV-72406,3825.94
+01/23/2026,Atlas Fleet Fuel,INV-72545,1640.48
+01/23/2026,Evergreen Landscaping,INV-74152,118.87
+01/23/2026,Oakmont Catering,INV-74276,192.22
+01/24/2026,Redwood IT Services,INV-70526,992.29
+01/24/2026,Ironclad Security,INV-71167,691.14
+01/24/2026,Granite Equipment Rental,INV-71228,191.41
+01/24/2026,City Utilities,INV-73522,3805.77
+01/24/2026,City Utilities,INV-74234,758.49
+01/25/2026,Copperfield Chemicals,INV-70334,738.95
+01/25/2026,Northgate Freight,INV-70820,5007.89
+01/25/2026,Prairie Electric Co-op,INV-71074,2943.77
+01/25/2026,Lakeshore Maintenance,INV-71636,8079.63
+01/25/2026,Prairie Electric Co-op,INV-71777,574.44
+01/25/2026,Calder & Sons,INV-72164,2531.48
+01/25/2026,Calder & Sons,INV-72394,341.11
+01/25/2026,Ridge Valley Printing,INV-72720,655.25
+01/25/2026,Westline Distributors,INV-72724,68.35
+01/25/2026,Cedar Point Legal,INV-73394,334.55
+01/25/2026,Calder & Sons,INV-74037,160.63
+01/25/2026,Silverline Software,INV-74090,299.26
+01/26/2026,Copperfield Chemicals,INV-70143,725.36
+01/26/2026,Harbor Industrial Supply,INV-71348,606.11
+01/26/2026,Harbor Industrial Supply,INV-71793,1236.19
+01/26/2026,Meridian Staffing,INV-72008,844.71
+01/26/2026,Calder & Sons,INV-72359,187.22
+01/26/2026,Pioneer Packaging,INV-72917,805.43
+01/26/2026,Bluewater Janitorial,INV-73243,3937.28
+01/26/2026,City Utilities,INV-74199,424.92
+01/26/2026,Union Telecom,INV-74248,6164.27
+01/27/2026,Tidewater Logistics,INV-71403,3515.01
+01/27/2026,Ironclad Security,INV-72151,316.65
+01/27/2026,Harbor Industrial Supply,INV-73338,476.99
+01/28/2026,Prairie Electric Co-op,INV-70743,232.36
+01/28/2026,Meridian Staffing,INV-72816,1644.09
+01/28/2026,Redwood IT Services,INV-72903,13266.05
+01/28/2026,Redwood IT Services,INV-73043,840.13
+01/28/2026,Tidewater Logistics,INV-73412,29.13
+01/28/2026,City Utilities,INV-73904,7169.32
+01/28/2026,Ridge Valley Printing,INV-74040,474.79
+01/28/2026,Calder & Sons,INV-74256,2851.70
+01/28/2026,Copperfield Chemicals,INV-74301,2385.27
+01/29/2026,Oakmont Catering,INV-70215,3843.68
+01/29/2026,Atlas Fleet Fuel,INV-70326,2591.66
+01/29/2026,Summit Office Products,INV-71199,896.99
+01/29/2026,Summit Office Products,INV-71612,1969.24
+01/29/2026,Silverline Software,INV-71631,139.42
+01/29/2026,Evergreen Landscaping,INV-72616,1180.12
+01/29/2026,Redwood IT Services,INV-72881,4609.89
+01/29/2026,Granite Equipment Rental,INV-72882,7651.76
+01/29/2026,Northgate Freight,INV-73169,2190.49
+01/30/2026,Bluewater Janitorial,INV-70365,222.26
+01/30/2026,Ironclad Security,INV-71420,4767.76
+01/30/2026,Tidewater Logistics,INV-72081,2163.50
+01/30/2026,Keystone Insurance,INV-72325,1797.04
+01/30/2026,Summit Office Products,INV-73525,1038.61
+01/30/2026,Prairie Electric Co-op,INV-73625,2307.68
+01/31/2026,Evergreen Landscaping,INV-70343,934.41
+01/31/2026,Westline Distributors,INV-73685,176.77
+01/31/2026,Evergreen Landscaping,INV-73807,250.73
+01/31/2026,Cedar Point Legal,INV-74081,22.32
+02/01/2026,Northgate Freight,INV-70315,25422.66
+02/01/2026,Granite Equipment Rental,INV-71628,386.99
+02/01/2026,Summit Office Products,INV-71844,172.17
+02/01/2026,Northgate Freight,INV-73665,854.20
+02/01/2026,Keystone Insurance,INV-74289,755.67
+02/02/2026,Summit Office Products,INV-73216,6612.74
+02/02/2026,Ironclad Security,INV-73590,138.06
+02/02/2026,Calder & Sons,INV-73764,12244.38
+02/02/2026,Lakeshore Maintenance,INV-74122,702.84
+02/02/2026,Meridian Staffing,INV-74338,360.08
+02/03/2026,Tidewater Logistics,INV-71316,1380.88
+02/03/2026,Bluewater Janitorial,INV-72308,179.87
+02/03/2026,Meridian Staffing,INV-73368,13738.21
+02/03/2026,Ironclad Security,INV-74049,3072.74
+02/03/2026,Harbor Industrial Supply,INV-74110,33.88
+02/04/2026,Lakeshore Maintenance,INV-70981,1196.52
+02/04/2026,Summit Office Products,INV-71701,1981.78
+02/04/2026,Calder & Sons,INV-71870,669.16
+02/04/2026,Union Telecom,INV-73233,3394.62
+02/04/2026,Tidewater Logistics,INV-73513,453.17
+02/05/2026,Atlas Fleet Fuel,INV-70033,660.35
+02/05/2026,Ironclad Security,INV-70932,438.64
+02/05/2026,City Utilities,INV-71700,1089.47
+02/05/2026,Cedar Point Legal,INV-72043,337.25
+02/05/2026,Atlas Fleet Fuel,INV-72114,356.15
+02/05/2026,Atlas Fleet Fuel,INV-72392,3640.71
+02/05/2026,Ironclad Security,INV-72907,6892.84
+02/05/2026,Cedar Point Legal,INV-73988,210.17
+02/05/2026,Silverline Software,INV-74209,1517.33
+02/06/2026,Union Telecom,INV-70443,2189.45
+02/06/2026,Copperfield Chemicals,INV-70535,308.80
+02/06/2026,Granite Equipment Rental,INV-71054,1208.15
+02/06/2026,Copperfield Chemicals,INV-72506,11914.24
+02/06/2026,Westline Distributors,INV-72808,620.36
+02/06/2026,Westline Distributors,INV-73420,5.75
+02/06/2026,Ironclad Security,INV-73850,4085.02
+02/06/2026,Keystone Insurance,INV-74242,6544.83
+02/06/2026,Keystone Insurance,INV-74371,443.77
+02/06/2026,Brightline Consulting LLC,BC-74405,4867.15
+02/07/2026,Cedar Point Legal,INV-70111,296.44
+02/07/2026,Granite Equipment Rental,INV-70449,2255.85
+02/07/2026,Evergreen Landscaping,INV-71664,44.45
+02/07/2026,Ridge Valley Printing,INV-71725,3100.78
+02/07/2026,Prairie Electric Co-op,INV-72713,240.36
+02/07/2026,Evergreen Landscaping,INV-73114,303.05
+02/07/2026,Silverline Software,INV-73211,898.10
+02/07/2026,Union Telecom,INV-73691,795.57
+02/08/2026,Pioneer Packaging,INV-70116,386.97
+02/08/2026,Oakmont Catering,INV-70480,5416.63
+02/08/2026,Westline Distributors,INV-70965,5395.98
+02/08/2026,Northgate Freight,INV-73743,271.84
+02/08/2026,Lakeshore Maintenance,INV-74088,26576.58
+02/09/2026,Evergreen Landscaping,INV-71171,452.03
+02/09/2026,Ironclad Security,INV-71233,1467.93
+02/09/2026,Copperfield Chemicals,INV-71434,1297.50
+02/09/2026,Oakmont Catering,INV-72176,483.75
+02/09/2026,Granite Equipment Rental,INV-72273,4416.05
+02/09/2026,Harbor Industrial Supply,INV-72628,586.67
+02/09/2026,Union Telecom,INV-72658,1521.15
+02/09/2026,Summit Office Products,INV-72934,654.13
+02/09/2026,Copperfield Chemicals,INV-72966,43741.10
+02/09/2026,Calder & Sons,INV-74113,511.08
+02/10/2026,Union Telecom,INV-72202,353.41
+02/10/2026,City Utilities,INV-72455,11991.47
+02/10/2026,Ironclad Security,INV-73247,774.72
+02/10/2026,Evergreen Landscaping,INV-74157,688.44
+02/11/2026,Redwood IT Services,INV-70684,136.43
+02/11/2026,Silverline Software,INV-72155,582.83
+02/11/2026,Redwood IT Services,INV-72252,363.06
+02/11/2026,Redwood IT Services,INV-72769,1070.90
+02/11/2026,Evergreen Landscaping,INV-72781,1986.69
+02/11/2026,Lakeshore Maintenance,INV-73054,1156.20
+02/11/2026,Cedar Point Legal,INV-73287,381.11
+02/11/2026,Tidewater Logistics,INV-73596,6698.79
+02/11/2026,Atlas Fleet Fuel,INV-73652,692.07
+02/11/2026,Ironclad Security,INV-74046,4580.03
+02/12/2026,Westline Distributors,INV-70295,466.97
+02/12/2026,Union Telecom,INV-70346,602.69
+02/12/2026,Oakmont Catering,INV-70596,1314.42
+02/12/2026,Northgate Freight,INV-71416,332.90
+02/12/2026,Northgate Freight,INV-71573,153.59
+02/12/2026,Meridian Staffing,INV-72736,828.70
+02/12/2026,Northgate Freight,INV-73455,2727.32
+02/12/2026,Atlas Fleet Fuel,INV-74004,3083.39
+02/12/2026,Brightline Consulting LLC,BC-74412,4819.20
+02/13/2026,Union Telecom,INV-70567,168.57
+02/13/2026,Atlas Fleet Fuel,INV-70832,1282.06
+02/13/2026,Pioneer Packaging,INV-70897,2670.22
+02/13/2026,Westline Distributors,INV-70920,567.25
+02/13/2026,Copperfield Chemicals,INV-71014,2414.32
+02/13/2026,Ridge Valley Printing,INV-71248,846.04
+02/13/2026,Atlas Fleet Fuel,INV-71261,4514.85
+02/13/2026,Westline Distributors,INV-73156,1927.97
+02/13/2026,Westline Distributors,INV-73671,350.48
+02/13/2026,Keystone Insurance,INV-73984,3050.61
+02/14/2026,Westline Distributors,INV-70086,2150.31
+02/14/2026,Calder & Sons,INV-70494,721.72
+02/14/2026,Oakmont Catering,INV-71096,4507.38
+02/14/2026,Calder & Sons,INV-71567,3659.87
+02/14/2026,Cedar Point Legal,INV-71732,80.07
+02/14/2026,City Utilities,INV-72370,746.60
+02/14/2026,Keystone Insurance,INV-73237,434.36
+02/14/2026,Keystone Insurance,INV-73572,124.84
+02/14/2026,Tidewater Logistics,INV-73773,531.45
+02/15/2026,Ironclad Security,INV-70417,584.54
+02/15/2026,Tidewater Logistics,INV-70638,816.51
+02/15/2026,Tidewater Logistics,INV-71533,1430.46
+02/15/2026,Granite Equipment Rental,INV-72056,807.69
+02/15/2026,Keystone Insurance,INV-72296,447.57
+02/15/2026,Northgate Freight,INV-72764,1622.65
+02/15/2026,Calder & Sons,INV-72851,3157.74
+02/15/2026,Pioneer Packaging,INV-73140,185.47
+02/15/2026,Calder & Sons,INV-74240,1341.02
+02/16/2026,City Utilities,INV-71952,48.96
+02/16/2026,Ridge Valley Printing,INV-72178,132.09
+02/16/2026,Calder & Sons,INV-72183,347.11
+02/16/2026,Redwood IT Services,INV-72247,235.17
+02/16/2026,Silverline Software,INV-72290,391.71
+02/16/2026,Calder & Sons,INV-74041,1352.34
+02/16/2026,Evergreen Landscaping,INV-74128,915.72
+02/16/2026,Northgate Freight,INV-74213,713.91
+02/17/2026,Granite Equipment Rental,INV-70053,366.60
+02/17/2026,City Utilities,INV-70200,501.28
+02/17/2026,City Utilities,INV-71738,3421.05
+02/17/2026,City Utilities,INV-72220,193.91
+02/17/2026,Bluewater Janitorial,INV-73504,4782.64
+02/17/2026,Meridian Staffing,INV-73592,447.70
+02/18/2026,Harbor Industrial Supply,INV-70258,113.98
+02/18/2026,Cedar Point Legal,INV-70291,1171.56
+02/18/2026,Bluewater Janitorial,INV-70680,605.02
+02/18/2026,Union Telecom,INV-71307,2606.35
+02/18/2026,Brightline Consulting LLC,BC-74415,4823.40
+02/19/2026,Westline Distributors,INV-70631,819.74
+02/19/2026,Ironclad Security,INV-71045,251.93
+02/19/2026,Prairie Electric Co-op,INV-73348,533.98
+02/19/2026,Harbor Industrial Supply,INV-73690,242.89
+02/19/2026,Evergreen Landscaping,INV-74329,1361.22
+02/20/2026,Cedar Point Legal,INV-70184,5985.32
+02/20/2026,Cedar Point Legal,INV-71920,206.10
+02/20/2026,Meridian Staffing,INV-72693,1681.86
+02/20/2026,Oakmont Catering,INV-73326,1399.22
+02/20/2026,Harbor Industrial Supply,INV-74061,1564.13
+02/21/2026,Harbor Industrial Supply,INV-70273,170.10
+02/21/2026,Redwood IT Services,INV-70387,259.46
+02/21/2026,Harbor Industrial Supply,INV-70525,318.71
+02/21/2026,Atlas Fleet Fuel,INV-70719,72.89
+02/21/2026,Cedar Point Legal,INV-71026,3172.89
+02/21/2026,Westline Distributors,INV-71375,1598.72
+02/21/2026,Oakmont Catering,INV-72367,690.33
+02/21/2026,Prairie Electric Co-op,INV-73070,641.70
+02/21/2026,Tidewater Logistics,INV-73185,1535.97
+02/21/2026,Keystone Insurance,INV-73660,557.26
+02/22/2026,Copperfield Chemicals,INV-70191,142.16
+02/22/2026,Ironclad Security,INV-70261,1392.93
+02/22/2026,Redwood IT Services,INV-71032,59.60
+02/22/2026,Summit Office Products,INV-71106,1905.32
+02/22/2026,Westline Distributors,INV-71905,136.11
+02/22/2026,Oakmont Catering,INV-72411,1403.89
+02/22/2026,Tidewater Logistics,INV-72705,5739.86
+02/22/2026,Copperfield Chemicals,INV-72925,1267.38
+02/22/2026,Union Telecom,INV-74072,386.51
+02/23/2026,Union Telecom,INV-70644,866.53
+02/23/2026,Westline Distributors,INV-70939,14.05
+02/23/2026,Oakmont Catering,INV-71382,400.77
+02/23/2026,Tidewater Logistics,INV-71556,417.77
+02/23/2026,Tidewater Logistics,INV-72600,626.24
+02/23/2026,Redwood IT Services,INV-72909,433.82
+02/23/2026,Northgate Freight,INV-74206,467.07
+02/24/2026,Atlas Fleet Fuel,INV-70095,2638.27
+02/24/2026,Northgate Freight,INV-70274,4078.75
+02/24/2026,Westline Distributors,INV-70425,3134.05
+02/24/2026,Granite Equipment Rental,INV-70548,3099.15
+02/24/2026,Ridge Valley Printing,INV-71070,2439.59
+02/24/2026,Westline Distributors,INV-71251,1460.89
+02/24/2026,Westline Distributors,INV-71283,5332.48
+02/24/2026,Union Telecom,INV-71807,1036.09
+02/24/2026,Calder & Sons,INV-71841,3385.86
+02/24/2026,Silverline Software,INV-72727,8547.96
+02/24/2026,Pioneer Packaging,INV-72858,3513.06
+02/24/2026,Pioneer Packaging,INV-73542,3424.51
+02/25/2026,Westline Distributors,INV-70237,848.72
+02/25/2026,Cedar Point Legal,INV-70825,159.52
+02/25/2026,Westline Distributors,INV-73022,601.82
+02/26/2026,Union Telecom,INV-70975,2961.60
+02/26/2026,Ridge Valley Printing,INV-71068,699.33
+02/26/2026,City Utilities,INV-71297,2732.79
+02/26/2026,Bluewater Janitorial,INV-72172,1354.66
+02/26/2026,Northgate Freight,INV-72590,4186.76
+02/26/2026,Union Telecom,INV-72638,360.68
+02/26/2026,Ridge Valley Printing,INV-73294,95.93
+02/26/2026,City Utilities,INV-73609,410.50
+02/26/2026,Harbor Industrial Supply,INV-73990,689.62
+02/26/2026,City Utilities,INV-74235,4316.31
+02/27/2026,Lakeshore Maintenance,INV-71194,607.40
+02/27/2026,Evergreen Landscaping,INV-71852,247.24
+02/27/2026,Lakeshore Maintenance,INV-71872,882.03
+02/27/2026,Evergreen Landscaping,INV-72674,2066.53
+02/27/2026,Keystone Insurance,INV-72861,13477.68
+02/27/2026,Evergreen Landscaping,INV-72867,572.62
+02/27/2026,Keystone Insurance,INV-73777,230.66
+02/27/2026,Redwood IT Services,INV-73831,382.02
+02/27/2026,Brightline Consulting LLC,BC-74400,4844.30
+02/28/2026,Redwood IT Services,INV-70029,17573.12
+02/28/2026,Granite Equipment Rental,INV-70206,1126.95
+02/28/2026,Silverline Software,INV-70544,10901.30
+02/28/2026,Calder & Sons,INV-71673,9794.67
+02/28/2026,Westline Distributors,INV-72024,197.92
+02/28/2026,Bluewater Janitorial,INV-72091,17949.23
+02/28/2026,Meridian Staffing,INV-73604,2414.44
+02/28/2026,Summit Office Products,INV-73833,325.96
+03/01/2026,Lakeshore Maintenance,INV-70185,5200.60
+03/01/2026,Oakmont Catering,INV-70389,2452.90
+03/01/2026,Calder & Sons,INV-70793,907.30
+03/01/2026,Prairie Electric Co-op,INV-70954,532.57
+03/01/2026,Prairie Electric Co-op,INV-70972,909.21
+03/01/2026,Harbor Industrial Supply,INV-71640,2577.06
+03/01/2026,Copperfield Chemicals,INV-72160,535.01
+03/01/2026,Keystone Insurance,INV-72424,14181.22
+03/01/2026,Union Telecom,INV-73208,1202.24
+03/01/2026,Northgate Freight,INV-73730,2544.14
+03/01/2026,Northgate Freight,INV-73974,1455.61
+03/01/2026,Lakeshore Maintenance,INV-74079,3202.32
+03/02/2026,Summit Office Products,INV-70287,1027.08
+03/02/2026,Northgate Freight,INV-70349,7153.29
+03/02/2026,Lakeshore Maintenance,INV-71081,18621.44
+03/02/2026,Summit Office Products,INV-72068,1371.64
+03/02/2026,Cedar Point Legal,INV-73225,143.26
+03/02/2026,Union Telecom,INV-73498,1870.97
+03/02/2026,Bluewater Janitorial,INV-74288,662.61
+03/02/2026,Brightline Consulting LLC,BC-74408,4965.51
+03/03/2026,Copperfield Chemicals,INV-70004,3512.53
+03/03/2026,Bluewater Janitorial,INV-71334,797.69
+03/03/2026,Evergreen Landscaping,INV-71510,159.36
+03/03/2026,Granite Equipment Rental,INV-72580,352.76
+03/03/2026,Tidewater Logistics,INV-72709,1212.67
+03/03/2026,Evergreen Landscaping,INV-72729,5280.96
+03/03/2026,Northgate Freight,INV-73909,1886.35
+03/04/2026,City Utilities,INV-70044,2353.78
+03/04/2026,Oakmont Catering,INV-70071,1056.10
+03/04/2026,Keystone Insurance,INV-71029,12970.74
+03/04/2026,Granite Equipment Rental,INV-71163,2289.76
+03/04/2026,Tidewater Logistics,INV-71863,827.86
+03/04/2026,Lakeshore Maintenance,INV-72294,1045.63
+03/04/2026,Lakeshore Maintenance,INV-72343,968.08
+03/04/2026,City Utilities,INV-72760,661.35
+03/04/2026,Tidewater Logistics,INV-73973,11500.04
+03/04/2026,Northgate Freight,INV-74332,691.61
+03/05/2026,Prairie Electric Co-op,INV-71073,5262.75
+03/05/2026,Northgate Freight,INV-71357,693.68
+03/05/2026,Cedar Point Legal,INV-71704,4411.86
+03/05/2026,Redwood IT Services,INV-71801,1049.19
+03/05/2026,Ironclad Security,INV-72684,257.20
+03/05/2026,Tidewater Logistics,INV-73052,491.18
+03/05/2026,Summit Office Products,INV-73670,1457.24
+03/06/2026,Keystone Insurance,INV-70864,2996.31
+03/06/2026,Atlas Fleet Fuel,INV-71937,237.05
+03/06/2026,Summit Office Products,INV-72796,2077.32
+03/06/2026,Evergreen Landscaping,INV-73130,932.18
+03/06/2026,Atlas Fleet Fuel,INV-73930,99.80
+03/07/2026,Atlas Fleet Fuel,INV-70340,274.52
+03/07/2026,Lakeshore Maintenance,INV-70398,4402.10
+03/07/2026,Keystone Insurance,INV-71354,4484.98
+03/07/2026,City Utilities,INV-71789,4816.13
+03/07/2026,Silverline Software,INV-72057,995.63
+03/07/2026,Ridge Valley Printing,INV-72302,1443.51
+03/07/2026,Ironclad Security,INV-72931,4848.58
+03/07/2026,Northgate Freight,INV-74376,1155.61
+03/08/2026,Atlas Fleet Fuel,INV-72379,1698.68
+03/08/2026,Lakeshore Maintenance,INV-73802,248.90
+03/08/2026,Oakmont Catering,INV-74198,7505.12
+03/09/2026,Meridian Staffing,INV-70747,2237.74
+03/09/2026,Oakmont Catering,INV-71156,432.39
+03/09/2026,Granite Equipment Rental,INV-71230,831.33
+03/09/2026,Cedar Point Legal,INV-72376,1000.67
+03/09/2026,Keystone Insurance,INV-73553,8200.86
+03/09/2026,Prairie Electric Co-op,INV-74067,184.72
+03/10/2026,Bluewater Janitorial,INV-70338,7357.91
+03/10/2026,Atlas Fleet Fuel,INV-71166,638.43
+03/10/2026,Prairie Electric Co-op,INV-71209,938.08
+03/10/2026,Tidewater Logistics,INV-71312,52.60
+03/10/2026,Oakmont Catering,INV-71535,1517.17
+03/10/2026,Cedar Point Legal,INV-71831,291.08
+03/10/2026,Bluewater Janitorial,INV-72053,259.83
+03/10/2026,City Utilities,INV-72770,3659.76
+03/10/2026,City Utilities,INV-73124,1001.25
+03/10/2026,Harbor Industrial Supply,INV-73380,1079.24
+03/10/2026,Westline Distributors,INV-73613,1049.61
+03/10/2026,Lakeshore Maintenance,INV-74267,117.81
+03/11/2026,Tidewater Logistics,INV-70028,776.78
+03/11/2026,Bluewater Janitorial,INV-70823,91.80
+03/11/2026,Bluewater Janitorial,INV-71110,3484.45
+03/11/2026,Meridian Staffing,INV-71271,165.94
+03/11/2026,Summit Office Products,INV-72419,1888.13
+03/11/2026,Ridge Valley Printing,INV-73282,452.23
+03/11/2026,City Utilities,INV-73422,390.12
+03/11/2026,Northgate Freight,INV-73501,3534.52
+03/12/2026,Union Telecom,INV-70916,1375.97
+03/12/2026,Northgate Freight,INV-71480,12.55
+03/12/2026,Cedar Point Legal,INV-71522,751.79
+03/12/2026,Ironclad Security,INV-72398,189.40
+03/12/2026,Pioneer Packaging,INV-73295,883.70
+03/12/2026,Ironclad Security,INV-73952,47.35
+03/13/2026,Atlas Fleet Fuel,INV-71669,1370.96
+03/13/2026,Silverline Software,INV-72678,5242.30
+03/13/2026,Ironclad Security,INV-72755,5022.42
+03/13/2026,Granite Equipment Rental,INV-72984,1250.73
+03/13/2026,Granite Equipment Rental,INV-73402,635.48
+03/13/2026,Cedar Point Legal,INV-73417,1806.96
+03/13/2026,Keystone Insurance,INV-74170,392.77
+03/14/2026,Ridge Valley Printing,INV-70173,1953.54
+03/14/2026,Pioneer Packaging,INV-71059,689.31
+03/14/2026,Lakeshore Maintenance,INV-71690,847.07
+03/14/2026,Union Telecom,INV-71827,98.72
+03/14/2026,Ridge Valley Printing,INV-71977,62.17
+03/14/2026,Evergreen Landscaping,INV-72316,372.74
+03/14/2026,Copperfield Chemicals,INV-73531,261.71
+03/14/2026,Summit Office Products,INV-74123,555.52
+03/15/2026,Keystone Insurance,INV-70367,44.25
+03/15/2026,Evergreen Landscaping,INV-70549,147.34
+03/15/2026,Silverline Software,INV-71125,376.97
+03/15/2026,Ironclad Security,INV-71276,16881.27
+03/15/2026,Ironclad Security,INV-71544,1423.66
+03/15/2026,Redwood IT Services,INV-71790,1101.12
+03/15/2026,Bluewater Janitorial,INV-72552,1426.68
+03/15/2026,Granite Equipment Rental,INV-72828,8680.12
+03/15/2026,Prairie Electric Co-op,INV-74247,1284.96
+03/15/2026,Bluewater Janitorial,INV-74361,1188.69
+03/16/2026,Northgate Freight,INV-70445,4318.21
+03/16/2026,Copperfield Chemicals,INV-70473,1186.42
+03/16/2026,Silverline Software,INV-70700,464.79
+03/16/2026,Copperfield Chemicals,INV-71245,15061.17
+03/16/2026,Oakmont Catering,INV-71516,9546.23
+03/16/2026,Copperfield Chemicals,INV-71857,13872.62
+03/16/2026,Prairie Electric Co-op,INV-73655,485.82
+03/16/2026,Ironclad Security,INV-74303,1175.16
+03/17/2026,Copperfield Chemicals,INV-70784,999.78
+03/17/2026,Prairie Electric Co-op,INV-72716,304.93
+03/17/2026,Tidewater Logistics,INV-72906,152.19
+03/17/2026,Prairie Electric Co-op,INV-72988,2901.32
+03/18/2026,Cedar Point Legal,INV-71282,1034.82
+03/18/2026,Meridian Staffing,INV-72054,850.89
+03/18/2026,Oakmont Catering,INV-72141,90.19
+03/18/2026,Prairie Electric Co-op,INV-72358,2208.52
+03/18/2026,Westline Distributors,INV-73035,587.57
+03/18/2026,Evergreen Landscaping,INV-73038,422.65
+03/19/2026,Tidewater Logistics,INV-70282,271.17
+03/19/2026,Ironclad Security,INV-70348,815.64
+03/19/2026,Union Telecom,INV-71187,323.26
+03/19/2026,Westline Distributors,INV-71687,511.50
+03/19/2026,Ridge Valley Printing,INV-72033,11922.98
+03/19/2026,Atlas Fleet Fuel,INV-72437,554.85
+03/19/2026,Harbor Industrial Supply,INV-72875,1553.26
+03/19/2026,Ridge Valley Printing,INV-73360,3495.91
+03/19/2026,Summit Office Products,INV-73829,9745.92
+03/19/2026,Keystone Insurance,INV-73882,9936.02
+03/19/2026,Oakmont Catering,INV-74195,2504.81
+03/20/2026,Ironclad Security,INV-70895,12205.07
+03/20/2026,Granite Equipment Rental,INV-72288,1260.66
+03/20/2026,Ironclad Security,INV-73230,314.07
+03/21/2026,Redwood IT Services,INV-70906,3379.05
+03/21/2026,Granite Equipment Rental,INV-71993,3492.42
+03/21/2026,Evergreen Landscaping,INV-72494,152.33
+03/21/2026,Harbor Industrial Supply,INV-73487,3032.40
+03/21/2026,Union Telecom,INV-74353,2020.02
+03/22/2026,Meridian Staffing,INV-71942,1116.27
+03/22/2026,Summit Office Products,INV-72846,2146.01
+03/22/2026,Granite Equipment Rental,INV-73398,69.37
+03/22/2026,Silverline Software,INV-73406,2007.46
+03/23/2026,Ridge Valley Printing,INV-70262,559.28
+03/23/2026,Prairie Electric Co-op,INV-70376,1575.43
+03/23/2026,Tidewater Logistics,INV-70546,274.68
+03/23/2026,Ridge Valley Printing,INV-70812,92.00
+03/23/2026,Prairie Electric Co-op,INV-70983,294.33
+03/23/2026,City Utilities,INV-71796,1669.20
+03/23/2026,Keystone Insurance,INV-74253,326.73
+03/24/2026,Atlas Fleet Fuel,INV-70433,10049.33
+03/24/2026,Pioneer Packaging,INV-71223,888.10
+03/24/2026,Tidewater Logistics,INV-71399,2107.05
+03/24/2026,Meridian Staffing,INV-73425,5962.81
+03/24/2026,Tidewater Logistics,INV-73520,1147.12
+03/24/2026,Meridian Staffing,INV-73576,768.44
+03/24/2026,Meridian Staffing,INV-74300,427.13
+03/25/2026,Atlas Fleet Fuel,INV-70503,66.89
+03/25/2026,Ridge Valley Printing,INV-71639,782.12
+03/25/2026,Union Telecom,INV-72717,405.73
+03/25/2026,Summit Office Products,INV-73584,1131.18
+03/25/2026,Ridge Valley Printing,INV-74130,4677.62
+03/26/2026,Tidewater Logistics,INV-70532,177.78
+03/26/2026,Redwood IT Services,INV-71120,16580.95
+03/26/2026,Evergreen Landscaping,INV-72051,2786.65
+03/26/2026,Westline Distributors,INV-72061,2531.90
+03/26/2026,Calder & Sons,INV-72205,873.79
+03/26/2026,Oakmont Catering,INV-72541,1252.28
+03/26/2026,Bluewater Janitorial,INV-72688,198.78
+03/26/2026,Tidewater Logistics,INV-73322,194.78
+03/27/2026,Summit Office Products,INV-70466,479.71
+03/27/2026,Silverline Software,INV-71996,2555.87
+03/27/2026,Lakeshore Maintenance,INV-72131,6543.49
+03/27/2026,Lakeshore Maintenance,INV-73707,1147.14
+03/27/2026,Harbor Industrial Supply,INV-73854,760.78
+03/27/2026,Brightline Consulting LLC,BC-74421,4856.88
+03/28/2026,Keystone Insurance,INV-72267,1013.73
+03/28/2026,Redwood IT Services,INV-73097,279.12
+03/28/2026,Oakmont Catering,INV-73159,3173.37
+03/28/2026,Tidewater Logistics,INV-74023,297.98
+03/29/2026,Lakeshore Maintenance,INV-72462,834.36
+03/29/2026,Meridian Staffing,INV-72738,660.01
+03/29/2026,Redwood IT Services,INV-73122,2544.30
+03/29/2026,Summit Office Products,INV-73165,6039.04
+03/29/2026,Oakmont Catering,INV-73918,186.16
+03/29/2026,Lakeshore Maintenance,INV-74210,7441.29
+03/30/2026,Ironclad Security,INV-70636,2254.05
+03/30/2026,Copperfield Chemicals,INV-70722,21238.09
+03/30/2026,Calder & Sons,INV-71543,51.16
+03/30/2026,Cedar Point Legal,INV-71625,238.90
+03/30/2026,Oakmont Catering,INV-71719,415.86
+03/30/2026,Meridian Staffing,INV-72669,2464.36
+03/30/2026,Copperfield Chemicals,INV-73695,1130.54
+03/30/2026,Keystone Insurance,INV-73877,8196.43
+03/30/2026,Bluewater Janitorial,INV-74166,451.71
+03/30/2026,City Utilities,INV-74241,1554.45
+03/30/2026,Silverline Software,INV-74354,1853.05
+03/30/2026,Brightline Consulting LLC,BC-74404,4781.26
+03/31/2026,Union Telecom,INV-70442,6981.49
+03/31/2026,Evergreen Landscaping,INV-70477,3138.06
+03/31/2026,Ironclad Security,INV-70695,265.05
+03/31/2026,Summit Office Products,INV-71751,1744.78
+03/31/2026,Northgate Freight,INV-71967,490.67
+03/31/2026,City Utilities,INV-73610,549.89
+04/01/2026,Pioneer Packaging,INV-70109,262.80
+04/01/2026,Union Telecom,INV-70440,114.21
+04/01/2026,City Utilities,INV-70585,4962.79
+04/01/2026,Silverline Software,INV-70751,1280.60
+04/01/2026,Pioneer Packaging,INV-71915,819.05
+04/01/2026,Union Telecom,INV-72199,9618.79
+04/01/2026,Northgate Freight,INV-73101,3971.35
+04/01/2026,City Utilities,INV-73204,976.99
+04/01/2026,Prairie Electric Co-op,INV-73276,43172.06
+04/01/2026,Summit Office Products,INV-73694,1053.83
+04/02/2026,Keystone Insurance,INV-70061,3496.60
+04/02/2026,Atlas Fleet Fuel,INV-71773,260.05
+04/02/2026,Keystone Insurance,INV-72040,2757.86
+04/03/2026,Evergreen Landscaping,INV-71552,951.44
+04/03/2026,Copperfield Chemicals,INV-71939,447.15
+04/03/2026,Ironclad Security,INV-72544,1422.40
+04/03/2026,Pioneer Packaging,INV-73403,1405.93
+04/04/2026,Prairie Electric Co-op,INV-70701,2580.47
+04/04/2026,Cedar Point Legal,INV-72761,2876.96
+04/04/2026,Northgate Freight,INV-73358,365.70
+04/04/2026,Northgate Freight,INV-73741,317.60
+04/04/2026,Lakeshore Maintenance,INV-73816,180.81
+04/05/2026,Silverline Software,INV-70395,511.54
+04/05/2026,Evergreen Landscaping,INV-70765,1035.23
+04/05/2026,Calder & Sons,INV-71747,4553.32
+04/05/2026,Copperfield Chemicals,INV-71891,492.97
+04/05/2026,Calder & Sons,INV-72633,44.60
+04/05/2026,Meridian Staffing,INV-73999,8933.70
+04/05/2026,Atlas Fleet Fuel,INV-74321,577.30
+04/06/2026,Granite Equipment Rental,INV-72975,402.22
+04/07/2026,Ridge Valley Printing,INV-70394,119.12
+04/07/2026,Pioneer Packaging,INV-70580,24473.19
+04/07/2026,City Utilities,INV-72365,1236.73
+04/07/2026,Oakmont Catering,INV-72513,303.66
+04/07/2026,Cedar Point Legal,INV-72983,678.52
+04/07/2026,Evergreen Landscaping,INV-74143,5232.78
+04/08/2026,Union Telecom,INV-70363,138.03
+04/08/2026,Silverline Software,INV-70435,1383.27
+04/08/2026,Prairie Electric Co-op,INV-70774,9058.32
+04/08/2026,Westline Distributors,INV-72395,1756.07
+04/08/2026,Granite Equipment Rental,INV-72503,1704.43
+04/08/2026,Union Telecom,INV-73105,556.76
+04/08/2026,Northgate Freight,INV-73594,492.04
+04/08/2026,Northgate Freight,INV-74280,126.50
+04/09/2026,Tidewater Logistics,INV-71116,240.49
+04/09/2026,Granite Equipment Rental,INV-71547,1334.02
+04/09/2026,Summit Office Products,INV-71708,317.67
+04/09/2026,Tidewater Logistics,INV-73017,5951.36
+04/09/2026,Bluewater Janitorial,INV-73286,19.48
+04/09/2026,Lakeshore Maintenance,INV-73969,798.92
+04/09/2026,Evergreen Landscaping,INV-74059,189.93
+04/10/2026,Tidewater Logistics,INV-70145,1558.39
+04/10/2026,Pioneer Packaging,INV-70379,2646.31
+04/10/2026,Pioneer Packaging,INV-70691,4772.28
+04/10/2026,Union Telecom,INV-71449,14297.11
+04/10/2026,Redwood IT Services,INV-71866,926.31
+04/10/2026,Ridge Valley Printing,INV-72528,3478.68
+04/10/2026,Tidewater Logistics,INV-72630,726.32
+04/10/2026,Redwood IT Services,INV-73353,179.55
+04/11/2026,Atlas Fleet Fuel,INV-70241,1375.67
+04/11/2026,City Utilities,INV-70877,130.58
+04/11/2026,Atlas Fleet Fuel,INV-71255,1145.09
+04/11/2026,Oakmont Catering,INV-71629,431.31
+04/11/2026,Silverline Software,INV-73076,1038.57
+04/11/2026,Calder & Sons,INV-73677,4408.73
+04/12/2026,Tidewater Logistics,INV-72208,3878.35
+04/12/2026,Tidewater Logistics,INV-72687,645.76
+04/12/2026,Pioneer Packaging,INV-73175,104.75
+04/12/2026,Union Telecom,INV-74073,4796.31
+04/12/2026,Summit Office Products,INV-74108,33219.70
+04/12/2026,Keystone Insurance,INV-74268,7386.80
+04/13/2026,Redwood IT Services,INV-71441,3873.63
+04/13/2026,Redwood IT Services,INV-72129,1282.98
+04/13/2026,Ironclad Security,INV-72192,287.51
+04/13/2026,Keystone Insurance,INV-72479,2407.60
+04/13/2026,Keystone Insurance,INV-72914,302.10
+04/13/2026,Copperfield Chemicals,INV-72918,67.09
+04/14/2026,Granite Equipment Rental,INV-70391,518.14
+04/14/2026,Ironclad Security,INV-70450,624.95
+04/14/2026,City Utilities,INV-70990,241.58
+04/14/2026,Oakmont Catering,INV-71035,1683.79
+04/14/2026,Calder & Sons,INV-71527,2160.97
+04/14/2026,Westline Distributors,INV-72800,3109.94
+04/14/2026,Oakmont Catering,INV-73108,912.26
+04/14/2026,Summit Office Products,INV-73229,628.26
+04/15/2026,Silverline Software,INV-71109,6658.12
+04/15/2026,Harbor Industrial Supply,INV-71175,803.61
+04/15/2026,Copperfield Chemicals,INV-71869,728.03
+04/15/2026,Union Telecom,INV-72193,1930.10
+04/15/2026,Union Telecom,INV-72369,1658.88
+04/15/2026,Cedar Point Legal,INV-72452,3701.31
+04/15/2026,Evergreen Landscaping,INV-72845,259.46
+04/15/2026,Calder & Sons,INV-73066,3186.70
+04/16/2026,Calder & Sons,INV-70076,98.48
+04/16/2026,Lakeshore Maintenance,INV-70561,20016.40
+04/16/2026,Silverline Software,INV-70590,465.87
+04/16/2026,Oakmont Catering,INV-71594,1190.48
+04/16/2026,Granite Equipment Rental,INV-71780,165.60
+04/16/2026,Calder & Sons,INV-72346,23.16
+04/16/2026,Prairie Electric Co-op,INV-72467,992.94
+04/16/2026,Evergreen Landscaping,INV-73805,747.39
+04/17/2026,Harbor Industrial Supply,INV-70069,407.33
+04/17/2026,Meridian Staffing,INV-70120,249.04
+04/17/2026,Redwood IT Services,INV-70257,147.15
+04/17/2026,Northgate Freight,INV-70269,3091.05
+04/17/2026,Calder & Sons,INV-70921,654.14
+04/17/2026,Summit Office Products,INV-71370,458.07
+04/17/2026,Meridian Staffing,INV-72099,2738.40
+04/17/2026,Calder & Sons,INV-72291,223.55
+04/17/2026,Silverline Software,INV-72648,104.31
+04/17/2026,Granite Equipment Rental,INV-73028,827.00
+04/17/2026,Northgate Freight,INV-73129,485.25
+04/17/2026,Union Telecom,INV-73319,234.95
+04/18/2026,Keystone Insurance,INV-70482,333.48
+04/18/2026,Cedar Point Legal,INV-70649,7566.30
+04/18/2026,Ironclad Security,INV-70843,379.20
+04/18/2026,Atlas Fleet Fuel,INV-72558,962.09
+04/18/2026,Ironclad Security,INV-72771,153.58
+04/18/2026,Brightline Consulting LLC,BC-74414,4861.38
+04/19/2026,Prairie Electric Co-op,INV-71149,7586.09
+04/19/2026,Northgate Freight,INV-71265,1476.65
+04/19/2026,Evergreen Landscaping,INV-71429,222.34
+04/19/2026,Ironclad Security,INV-71772,3396.64
+04/19/2026,Summit Office Products,INV-71804,214.26
+04/19/2026,Westline Distributors,INV-72661,259.49
+04/19/2026,Pioneer Packaging,INV-73366,332.30
+04/19/2026,Tidewater Logistics,INV-73900,178.69
+04/20/2026,Westline Distributors,INV-70598,738.05
+04/20/2026,Atlas Fleet Fuel,INV-71087,1489.47
+04/20/2026,Pioneer Packaging,INV-71985,1538.64
+04/20/2026,Ridge Valley Printing,INV-72028,273.09
+04/20/2026,Copperfield Chemicals,INV-72095,2178.06
+04/20/2026,Meridian Staffing,INV-72476,3571.92
+04/21/2026,Summit Office Products,INV-71042,529.69
+04/21/2026,Prairie Electric Co-op,INV-71860,331.23
+04/21/2026,Ridge Valley Printing,INV-72980,3938.59
+04/22/2026,Union Telecom,INV-70979,699.71
+04/22/2026,Summit Office Products,INV-71023,595.73
+04/22/2026,Ridge Valley Printing,INV-71454,1222.26
+04/22/2026,Harbor Industrial Supply,INV-71499,1458.86
+04/22/2026,Tidewater Logistics,INV-71551,713.81
+04/22/2026,Summit Office Products,INV-71554,164.12
+04/22/2026,Silverline Software,INV-71590,1349.09
+04/22/2026,Calder & Sons,INV-71603,1479.00
+04/22/2026,City Utilities,INV-71821,375.72
+04/22/2026,Evergreen Landscaping,INV-72457,2348.95
+04/22/2026,Ironclad Security,INV-72593,1376.01
+04/22/2026,Cedar Point Legal,INV-73810,20.98
+04/23/2026,Northgate Freight,INV-70196,397.56
+04/23/2026,Granite Equipment Rental,INV-70883,1027.05
+04/23/2026,Silverline Software,INV-71221,4080.67
+04/23/2026,Ridge Valley Printing,INV-71326,1758.27
+04/23/2026,Prairie Electric Co-op,INV-72121,193.71
+04/23/2026,Meridian Staffing,INV-73030,99.56
+04/23/2026,City Utilities,INV-73212,1468.17
+04/23/2026,Bluewater Janitorial,INV-73297,7.75
+04/23/2026,Oakmont Catering,INV-73311,4388.49
+04/23/2026,Oakmont Catering,INV-73824,827.06
+04/23/2026,Evergreen Landscaping,INV-73941,163.90
+04/23/2026,Silverline Software,INV-73987,1728.61
+04/24/2026,Harbor Industrial Supply,INV-71119,1280.99
+04/24/2026,Union Telecom,INV-71413,17878.59
+04/24/2026,Evergreen Landscaping,INV-72285,7593.37
+04/24/2026,Westline Distributors,INV-73859,1229.59
+04/25/2026,Harbor Industrial Supply,INV-70572,24573.53
+04/25/2026,Lakeshore Maintenance,INV-71784,3082.05
+04/25/2026,Union Telecom,INV-71850,92.21
+04/25/2026,Ridge Valley Printing,INV-71911,26425.95
+04/25/2026,Westline Distributors,INV-72700,108.97
+04/25/2026,Union Telecom,INV-73885,1569.77
+04/25/2026,Ridge Valley Printing,INV-73997,1069.44
+04/26/2026,Silverline Software,INV-70614,1358.78
+04/26/2026,Ironclad Security,INV-70862,6231.71
+04/26/2026,Meridian Staffing,INV-70900,45.28
+04/26/2026,Redwood IT Services,INV-71044,1647.81
+04/26/2026,Meridian Staffing,INV-72962,96.85
+04/26/2026,Union Telecom,INV-73057,953.43
+04/26/2026,Atlas Fleet Fuel,INV-73818,132.57
+04/26/2026,Prairie Electric Co-op,INV-73894,7481.63
+04/26/2026,Pioneer Packaging,INV-74117,59.59
+04/26/2026,Brightline Consulting LLC,BC-74389,4979.83
+04/27/2026,Ironclad Security,INV-70190,6679.46
+04/27/2026,City Utilities,INV-71405,1359.43
+04/27/2026,Calder & Sons,INV-71597,2170.99
+04/27/2026,Bluewater Janitorial,INV-72347,89.93
+04/27/2026,Bluewater Janitorial,INV-73386,547.70
+04/27/2026,Oakmont Catering,INV-73765,3238.26
+04/28/2026,Westline Distributors,INV-70960,123.99
+04/28/2026,Oakmont Catering,INV-71532,1807.47
+04/28/2026,Redwood IT Services,INV-71541,3145.21
+04/28/2026,Copperfield Chemicals,INV-72838,4812.36
+04/28/2026,Lakeshore Maintenance,INV-73266,6533.09
+04/28/2026,Cedar Point Legal,INV-73495,828.24
+04/28/2026,Lakeshore Maintenance,INV-73749,105.68
+04/28/2026,Prairie Electric Co-op,INV-74260,4876.52
+04/28/2026,Calder & Sons,INV-74336,3819.55
+04/29/2026,Redwood IT Services,INV-71114,762.49
+04/29/2026,Harbor Industrial Supply,INV-71151,3586.10
+04/29/2026,Harbor Industrial Supply,INV-71570,2089.91
+04/29/2026,Ironclad Security,INV-72103,22017.06
+04/29/2026,Calder & Sons,INV-72789,188.00
+04/29/2026,Cedar Point Legal,INV-72855,86.40
+04/29/2026,Atlas Fleet Fuel,INV-72864,426.94
+04/29/2026,Cedar Point Legal,INV-73143,10910.94
+04/29/2026,Brightline Consulting LLC,BC-74422,4981.13
+04/30/2026,Keystone Insurance,INV-70485,715.91
+04/30/2026,Cedar Point Legal,INV-71019,15327.69
+04/30/2026,Lakeshore Maintenance,INV-73917,1249.25
+05/01/2026,Keystone Insurance,INV-70081,8115.73
+05/01/2026,Atlas Fleet Fuel,INV-71758,1213.44
+05/01/2026,Pioneer Packaging,INV-72049,1233.09
+05/01/2026,Pioneer Packaging,INV-72078,1404.65
+05/01/2026,Union Telecom,INV-72408,278.28
+05/01/2026,Summit Office Products,INV-72667,27186.22
+05/01/2026,Prairie Electric Co-op,INV-73631,1009.46
+05/01/2026,Evergreen Landscaping,INV-73857,97.93
+05/01/2026,Keystone Insurance,INV-73949,474.49
+05/01/2026,Calder & Sons,INV-70921,654.14
+05/02/2026,City Utilities,INV-70159,1591.21
+05/02/2026,Ironclad Security,INV-70555,78.74
+05/02/2026,Ironclad Security,INV-70957,2261.48
+05/02/2026,Bluewater Janitorial,INV-72487,1145.54
+05/02/2026,Westline Distributors,INV-73168,686.57
+05/02/2026,Calder & Sons,INV-73241,2427.70
+05/03/2026,Calder & Sons,INV-70084,5125.98
+05/03/2026,Prairie Electric Co-op,INV-70815,150.13
+05/03/2026,Ironclad Security,INV-70868,226.74
+05/03/2026,Atlas Fleet Fuel,INV-70909,8725.16
+05/03/2026,Northgate Freight,INV-71380,2802.80
+05/03/2026,Ridge Valley Printing,INV-72020,119.39
+05/03/2026,Ironclad Security,INV-72400,2386.29
+05/03/2026,Westline Distributors,INV-72659,368.45
+05/03/2026,Lakeshore Maintenance,INV-73306,2713.33
+05/03/2026,Tidewater Logistics,INV-73920,176.36
+05/03/2026,Union Telecom,INV-74076,1055.26
+05/04/2026,Prairie Electric Co-op,INV-70405,281.91
+05/04/2026,Ironclad Security,INV-70681,2713.12
+05/04/2026,Meridian Staffing,INV-70773,1663.61
+05/04/2026,Oakmont Catering,INV-71779,112.06
+05/04/2026,Ridge Valley Printing,INV-72869,325.64
+05/04/2026,Atlas Fleet Fuel,INV-73139,1471.90
+05/04/2026,Brightline Consulting LLC,BC-74411,4986.91
+05/05/2026,Granite Equipment Rental,INV-70058,823.09
+05/05/2026,Summit Office Products,INV-70202,137.92
+05/05/2026,Redwood IT Services,INV-70468,43.95
+05/05/2026,Prairie Electric Co-op,INV-70508,1008.47
+05/05/2026,Granite Equipment Rental,INV-71339,19649.90
+05/05/2026,Ridge Valley Printing,INV-71404,142.02
+05/05/2026,Ironclad Security,INV-71972,132.72
+05/05/2026,Keystone Insurance,INV-72443,1159.61
+05/06/2026,Evergreen Landscaping,INV-70170,8725.95
+05/06/2026,Atlas Fleet Fuel,INV-70914,1963.03
+05/06/2026,Redwood IT Services,INV-71133,2237.86
+05/06/2026,Ironclad Security,INV-71388,199.65
+05/06/2026,Ridge Valley Printing,INV-71885,3830.79
+05/06/2026,Bluewater Janitorial,INV-73619,1041.05
+05/06/2026,City Utilities,INV-73744,1171.88
+05/07/2026,Calder & Sons,INV-70020,2537.23
+05/07/2026,Keystone Insurance,INV-70161,3824.33
+05/07/2026,Summit Office Products,INV-70253,1133.61
+05/07/2026,Cedar Point Legal,INV-70441,360.49
+05/07/2026,Ridge Valley Printing,INV-70493,257.40
+05/07/2026,Granite Equipment Rental,INV-70518,166.07
+05/07/2026,Harbor Industrial Supply,INV-72180,5185.21
+05/07/2026,Granite Equipment Rental,INV-72707,2212.25
+05/08/2026,Summit Office Products,INV-70741,110.21
+05/08/2026,Cedar Point Legal,INV-70835,3930.77
+05/08/2026,Oakmont Catering,INV-70870,577.09
+05/08/2026,Keystone Insurance,INV-71609,3600.46
+05/08/2026,Calder & Sons,INV-72124,60.34
+05/08/2026,Keystone Insurance,INV-73800,658.57
+05/08/2026,Westline Distributors,INV-74172,825.97
+05/09/2026,Silverline Software,INV-70104,351.08
+05/09/2026,Meridian Staffing,INV-70728,4576.87
+05/09/2026,Tidewater Logistics,INV-71162,255.02
+05/09/2026,Meridian Staffing,INV-71901,787.01
+05/09/2026,Ridge Valley Printing,INV-72654,1012.38
+05/09/2026,Atlas Fleet Fuel,INV-72821,3491.10
+05/09/2026,Northgate Freight,INV-73205,674.45
+05/09/2026,Tidewater Logistics,INV-73462,2838.67
+05/09/2026,Keystone Insurance,INV-73714,59.37
+05/09/2026,Harbor Industrial Supply,INV-74080,1444.07
+05/10/2026,Bluewater Janitorial,INV-70236,297.08
+05/10/2026,Redwood IT Services,INV-70963,304.46
+05/10/2026,Oakmont Catering,INV-71101,27357.20
+05/10/2026,Ironclad Security,INV-71462,182.10
+05/10/2026,Bluewater Janitorial,INV-71823,300.83
+05/11/2026,Keystone Insurance,INV-70749,492.28
+05/11/2026,Ridge Valley Printing,INV-70855,1460.06
+05/11/2026,Meridian Staffing,INV-71258,881.12
+05/11/2026,Calder & Sons,INV-72132,13362.19
+05/11/2026,Silverline Software,INV-72579,924.21
+05/11/2026,Westline Distributors,INV-72871,4303.67
+05/12/2026,Copperfield Chemicals,INV-70416,12943.08
+05/12/2026,Pioneer Packaging,INV-70803,60.24
+05/12/2026,Westline Distributors,INV-71982,9130.93
+05/12/2026,City Utilities,INV-72128,674.29
+05/12/2026,City Utilities,INV-72232,1696.30
+05/12/2026,Pioneer Packaging,INV-72584,347.13
+05/12/2026,Union Telecom,INV-72954,5222.30
+05/12/2026,Prairie Electric Co-op,INV-73565,1759.94
+05/12/2026,Cedar Point Legal,INV-73623,2592.58
+05/13/2026,Keystone Insurance,INV-70948,1238.73
+05/13/2026,Oakmont Catering,INV-71239,4753.21
+05/13/2026,Ironclad Security,INV-71662,388.79
+05/13/2026,Silverline Software,INV-72225,938.81
+05/13/2026,Tidewater Logistics,INV-73374,1251.48
+05/13/2026,Brightline Consulting LLC,BC-74406,4968.90
+05/14/2026,Ironclad Security,INV-72145,147.24
+05/14/2026,Westline Distributors,INV-74136,378.73
+05/15/2026,Northgate Freight,INV-70142,8660.13
+05/15/2026,Atlas Fleet Fuel,INV-70609,790.10
+05/15/2026,Pioneer Packaging,INV-70626,27491.38
+05/15/2026,Ridge Valley Printing,INV-71010,750.61
+05/15/2026,Keystone Insurance,INV-72240,952.93
+05/15/2026,Calder & Sons,INV-72447,341.47
+05/15/2026,Granite Equipment Rental,INV-72501,8436.00
+05/15/2026,Calder & Sons,INV-73519,1044.81
+05/16/2026,Ridge Valley Printing,INV-70005,2855.77
+05/16/2026,Ironclad Security,INV-71132,713.36
+05/16/2026,Atlas Fleet Fuel,INV-72055,494.80
+05/16/2026,Pioneer Packaging,INV-72238,534.26
+05/16/2026,Calder & Sons,INV-73659,1581.69
+05/16/2026,Oakmont Catering,INV-73740,2051.05
+05/17/2026,Oakmont Catering,INV-70522,4871.59
+05/17/2026,Cedar Point Legal,INV-71992,20595.04
+05/17/2026,Tidewater Logistics,INV-72896,2045.69
+05/17/2026,Lakeshore Maintenance,INV-73088,7680.93
+05/17/2026,Keystone Insurance,INV-73111,225.24
+05/17/2026,Evergreen Landscaping,INV-73260,1886.41
+05/17/2026,Copperfield Chemicals,INV-73616,50.75
+05/17/2026,Ridge Valley Printing,INV-74370,1749.47
+05/18/2026,Ridge Valley Printing,INV-70115,403.68
+05/18/2026,Westline Distributors,INV-70194,1186.59
+05/18/2026,City Utilities,INV-70373,2649.69
+05/18/2026,Harbor Industrial Supply,INV-70620,1780.55
+05/18/2026,Ironclad Security,INV-70780,253.08
+05/18/2026,Silverline Software,INV-71215,490.26
+05/18/2026,Redwood IT Services,INV-71744,707.23
+05/18/2026,Pioneer Packaging,INV-71900,1423.17
+05/18/2026,Pioneer Packaging,INV-72441,678.95
+05/19/2026,Pioneer Packaging,INV-70056,263.50
+05/19/2026,Oakmont Catering,INV-71775,9624.01
+05/19/2026,Pioneer Packaging,INV-72158,433.97
+05/19/2026,Evergreen Landscaping,INV-72550,213.49
+05/19/2026,Pioneer Packaging,INV-72803,261.43
+05/19/2026,Cedar Point Legal,INV-74007,674.34
+05/19/2026,Ridge Valley Printing,INV-72028,273.09
+05/20/2026,Granite Equipment Rental,INV-71301,842.45
+05/20/2026,City Utilities,INV-72492,4487.68
+05/20/2026,Keystone Insurance,INV-72920,716.03
+05/20/2026,Summit Office Products,INV-73041,6488.85
+05/20/2026,Keystone Insurance,INV-73309,331.72
+05/20/2026,Oakmont Catering,INV-74032,3546.05
+05/20/2026,Atlas Fleet Fuel,INV-74156,2299.50
+05/21/2026,Lakeshore Maintenance,INV-70160,2477.73
+05/21/2026,Northgate Freight,INV-70562,225.17
+05/21/2026,Tidewater Logistics,INV-71715,177.60
+05/21/2026,Granite Equipment Rental,INV-72668,1368.22
+05/21/2026,Silverline Software,INV-72886,617.70
+05/22/2026,Union Telecom,INV-70402,460.12
+05/22/2026,Lakeshore Maintenance,INV-70564,594.14
+05/22/2026,Harbor Industrial Supply,INV-71212,1364.96
+05/22/2026,Cedar Point Legal,INV-71882,942.85
+05/22/2026,Summit Office Products,INV-72052,589.00
+05/22/2026,Ironclad Security,INV-72388,852.74
+05/22/2026,Copperfield Chemicals,INV-72456,448.92
+05/22/2026,Summit Office Products,INV-73261,550.25
+05/22/2026,Cedar Point Legal,INV-74285,131.49
+05/23/2026,Atlas Fleet Fuel,INV-70352,75.30
+05/23/2026,Calder & Sons,INV-70956,155.89
+05/23/2026,Oakmont Catering,INV-71118,2771.64
+05/23/2026,Northgate Freight,INV-71184,206.82
+05/23/2026,Lakeshore Maintenance,INV-71200,14266.14
+05/23/2026,Bluewater Janitorial,INV-71529,174.94
+05/23/2026,Summit Office Products,INV-71811,64.42
+05/23/2026,Bluewater Janitorial,INV-71931,1264.18
+05/23/2026,Tidewater Logistics,INV-72009,3002.51
+05/23/2026,Ridge Valley Printing,INV-72482,234.16
+05/23/2026,Evergreen Landscaping,INV-73738,398.64
+05/23/2026,Union Telecom,INV-74013,3797.29
+05/24/2026,Northgate Freight,INV-70325,10395.65
+05/24/2026,Lakeshore Maintenance,INV-70333,1648.67
+05/24/2026,Evergreen Landscaping,INV-71085,2501.47
+05/24/2026,Granite Equipment Rental,INV-71268,198.99
+05/24/2026,Tidewater Logistics,INV-71969,1657.24
+05/24/2026,Meridian Staffing,INV-72012,2447.70
+05/24/2026,Cedar Point Legal,INV-72523,1056.03
+05/24/2026,Lakeshore Maintenance,INV-72639,9196.24
+05/24/2026,Granite Equipment Rental,INV-72950,2270.47
+05/24/2026,Oakmont Catering,INV-72987,826.79
+05/25/2026,Pioneer Packaging,INV-70124,86.46
+05/25/2026,Pioneer Packaging,INV-71309,2542.27
+05/25/2026,Keystone Insurance,INV-72349,243.79
+05/25/2026,Brightline Consulting LLC,BC-74407,4701.56
+05/26/2026,Oakmont Catering,INV-70987,1132.25
+05/26/2026,Summit Office Products,INV-71637,897.72
+05/26/2026,Northgate Freight,INV-71774,1083.89
+05/26/2026,Copperfield Chemicals,INV-72362,7284.19
+05/26/2026,Keystone Insurance,INV-72842,125.35
+05/26/2026,Ridge Valley Printing,INV-72932,804.15
+05/27/2026,Summit Office Products,INV-70577,287.96
+05/27/2026,Northgate Freight,INV-71610,624.78
+05/27/2026,Tidewater Logistics,INV-72321,4171.77
+05/27/2026,Ironclad Security,INV-73680,169.89
+05/27/2026,Lakeshore Maintenance,INV-74274,1032.69
+05/28/2026,Granite Equipment Rental,INV-70551,2126.84
+05/28/2026,Atlas Fleet Fuel,INV-71067,2437.66
+05/28/2026,Ironclad Security,INV-71879,1067.23
+05/28/2026,Redwood IT Services,INV-72338,1799.28
+05/28/2026,Ironclad Security,INV-73956,2483.52
+05/28/2026,City Utilities,INV-74086,506.71
+05/29/2026,Calder & Sons,INV-70611,57.39
+05/29/2026,Tidewater Logistics,INV-71304,664.62
+05/29/2026,Prairie Electric Co-op,INV-71475,3743.15
+05/29/2026,Tidewater Logistics,INV-71495,7237.60
+05/29/2026,Tidewater Logistics,INV-71699,13639.71
+05/29/2026,Silverline Software,INV-71712,311.36
+05/29/2026,Silverline Software,INV-71768,645.78
+05/29/2026,Tidewater Logistics,INV-73383,5647.19
+05/29/2026,Atlas Fleet Fuel,INV-73409,36.38
+05/29/2026,Granite Equipment Rental,INV-73474,5194.42
+05/29/2026,Union Telecom,INV-74155,51552.50
+05/29/2026,Cedar Point Legal,RET-912,2500.00
+05/30/2026,Union Telecom,INV-70675,130.92
+05/30/2026,Northgate Freight,INV-70887,680.11
+05/30/2026,Keystone Insurance,INV-72042,5817.85
+05/30/2026,Silverline Software,INV-72636,426.93
+05/30/2026,Meridian Staffing,INV-73575,9614.90
+05/30/2026,City Utilities,INV-73760,4163.36
+05/30/2026,Harbor Industrial Supply,INV-74317,2553.92
+05/31/2026,Atlas Fleet Fuel,INV-71965,6194.43
+05/31/2026,Westline Distributors,INV-72572,350.56
+05/31/2026,Oakmont Catering,INV-72783,600.92
+06/01/2026,City Utilities,INV-70248,400.70
+06/01/2026,Bluewater Janitorial,INV-70669,3950.67
+06/01/2026,Meridian Staffing,INV-70736,632.85
+06/01/2026,Westline Distributors,INV-70750,728.73
+06/01/2026,Pioneer Packaging,INV-71430,957.80
+06/01/2026,City Utilities,INV-71606,1756.21
+06/01/2026,Cedar Point Legal,INV-72083,1085.18
+06/01/2026,Oakmont Catering,INV-72336,1142.92
+06/01/2026,Prairie Electric Co-op,INV-72445,112.17
+06/01/2026,Evergreen Landscaping,INV-72557,5597.47
+06/01/2026,Keystone Insurance,INV-72618,3228.96
+06/01/2026,Redwood IT Services,INV-73074,441.29
+06/01/2026,Keystone Insurance,INV-73201,260.33
+06/01/2026,Silverline Software,INV-73248,3052.46
+06/01/2026,Harbor Industrial Supply,INV-73440,1412.39
+06/01/2026,Brightline Consulting LLC,BC-74409,4822.54
+06/02/2026,Ironclad Security,INV-70786,63.85
+06/02/2026,Calder & Sons,INV-71571,1210.11
+06/02/2026,Evergreen Landscaping,INV-71808,828.13
+06/02/2026,Ironclad Security,INV-71875,1788.52
+06/02/2026,Lakeshore Maintenance,INV-72621,38.68
+06/02/2026,Summit Office Products,INV-72775,1272.31
+06/02/2026,City Utilities,INV-73961,16449.11
+06/02/2026,Brightline Consulting LLC,BC-74402,4924.90
+06/03/2026,Summit Office Products,INV-70588,1552.62
+06/03/2026,Pioneer Packaging,INV-70599,685.39
+06/03/2026,Cedar Point Legal,INV-70601,9777.11
+06/03/2026,Union Telecom,INV-71322,323.41
+06/03/2026,Atlas Fleet Fuel,INV-71829,2297.80
+06/03/2026,Calder & Sons,INV-72692,1812.41
+06/03/2026,Northgate Freight,INV-72741,696.95
+06/03/2026,Cedar Point Legal,INV-72963,518.34
+06/03/2026,Tidewater Logistics,INV-73031,47.32
+06/04/2026,Atlas Fleet Fuel,INV-70138,790.30
+06/04/2026,Silverline Software,INV-70409,1041.66
+06/04/2026,Lakeshore Maintenance,INV-71472,6097.05
+06/04/2026,Ironclad Security,INV-71582,7855.26
+06/04/2026,Tidewater Logistics,INV-72945,17810.19
+06/05/2026,Northgate Freight,INV-70235,13847.89
+06/05/2026,Ironclad Security,INV-70865,506.88
+06/05/2026,Summit Office Products,INV-71417,62.44
+06/05/2026,Keystone Insurance,INV-71722,1111.12
+06/05/2026,Silverline Software,INV-72207,1350.18
+06/05/2026,Ridge Valley Printing,INV-72261,2633.55
+06/05/2026,Westline Distributors,INV-72835,934.86
+06/05/2026,Westline Distributors,INV-73529,12139.63
+06/06/2026,Lakeshore Maintenance,INV-70078,5532.08
+06/06/2026,Union Telecom,INV-70576,32.84
+06/06/2026,Ridge Valley Printing,INV-70849,368.25
+06/06/2026,City Utilities,INV-71021,2128.59
+06/06/2026,Calder & Sons,INV-72215,292.27
+06/06/2026,Cedar Point Legal,INV-72425,6611.64
+06/06/2026,Summit Office Products,INV-74275,4876.62
+06/07/2026,Summit Office Products,INV-70782,577.50
+06/07/2026,Calder & Sons,INV-71022,447.65
+06/07/2026,Ironclad Security,INV-71250,1863.05
+06/07/2026,Ironclad Security,INV-72170,354.42
+06/07/2026,Ridge Valley Printing,INV-72599,6447.95
+06/07/2026,Meridian Staffing,INV-73401,462.43
+06/08/2026,Redwood IT Services,INV-70130,674.83
+06/08/2026,Pioneer Packaging,INV-70319,2794.83
+06/08/2026,Union Telecom,INV-71039,272.82
+06/08/2026,Prairie Electric Co-op,INV-71474,3083.61
+06/08/2026,Northgate Freight,INV-71716,1123.09
+06/08/2026,Ironclad Security,INV-72079,533.94
+06/08/2026,Ironclad Security,INV-72949,1061.37
+06/08/2026,Silverline Software,INV-73683,706.85
+06/08/2026,Westline Distributors,INV-73704,15572.70
+06/08/2026,Evergreen Landscaping,INV-74186,359.33
+06/09/2026,Prairie Electric Co-op,INV-70641,1249.68
+06/09/2026,Harbor Industrial Supply,INV-70930,1308.00
+06/09/2026,Prairie Electric Co-op,INV-71003,3401.74
+06/09/2026,Union Telecom,INV-72260,518.27
+06/09/2026,Pioneer Packaging,INV-73429,9111.46
+06/09/2026,Union Telecom,INV-73489,2665.15
+06/09/2026,Redwood IT Services,INV-73538,2571.26
+06/10/2026,Prairie Electric Co-op,INV-70307,1151.59
+06/10/2026,Harbor Industrial Supply,INV-70439,478.43
+06/10/2026,Ridge Valley Printing,INV-71302,1268.99
+06/10/2026,Granite Equipment Rental,INV-72536,846.49
+06/10/2026,City Utilities,INV-73325,210.59
+06/10/2026,Union Telecom,INV-74297,965.80
+06/10/2026,Harbor Industrial Supply,INV-74366,202.71
+06/11/2026,Lakeshore Maintenance,INV-70329,220.07
+06/11/2026,Evergreen Landscaping,INV-70454,230.60
+06/11/2026,Granite Equipment Rental,INV-71143,2648.34
+06/11/2026,Ironclad Security,INV-71948,1957.02
+06/11/2026,Ridge Valley Printing,INV-72609,116.20
+06/11/2026,Harbor Industrial Supply,INV-73032,1738.45
+06/11/2026,City Utilities,INV-73510,21543.26
+06/11/2026,Redwood IT Services,INV-74238,4764.29
+06/11/2026,Brightline Consulting LLC,BC-74403,4847.35
+06/12/2026,Copperfield Chemicals,INV-70265,1510.85
+06/12/2026,Ironclad Security,INV-71622,3388.28
+06/12/2026,Pioneer Packaging,INV-72019,1505.67
+06/12/2026,Westline Distributors,INV-72521,25.58
+06/12/2026,Keystone Insurance,INV-72726,2253.28
+06/12/2026,Keystone Insurance,INV-72948,1470.45
+06/12/2026,Tidewater Logistics,INV-73676,990.06
+06/12/2026,Oakmont Catering,INV-73981,1471.48
+06/12/2026,Cedar Point Legal,RET-453,2500.00
+06/13/2026,Westline Distributors,INV-70203,171.67
+06/13/2026,Copperfield Chemicals,INV-70541,269.20
+06/13/2026,City Utilities,INV-70985,2830.95
+06/13/2026,Union Telecom,INV-71315,2853.38
+06/13/2026,Westline Distributors,INV-71331,104.15
+06/13/2026,Copperfield Chemicals,INV-71459,3086.35
+06/13/2026,Ironclad Security,INV-71473,1182.95
+06/13/2026,Granite Equipment Rental,INV-72118,915.08
+06/13/2026,Northgate Freight,INV-72241,1345.10
+06/13/2026,Lakeshore Maintenance,INV-72899,205.27
+06/13/2026,Union Telecom,INV-73330,1713.43
+06/13/2026,Tidewater Logistics,INV-73535,1957.70
+06/14/2026,Pioneer Packaging,INV-70284,315.18
+06/14/2026,Tidewater Logistics,INV-71317,11400.20
+06/14/2026,Northgate Freight,INV-72532,2952.91
+06/14/2026,Copperfield Chemicals,INV-72936,32486.02
+06/14/2026,Harbor Industrial Supply,INV-73190,122.30
+06/14/2026,Redwood IT Services,INV-73332,11066.97
+06/14/2026,Granite Equipment Rental,INV-73856,285.25
+06/15/2026,Bluewater Janitorial,INV-72167,219.03
+06/15/2026,Westline Distributors,INV-72711,202.89
+06/15/2026,Bluewater Janitorial,INV-72853,81.09
+06/15/2026,Atlas Fleet Fuel,INV-74357,158.67
+06/15/2026,City Utilities,INV-72128,674.29
+06/16/2026,Harbor Industrial Supply,INV-70230,1616.98
+06/16/2026,Cedar Point Legal,INV-71835,165.54
+06/16/2026,Calder & Sons,INV-72574,593.77
+06/16/2026,Pioneer Packaging,INV-72696,45.62
+06/16/2026,Oakmont Catering,INV-73698,945.96
+06/16/2026,Oakmont Catering,INV-73879,3911.08
+06/16/2026,Westline Distributors,INV-74025,3645.05
+06/17/2026,Tidewater Logistics,INV-70316,69.26
+06/17/2026,Evergreen Landscaping,INV-70804,275.01
+06/17/2026,Prairie Electric Co-op,INV-70846,1224.69
+06/17/2026,Copperfield Chemicals,INV-71351,1169.12
+06/17/2026,Ridge Valley Printing,INV-71980,322.62
+06/17/2026,Evergreen Landscaping,INV-72318,1117.10
+06/17/2026,Summit Office Products,INV-72569,828.39
+06/17/2026,Union Telecom,INV-73007,8421.37
+06/17/2026,Westline Distributors,INV-73245,260.46
+06/17/2026,Union Telecom,INV-74147,432.82
+06/17/2026,Pioneer Packaging,INV-74176,925.66
+06/18/2026,Evergreen Landscaping,INV-72431,2234.64
+06/18/2026,Silverline Software,INV-72466,5123.74
+06/18/2026,Pioneer Packaging,INV-73595,1360.86
+06/18/2026,Meridian Staffing,INV-74339,8085.10
+06/18/2026,Brightline Consulting LLC,BC-74399,4900.48
+06/19/2026,Bluewater Janitorial,INV-70156,1613.48
+06/19/2026,Northgate Freight,INV-70283,963.91
+06/19/2026,Evergreen Landscaping,INV-70885,225.29
+06/19/2026,Silverline Software,INV-71613,3535.11
+06/19/2026,Pioneer Packaging,INV-72119,1093.62
+06/19/2026,Evergreen Landscaping,INV-73639,1028.83
+06/19/2026,City Utilities,INV-74064,4103.30
+06/20/2026,Ridge Valley Printing,INV-70542,94.22
+06/20/2026,Ridge Valley Printing,INV-70873,47.96
+06/20/2026,Meridian Staffing,INV-71104,262.65
+06/20/2026,Atlas Fleet Fuel,INV-71232,91.76
+06/20/2026,Oakmont Catering,INV-72014,163.51
+06/20/2026,Summit Office Products,INV-72884,2721.11
+06/20/2026,Tidewater Logistics,INV-73890,691.57
+06/20/2026,Brightline Consulting LLC,BC-74382,4783.68
+06/20/2026,Brightline Consulting LLC,BC-74387,4774.80
+06/21/2026,Harbor Industrial Supply,INV-70042,1552.32
+06/21/2026,Harbor Industrial Supply,INV-70199,2378.74
+06/21/2026,Copperfield Chemicals,INV-70646,4835.59
+06/21/2026,City Utilities,INV-70772,490.99
+06/21/2026,Bluewater Janitorial,INV-72645,1925.22
+06/21/2026,Harbor Industrial Supply,INV-72699,462.87
+06/21/2026,Bluewater Janitorial,INV-73012,894.11
+06/21/2026,Tidewater Logistics,INV-73668,1838.41
+06/22/2026,Ridge Valley Printing,INV-71079,187.23
+06/22/2026,Redwood IT Services,INV-71145,1172.37
+06/22/2026,Atlas Fleet Fuel,INV-72704,76.81
+06/22/2026,Westline Distributors,INV-73569,284.80
+06/22/2026,Pioneer Packaging,INV-73636,3848.66
+06/23/2026,Pioneer Packaging,INV-70003,18965.98
+06/23/2026,Copperfield Chemicals,INV-72686,553.13
+06/23/2026,Copperfield Chemicals,INV-73049,4877.55
+06/23/2026,Northgate Freight,INV-73390,1503.81
+06/23/2026,Tidewater Logistics,INV-73892,4405.83
+06/23/2026,City Utilities,INV-74324,5530.98
+06/23/2026,Brightline Consulting LLC,BC-74413,4987.23
+06/24/2026,Harbor Industrial Supply,INV-70361,2029.71
+06/24/2026,Meridian Staffing,INV-71847,4495.26
+06/24/2026,Union Telecom,INV-71888,238.46
+06/24/2026,Lakeshore Maintenance,INV-72767,232.66
+06/24/2026,Copperfield Chemicals,INV-72812,3946.04
+06/24/2026,Redwood IT Services,INV-73593,2584.38
+06/24/2026,Westline Distributors,INV-73841,883.19
+06/24/2026,Brightline Consulting LLC,BC-74388,4700.85
+06/25/2026,Tidewater Logistics,INV-71854,426.65
+06/25/2026,Evergreen Landscaping,INV-72135,2216.62
+06/25/2026,Granite Equipment Rental,INV-72270,97.61
+06/25/2026,Northgate Freight,INV-72491,14856.78
+06/25/2026,City Utilities,INV-72956,245.71
+06/25/2026,Copperfield Chemicals,INV-72977,41.63
+06/25/2026,Oakmont Catering,INV-73979,8087.06
+06/25/2026,Pioneer Packaging,INV-74261,214.62
+06/26/2026,Silverline Software,INV-70094,9239.37
+06/26/2026,Ridge Valley Printing,INV-72196,14367.64
+06/26/2026,Ridge Valley Printing,INV-72284,382.01
+06/26/2026,Evergreen Landscaping,INV-72565,746.58
+06/26/2026,Tidewater Logistics,INV-72734,1204.09
+06/26/2026,Union Telecom,INV-72976,501.94
+06/26/2026,Summit Office Products,INV-73351,637.35
+06/26/2026,Union Telecom,INV-74115,1118.91
+06/26/2026,Brightline Consulting LLC,BC-74383,4862.47
+06/27/2026,Prairie Electric Co-op,INV-70575,6672.01
+06/27/2026,Prairie Electric Co-op,INV-73378,26027.39
+06/27/2026,Bluewater Janitorial,INV-73844,1126.15
+06/28/2026,Granite Equipment Rental,INV-70016,2246.58
+06/28/2026,Calder & Sons,INV-71000,364.76
+06/28/2026,Lakeshore Maintenance,INV-71657,2302.60
+06/28/2026,Pioneer Packaging,INV-72890,4561.45
+06/28/2026,Bluewater Janitorial,INV-73179,319.36
+06/28/2026,Summit Office Products,INV-73500,1304.74
+06/28/2026,Lakeshore Maintenance,INV-73559,139.05
+06/28/2026,Copperfield Chemicals,INV-73934,929.80
+06/29/2026,Keystone Insurance,INV-72025,1151.03
+06/29/2026,Tidewater Logistics,INV-72326,463.28
+06/29/2026,Prairie Electric Co-op,INV-73375,5165.35
+06/29/2026,City Utilities,INV-73547,3975.18
+06/30/2026,Pioneer Packaging,INV-70456,951.23
+06/30/2026,Prairie Electric Co-op,INV-70951,8305.69
+06/30/2026,Keystone Insurance,INV-72561,232.06
+06/30/2026,Evergreen Landscaping,INV-72723,1714.19
+07/01/2026,Summit Office Products,INV-70036,6853.46
+07/01/2026,Ironclad Security,INV-70205,1383.96
+07/01/2026,Northgate Freight,INV-70242,78.48
+07/01/2026,Calder & Sons,INV-70423,2988.69
+07/01/2026,Lakeshore Maintenance,INV-71615,4621.60
+07/01/2026,Northgate Freight,INV-72236,423.54
+07/01/2026,Summit Office Products,INV-72510,204.68
+07/01/2026,Ironclad Security,INV-72514,1466.79
+07/01/2026,Oakmont Catering,INV-72826,1059.50
+07/01/2026,Northgate Freight,INV-72893,1597.75
+07/01/2026,Summit Office Products,INV-73388,4399.55
+07/01/2026,Prairie Electric Co-op,INV-74135,178.94
+07/01/2026,Bluewater Janitorial,INV-74228,396.82
+07/01/2026,Pioneer Packaging,INV-74379,164.67
+07/02/2026,Westline Distributors,INV-70023,3003.22
+07/02/2026,Prairie Electric Co-op,INV-71055,3663.96
+07/02/2026,Union Telecom,INV-71436,867.33
+07/03/2026,Keystone Insurance,INV-70810,5697.95
+07/03/2026,Lakeshore Maintenance,INV-72357,4449.57
+07/03/2026,Harbor Industrial Supply,INV-72831,479.46
+07/03/2026,Tidewater Logistics,INV-73627,4672.99
+07/03/2026,Redwood IT Services,INV-74164,1710.48
+07/04/2026,Atlas Fleet Fuel,INV-70938,1751.34
+07/04/2026,Evergreen Landscaping,INV-71147,35.77
+07/04/2026,Harbor Industrial Supply,INV-72839,2754.68
+07/04/2026,Atlas Fleet Fuel,INV-73137,1004.91
+07/04/2026,Meridian Staffing,INV-73718,4724.59
+07/05/2026,Lakeshore Maintenance,INV-70314,936.14
+07/05/2026,Summit Office Products,INV-70888,4767.01
+07/05/2026,Cedar Point Legal,INV-71222,480.33
+07/05/2026,Granite Equipment Rental,INV-71349,427.89
+07/05/2026,Silverline Software,INV-71377,3535.97
+07/05/2026,Union Telecom,INV-71398,40962.19
+07/05/2026,Silverline Software,INV-71496,478.09
+07/05/2026,City Utilities,INV-71934,540.12
+07/05/2026,Redwood IT Services,INV-72169,600.28
+07/05/2026,Calder & Sons,INV-72958,4.56
+07/05/2026,Lakeshore Maintenance,INV-73443,5547.05
+07/05/2026,Redwood IT Services,INV-73852,850.19
+07/05/2026,Tidewater Logistics,INV-74010,756.87
+07/05/2026,Redwood IT Services,INV-74058,632.28
+07/06/2026,City Utilities,INV-70911,4911.39
+07/06/2026,Oakmont Catering,INV-71685,1089.43
+07/06/2026,Granite Equipment Rental,INV-71990,137.09
+07/06/2026,Copperfield Chemicals,INV-72681,114.22
+07/06/2026,Pioneer Packaging,INV-73903,3472.17
+07/06/2026,Harbor Industrial Supply,INV-74141,485.92
+07/06/2026,Evergreen Landscaping,INV-74304,904.72
+07/06/2026,Brightline Consulting LLC,BC-74394,4666.53
+07/07/2026,Lakeshore Maintenance,INV-71062,938.40
+07/07/2026,Granite Equipment Rental,INV-71560,1067.84
+07/07/2026,Silverline Software,INV-71904,4634.24
+07/07/2026,Keystone Insurance,INV-71999,206.36
+07/07/2026,City Utilities,INV-72070,4358.35
+07/07/2026,Atlas Fleet Fuel,INV-72356,239.55
+07/07/2026,Tidewater Logistics,INV-72562,8937.17
+07/07/2026,Westline Distributors,INV-72617,474.14
+07/07/2026,Ridge Valley Printing,INV-72836,3728.87
+07/07/2026,Summit Office Products,INV-72868,6090.93
+07/07/2026,Evergreen Landscaping,INV-73345,298.77
+07/07/2026,Lakeshore Maintenance,INV-73757,14578.46
+07/07/2026,Northgate Freight,INV-73825,73.90
+07/07/2026,Cedar Point Legal,INV-74144,3326.92
+07/08/2026,Copperfield Chemicals,INV-71218,1259.12
+07/08/2026,Meridian Staffing,INV-71760,543.32
+07/08/2026,Northgate Freight,INV-72174,1257.38
+07/08/2026,Ridge Valley Printing,INV-72244,6878.40
+07/08/2026,Bluewater Janitorial,INV-72964,864.09
+07/08/2026,Pioneer Packaging,INV-73020,29611.36
+07/08/2026,Meridian Staffing,INV-73091,169.92
+07/08/2026,Lakeshore Maintenance,INV-74310,3850.89
+07/09/2026,Bluewater Janitorial,INV-70288,1059.37
+07/09/2026,Evergreen Landscaping,INV-70505,37.32
+07/09/2026,Cedar Point Legal,INV-70702,260.27
+07/09/2026,City Utilities,INV-71205,157.12
+07/09/2026,Bluewater Janitorial,INV-72250,389.49
+07/09/2026,Copperfield Chemicals,INV-72323,665.80
+07/09/2026,Tidewater Logistics,INV-72587,550.82
+07/10/2026,Redwood IT Services,INV-70135,888.15
+07/10/2026,Tidewater Logistics,INV-70488,658.26
+07/10/2026,Westline Distributors,INV-71508,594.13
+07/10/2026,City Utilities,INV-72022,103.74
+07/10/2026,Ridge Valley Printing,INV-72075,319.28
+07/10/2026,Granite Equipment Rental,INV-72468,768.00
+07/10/2026,Oakmont Catering,INV-72519,482.09
+07/10/2026,Copperfield Chemicals,INV-72910,60.89
+07/11/2026,Silverline Software,INV-70651,1822.02
+07/11/2026,Cedar Point Legal,INV-70754,502.96
+07/11/2026,Harbor Industrial Supply,INV-70968,1773.50
+07/11/2026,Northgate Freight,INV-71051,13127.34
+07/11/2026,Evergreen Landscaping,INV-71196,179.80
+07/11/2026,Silverline Software,INV-71424,652.47
+07/11/2026,Northgate Freight,INV-71918,1955.71
+07/11/2026,Prairie Electric Co-op,INV-72189,5884.88
+07/11/2026,Ridge Valley Printing,INV-72420,470.34
+07/11/2026,Northgate Freight,INV-74283,2075.55
+07/12/2026,Atlas Fleet Fuel,INV-70275,680.54
+07/12/2026,Summit Office Products,INV-70617,1762.38
+07/12/2026,Harbor Industrial Supply,INV-70905,4106.06
+07/12/2026,Granite Equipment Rental,INV-71289,2912.46
+07/12/2026,Copperfield Chemicals,INV-71372,814.30
+07/12/2026,Union Telecom,INV-71739,2638.26
+07/12/2026,Atlas Fleet Fuel,INV-71765,18300.77
+07/12/2026,Atlas Fleet Fuel,INV-71781,7106.49
+07/12/2026,Prairie Electric Co-op,INV-72495,132.63
+07/12/2026,Calder & Sons,INV-72581,383.46
+07/12/2026,Evergreen Landscaping,INV-72850,101.20
+07/13/2026,Copperfield Chemicals,INV-70356,538.84
+07/13/2026,City Utilities,INV-72423,2928.86
+07/13/2026,Granite Equipment Rental,INV-72566,1825.43
+07/13/2026,Pioneer Packaging,INV-73172,2067.41
+07/13/2026,Cedar Point Legal,INV-73632,3750.35
+07/13/2026,Keystone Insurance,INV-74269,2082.19
+07/14/2026,Ironclad Security,INV-70106,106.81
+07/14/2026,Ridge Valley Printing,INV-72471,1449.87
+07/14/2026,Bluewater Janitorial,INV-73897,53719.09
+07/15/2026,Oakmont Catering,INV-70543,109.44
+07/15/2026,Westline Distributors,INV-72389,511.55
+07/15/2026,Pioneer Packaging,INV-73533,590.29
+07/15/2026,Copperfield Chemicals,INV-73562,1042.96
+07/15/2026,Evergreen Landscaping,INV-73958,461.35
+07/15/2026,Westline Distributors,INV-74159,1198.91
+07/16/2026,Union Telecom,INV-70092,2171.19
+07/16/2026,Bluewater Janitorial,INV-70912,1339.48
+07/16/2026,Oakmont Catering,INV-71117,721.54
+07/16/2026,Lakeshore Maintenance,INV-71154,1426.14
+07/16/2026,Bluewater Janitorial,INV-72080,139.58
+07/16/2026,Ridge Valley Printing,INV-72671,345.82
+07/16/2026,Atlas Fleet Fuel,INV-72794,1660.91
+07/16/2026,Meridian Staffing,INV-73628,2849.58
+07/17/2026,Ridge Valley Printing,INV-70304,1274.94
+07/17/2026,Keystone Insurance,INV-70738,133.31
+07/17/2026,Summit Office Products,INV-71234,792.38
+07/17/2026,Evergreen Landscaping,INV-72651,5902.81
+07/17/2026,Northgate Freight,INV-72746,2277.62
+07/17/2026,Brightline Consulting LLC,BC-74398,4994.27
+07/18/2026,Calder & Sons,INV-71018,2347.95
+07/18/2026,Keystone Insurance,INV-71728,2219.26
+07/18/2026,Prairie Electric Co-op,INV-71853,1882.61
+07/18/2026,Pioneer Packaging,INV-73927,234.35
+07/18/2026,Lakeshore Maintenance,INV-74307,6202.38
+07/19/2026,Keystone Insurance,INV-70502,14405.26
+07/19/2026,Pioneer Packaging,INV-70664,36.87
+07/19/2026,Bluewater Janitorial,INV-71135,30040.38
+07/19/2026,Calder & Sons,INV-71242,779.70
+07/19/2026,Pioneer Packaging,INV-72732,1371.98
+07/19/2026,Westline Distributors,INV-73004,4677.31
+07/19/2026,Evergreen Landscaping,INV-73721,346.74
+07/19/2026,Atlas Fleet Fuel,INV-73783,523.58
+07/19/2026,Granite Equipment Rental,INV-73939,1415.46
+07/19/2026,City Utilities,INV-74095,235.93
+07/20/2026,Cedar Point Legal,INV-71523,393.55
+07/20/2026,Ironclad Security,INV-71736,327.91
+07/20/2026,Northgate Freight,INV-73146,854.61
+07/20/2026,Silverline Software,INV-73867,1479.76
+07/20/2026,Harbor Industrial Supply,INV-73993,4500.89
+07/20/2026,Brightline Consulting LLC,BC-74401,4727.37
+07/21/2026,Cedar Point Legal,INV-70031,170.49
+07/21/2026,Atlas Fleet Fuel,INV-72154,4256.12
+07/21/2026,Pioneer Packaging,INV-72417,652.88
+07/21/2026,Bluewater Janitorial,INV-72908,1122.73
+07/21/2026,Copperfield Chemicals,INV-73641,6431.83
+07/21/2026,Prairie Electric Co-op,INV-74313,8671.87
+07/22/2026,Pioneer Packaging,INV-70529,714.34
+07/22/2026,Union Telecom,INV-71169,503.29
+07/22/2026,Evergreen Landscaping,INV-71683,439.35
+07/22/2026,Prairie Electric Co-op,INV-73483,235.46
+07/22/2026,Bluewater Janitorial,INV-73808,119.29
+07/22/2026,Lakeshore Maintenance,INV-74263,149.18
+07/22/2026,Granite Equipment Rental,INV-74372,640.00
+07/23/2026,Atlas Fleet Fuel,INV-70768,33.12
+07/23/2026,Oakmont Catering,INV-72385,1620.27
+07/23/2026,Oakmont Catering,INV-72434,260.03
+07/23/2026,Ironclad Security,INV-72525,1026.46
+07/23/2026,Silverline Software,INV-72607,358.89
+07/23/2026,Summit Office Products,INV-73221,697.48
+07/23/2026,Keystone Insurance,INV-74161,8119.82
+07/23/2026,Brightline Consulting LLC,BC-74395,4783.40
+07/24/2026,Calder & Sons,INV-70300,109.25
+07/24/2026,Bluewater Janitorial,INV-70380,10431.00
+07/24/2026,Harbor Industrial Supply,INV-71006,6766.48
+07/24/2026,Keystone Insurance,INV-71550,394.90
+07/24/2026,Tidewater Logistics,INV-71955,48.89
+07/24/2026,Granite Equipment Rental,INV-72148,94.40
+07/24/2026,Lakeshore Maintenance,INV-72701,744.30
+07/24/2026,Bluewater Janitorial,INV-73219,577.52
+07/24/2026,Meridian Staffing,INV-74224,5337.09
+07/24/2026,Bluewater Janitorial,INV-74380,256.89
+07/24/2026,Tidewater Logistics,INV-70488,658.26
+07/25/2026,Cedar Point Legal,INV-70022,1847.16
+07/25/2026,City Utilities,INV-70496,46.45
+07/25/2026,Cedar Point Legal,INV-70807,69.67
+07/25/2026,Summit Office Products,INV-71394,107.77
+07/25/2026,Keystone Insurance,INV-71470,352.08
+07/25/2026,Prairie Electric Co-op,INV-71824,56.95
+07/25/2026,Lakeshore Maintenance,INV-72383,926.88
+07/25/2026,Redwood IT Services,INV-72712,1092.83
+07/25/2026,Bluewater Janitorial,INV-72749,91.32
+07/25/2026,Bluewater Janitorial,INV-73120,1152.67
+07/25/2026,Granite Equipment Rental,INV-73193,284.65
+07/25/2026,Copperfield Chemicals,INV-73315,50.23
+07/25/2026,Meridian Staffing,INV-73434,1155.32
+07/25/2026,Northgate Freight,INV-73643,1301.00
+07/26/2026,Atlas Fleet Fuel,INV-71384,445.96
+07/26/2026,Summit Office Products,INV-71568,218.58
+07/26/2026,Oakmont Catering,INV-72613,444.44
+07/26/2026,Copperfield Chemicals,INV-73972,7663.20
+07/26/2026,Pioneer Packaging,INV-74181,1495.05
+07/27/2026,Cedar Point Legal,INV-70047,8731.18
+07/27/2026,Lakeshore Maintenance,INV-70050,41180.00
+07/27/2026,Evergreen Landscaping,INV-70602,370.26
+07/27/2026,Calder & Sons,INV-70924,1213.90
+07/27/2026,Northgate Freight,INV-71094,1321.71
+07/27/2026,Tidewater Logistics,INV-71127,424.56
+07/27/2026,Prairie Electric Co-op,INV-71563,795.87
+07/27/2026,Westline Distributors,INV-71974,2453.55
+07/27/2026,Copperfield Chemicals,INV-72481,1203.73
+07/27/2026,Pioneer Packaging,INV-73026,2061.05
+07/27/2026,Ridge Valley Printing,INV-73337,163.93
+07/27/2026,Westline Distributors,INV-73753,7722.66
+07/28/2026,Atlas Fleet Fuel,INV-70471,1832.19
+07/28/2026,Bluewater Janitorial,INV-70650,895.28
+07/28/2026,Granite Equipment Rental,INV-71131,1006.13
+07/28/2026,City Utilities,INV-71279,178.17
+07/28/2026,Harbor Industrial Supply,INV-72694,40143.02
+07/28/2026,Granite Equipment Rental,INV-72815,1036.17
+07/28/2026,Ridge Valley Printing,INV-72848,1683.60
+07/29/2026,Ironclad Security,INV-72125,2669.67
+07/29/2026,Summit Office Products,INV-73433,391.08
+07/29/2026,Bluewater Janitorial,INV-73463,3547.14
+07/29/2026,Cedar Point Legal,INV-73848,5189.30
+07/29/2026,Evergreen Landscaping,INV-72135,2216.62
+07/30/2026,Westline Distributors,INV-71165,17034.93
+07/30/2026,Union Telecom,INV-71412,1354.07
+07/30/2026,Tidewater Logistics,INV-71520,7479.48
+07/30/2026,Westline Distributors,INV-72354,1320.56
+07/30/2026,Calder & Sons,INV-72527,2482.90
+07/30/2026,Copperfield Chemicals,INV-72656,1013.62
+07/31/2026,Evergreen Landscaping,INV-70112,396.73
+07/31/2026,Atlas Fleet Fuel,INV-70276,2814.82
+07/31/2026,Granite Equipment Rental,INV-70396,82.79
+07/31/2026,Atlas Fleet Fuel,INV-70415,5405.46
+07/31/2026,Westline Distributors,INV-70677,866.46
+07/31/2026,Summit Office Products,INV-70858,421.04
+07/31/2026,Tidewater Logistics,INV-70859,498.66
+07/31/2026,City Utilities,INV-71237,445.42
+07/31/2026,Meridian Staffing,INV-71340,659.14
+07/31/2026,Lakeshore Maintenance,INV-71400,9698.87
+07/31/2026,Meridian Staffing,INV-72496,1854.60
+07/31/2026,Evergreen Landscaping,INV-72517,1922.96
+07/31/2026,Union Telecom,INV-73480,6970.39
+07/31/2026,Atlas Fleet Fuel,INV-73811,1969.41
+08/01/2026,Union Telecom,INV-70008,384.73
+08/01/2026,Ironclad Security,INV-70401,1170.87
+08/01/2026,Ridge Valley Printing,INV-71817,459.21
+08/01/2026,Union Telecom,INV-72116,1299.83
+08/01/2026,Harbor Industrial Supply,INV-73457,1113.29
+08/01/2026,Atlas Fleet Fuel,INV-74107,290.85
+08/02/2026,Cedar Point Legal,INV-70840,432.48
+08/02/2026,Copperfield Chemicals,INV-70845,941.21
+08/02/2026,Bluewater Janitorial,INV-71871,87.78
+08/02/2026,Oakmont Catering,INV-72413,14349.50
+08/02/2026,Atlas Fleet Fuel,INV-72509,1816.21
+08/02/2026,Copperfield Chemicals,INV-73484,141.06
+08/03/2026,Granite Equipment Rental,INV-70320,744.57
+08/03/2026,Silverline Software,INV-71519,144.11
+08/03/2026,Ridge Valley Printing,INV-71650,1199.39
+08/03/2026,Meridian Staffing,INV-71730,11371.49
+08/03/2026,Meridian Staffing,INV-72404,33.77
+08/03/2026,Ridge Valley Printing,INV-72547,547.90
+08/03/2026,Lakeshore Maintenance,INV-73335,817.01
+08/03/2026,Redwood IT Services,INV-73543,2508.09
+08/04/2026,Northgate Freight,INV-70246,8245.88
+08/04/2026,City Utilities,INV-71923,443.03
+08/04/2026,Northgate Freight,INV-72090,491.51
+08/04/2026,Atlas Fleet Fuel,INV-72629,1465.48
+08/04/2026,Redwood IT Services,INV-73154,1794.60
+08/04/2026,Summit Office Products,INV-73500,1304.74
+08/05/2026,Northgate Freight,INV-71363,74.50
+08/05/2026,Harbor Industrial Supply,INV-71798,3673.98
+08/05/2026,Harbor Industrial Supply,INV-73924,844.82
+08/06/2026,Bluewater Janitorial,INV-70760,410.04
+08/06/2026,Westline Distributors,INV-71177,964.93
+08/06/2026,Keystone Insurance,INV-73269,565.75
+08/06/2026,Calder & Sons,INV-74244,2165.13
+08/07/2026,Lakeshore Maintenance,INV-70550,1240.66
+08/07/2026,Northgate Freight,INV-71347,1075.68
+08/07/2026,Calder & Sons,INV-72993,687.25
+08/07/2026,Brightline Consulting LLC,BC-74410,4683.82
+08/08/2026,Atlas Fleet Fuel,INV-70074,213.08
+08/08/2026,Oakmont Catering,INV-70132,5211.99
+08/08/2026,Silverline Software,INV-71058,740.43
+08/08/2026,Oakmont Catering,INV-72998,6377.06
+08/08/2026,Ironclad Security,INV-73656,7994.42
+08/08/2026,Copperfield Chemicals,INV-73780,275.38
+08/08/2026,Northgate Freight,INV-74054,449.92
+08/08/2026,Northgate Freight,INV-74295,1262.83
+08/09/2026,Calder & Sons,INV-70224,6677.83
+08/09/2026,Northgate Freight,INV-70419,12703.64
+08/09/2026,Redwood IT Services,INV-70479,502.05
+08/09/2026,Ridge Valley Printing,INV-71705,273.59
+08/09/2026,Evergreen Landscaping,INV-72279,35.71
+08/09/2026,Redwood IT Services,INV-72941,3211.31
+08/09/2026,Harbor Industrial Supply,INV-73364,3149.05
+08/09/2026,Keystone Insurance,INV-73731,1560.47
+08/09/2026,Summit Office Products,INV-74246,8545.87
+08/09/2026,Oakmont Catering,INV-74381,308.18
+08/10/2026,Oakmont Catering,INV-71121,1735.10
+08/10/2026,Copperfield Chemicals,INV-72605,102.63
+08/10/2026,Copperfield Chemicals,INV-72810,246.96
+08/10/2026,Keystone Insurance,INV-73363,1698.30
+08/11/2026,Union Telecom,INV-70513,71.05
+08/11/2026,Lakeshore Maintenance,INV-70847,5201.53
+08/11/2026,Northgate Freight,INV-71292,1394.98
+08/11/2026,Evergreen Landscaping,INV-71439,1344.80
+08/11/2026,City Utilities,INV-71785,214.82
+08/11/2026,Keystone Insurance,INV-73343,647.26
+08/11/2026,Oakmont Catering,INV-73646,3457.19
+08/12/2026,Tidewater Logistics,INV-70725,949.91
+08/12/2026,Tidewater Logistics,INV-72005,6899.34
+08/12/2026,Meridian Staffing,INV-72258,158.85
+08/12/2026,Pioneer Packaging,INV-72305,781.87
+08/12/2026,Meridian Staffing,INV-73098,1294.43
+08/12/2026,Silverline Software,INV-73839,158.89
+08/13/2026,Granite Equipment Rental,INV-70179,8599.44
+08/13/2026,Granite Equipment Rental,INV-71408,3406.82
+08/13/2026,Tidewater Logistics,INV-72036,189.89
+08/13/2026,Evergreen Landscaping,INV-72554,371.50
+08/13/2026,Prairie Electric Co-op,INV-72790,692.07
+08/13/2026,Meridian Staffing,INV-72879,221.18
+08/13/2026,Pioneer Packaging,INV-73117,160.52
+08/14/2026,Calder & Sons,INV-70223,12673.52
+08/14/2026,City Utilities,INV-70593,4529.56
+08/14/2026,Union Telecom,INV-71443,265.47
+08/14/2026,Brightline Consulting LLC,BC-74417,4913.04
+08/14/2026,Brightline Consulting LLC,BC-74419,4755.37
+08/15/2026,Cedar Point Legal,INV-70302,356.92
+08/15/2026,Copperfield Chemicals,INV-71256,77.45
+08/15/2026,Harbor Industrial Supply,INV-71264,1508.61
+08/15/2026,Meridian Staffing,INV-71274,48805.29
+08/15/2026,Harbor Industrial Supply,INV-72139,3433.72
+08/15/2026,Redwood IT Services,INV-72578,1321.16
+08/15/2026,Meridian Staffing,INV-74294,136.19
+08/16/2026,Union Telecom,INV-70064,292.55
+08/16/2026,Summit Office Products,INV-70571,1776.87
+08/16/2026,Westline Distributors,INV-70610,76.33
+08/16/2026,Union Telecom,INV-71975,2144.51
+08/16/2026,Copperfield Chemicals,INV-72961,1587.75
+08/16/2026,Evergreen Landscaping,INV-74327,9395.25
+08/17/2026,Granite Equipment Rental,INV-70383,493.85
+08/17/2026,Granite Equipment Rental,INV-70942,3414.20
+08/17/2026,Calder & Sons,INV-72249,472.19
+08/17/2026,Evergreen Landscaping,INV-72643,851.80
+08/17/2026,Union Telecom,INV-72818,704.38
+08/17/2026,Keystone Insurance,INV-72990,1691.58
+08/17/2026,Calder & Sons,INV-73466,359.70
+08/17/2026,Northgate Freight,INV-73937,704.71
+08/17/2026,Pioneer Packaging,INV-74179,468.88
+08/18/2026,Calder & Sons,INV-70536,310.74
+08/18/2026,Redwood IT Services,INV-71174,585.67
+08/18/2026,Prairie Electric Co-op,INV-71359,64.88
+08/18/2026,City Utilities,INV-71693,504.85
+08/18/2026,City Utilities,INV-71750,67.76
+08/18/2026,Copperfield Chemicals,INV-72450,693.48
+08/18/2026,Cedar Point Legal,INV-72823,349.46
+08/18/2026,Granite Equipment Rental,INV-73580,383.56
+08/18/2026,Bluewater Janitorial,INV-73750,28391.75
+08/18/2026,Evergreen Landscaping,INV-73868,610.43
+08/19/2026,Oakmont Catering,INV-70141,4517.59
+08/19/2026,Evergreen Landscaping,INV-71082,722.70
+08/19/2026,Atlas Fleet Fuel,INV-71295,23.57
+08/19/2026,Tidewater Logistics,INV-71505,7909.56
+08/19/2026,Redwood IT Services,INV-71513,2429.06
+08/19/2026,Copperfield Chemicals,INV-72604,649.03
+08/19/2026,Redwood IT Services,INV-73217,335.40
+08/19/2026,Prairie Electric Co-op,INV-73240,1560.36
+08/19/2026,Harbor Industrial Supply,INV-73356,74.96
+08/19/2026,Copperfield Chemicals,INV-73449,1626.71
+08/19/2026,Silverline Software,INV-73785,1042.55
+08/19/2026,Keystone Insurance,INV-73795,1166.86
+08/20/2026,Union Telecom,INV-70298,407.78
+08/20/2026,Bluewater Janitorial,INV-70489,764.70
+08/20/2026,Granite Equipment Rental,INV-70941,366.68
+08/20/2026,Northgate Freight,INV-71092,1598.47
+08/20/2026,Tidewater Logistics,INV-71159,242.52
+08/20/2026,Copperfield Chemicals,INV-71490,851.53
+08/20/2026,Meridian Staffing,INV-71671,12338.08
+08/20/2026,Ironclad Security,INV-72086,363.97
+08/20/2026,City Utilities,INV-72596,1440.59
+08/20/2026,Bluewater Janitorial,INV-73223,888.90
+08/20/2026,Meridian Staffing,INV-73428,11631.69
+08/20/2026,Redwood IT Services,INV-73748,6938.26
+08/20/2026,Evergreen Landscaping,INV-73876,2003.85
+08/20/2026,Atlas Fleet Fuel,INV-74102,4365.28
+08/21/2026,Silverline Software,INV-70176,629.74
+08/21/2026,Ironclad Security,INV-70201,217.95
+08/21/2026,Summit Office Products,INV-70458,30540.30
+08/21/2026,Atlas Fleet Fuel,INV-72877,30.89
+08/21/2026,Ridge Valley Printing,INV-73953,904.99
+08/21/2026,Cedar Point Legal,INV-74232,334.50
+08/22/2026,Oakmont Catering,INV-72560,933.92
+08/22/2026,Summit Office Products,INV-73579,1569.04
+08/22/2026,Lakeshore Maintenance,INV-74035,1162.25
+08/23/2026,Ridge Valley Printing,INV-70087,1945.23
+08/23/2026,Pioneer Packaging,INV-71122,1675.49
+08/23/2026,Redwood IT Services,INV-71507,3273.59
+08/23/2026,Northgate Freight,INV-71735,898.52
+08/23/2026,Northgate Freight,INV-72313,4410.42
+08/23/2026,Ridge Valley Printing,INV-73588,2310.88
+08/23/2026,Ironclad Security,INV-74052,473.80
+08/24/2026,Prairie Electric Co-op,INV-70918,2319.35
+08/24/2026,Lakeshore Maintenance,INV-71485,884.66
+08/24/2026,Pioneer Packaging,INV-72539,657.72
+08/24/2026,Silverline Software,INV-74132,247.52
+08/24/2026,Meridian Staffing,INV-74218,449.67
+08/25/2026,Meridian Staffing,INV-70717,447.42
+08/25/2026,Keystone Insurance,INV-72218,3685.74
+08/25/2026,Lakeshore Maintenance,INV-73005,2152.21
+08/25/2026,Lakeshore Maintenance,INV-73065,1409.10
+08/25/2026,Evergreen Landscaping,INV-73300,2703.05
+08/25/2026,Redwood IT Services,INV-73864,278.87
+08/25/2026,Prairie Electric Co-op,INV-72790,692.07
+08/26/2026,Ironclad Security,INV-72459,25.88
+08/26/2026,Summit Office Products,INV-72524,496.99
+08/26/2026,Pioneer Packaging,INV-73015,60.93
+08/27/2026,Pioneer Packaging,INV-70335,11489.79
+08/27/2026,Northgate Freight,INV-72922,453.74
+08/27/2026,Harbor Industrial Supply,INV-74139,1108.59
+08/28/2026,Ironclad Security,INV-70778,8827.75
+08/28/2026,Redwood IT Services,INV-70789,5228.91
+08/28/2026,Lakeshore Maintenance,INV-70997,409.74
+08/28/2026,Union Telecom,INV-71306,1158.28
+08/28/2026,Bluewater Janitorial,INV-71645,503.37
+08/28/2026,Meridian Staffing,INV-71755,5014.88
+08/28/2026,Redwood IT Services,INV-72038,320.30
+08/28/2026,Lakeshore Maintenance,INV-72470,3435.87
+08/28/2026,Granite Equipment Rental,INV-72901,39.98
+08/28/2026,City Utilities,INV-73048,9639.62
+08/28/2026,Tidewater Logistics,INV-73203,313.45
+08/28/2026,Harbor Industrial Supply,INV-73729,1048.10
+08/29/2026,Prairie Electric Co-op,INV-70208,88.86
+08/29/2026,Ironclad Security,INV-70260,4333.46
+08/29/2026,Pioneer Packaging,INV-71202,293.56
+08/29/2026,Prairie Electric Co-op,INV-71368,722.87
+08/29/2026,Westline Distributors,INV-71467,26981.69
+08/29/2026,Ridge Valley Printing,INV-72611,19783.78
+08/29/2026,Evergreen Landscaping,INV-72805,170.47
+08/29/2026,Silverline Software,INV-73195,2465.58
+08/29/2026,Silverline Software,INV-73437,533.36
+08/29/2026,Summit Office Products,INV-73687,837.25
+08/30/2026,Atlas Fleet Fuel,INV-70628,3569.81
+08/30/2026,Union Telecom,INV-71038,7397.94
+08/30/2026,Keystone Insurance,INV-71089,8073.85
+08/30/2026,Summit Office Products,INV-71333,1000.27
+08/30/2026,Northgate Freight,INV-71559,1422.14
+08/30/2026,Atlas Fleet Fuel,INV-72213,23004.60
+08/30/2026,Pioneer Packaging,INV-72622,748.50
+08/30/2026,Copperfield Chemicals,INV-73845,1473.87
+08/30/2026,Brightline Consulting LLC,BC-74420,4964.83
+08/31/2026,Lakeshore Maintenance,INV-70629,453.29
+08/31/2026,Lakeshore Maintenance,INV-70694,376.61
+08/31/2026,City Utilities,INV-71192,541.69
+08/31/2026,Redwood IT Services,INV-71391,1716.45
+08/31/2026,Pioneer Packaging,INV-71577,103.73
+08/31/2026,Union Telecom,INV-72276,8824.01
+08/31/2026,Oakmont Catering,INV-72304,152.33
+08/31/2026,Union Telecom,INV-73010,3746.93
+08/31/2026,Calder & Sons,INV-73586,72.88
+08/31/2026,Evergreen Landscaping,INV-73622,2941.69
+08/31/2026,Atlas Fleet Fuel,INV-74063,5801.43
+08/31/2026,Ironclad Security,INV-74194,1287.57
+08/31/2026,Keystone Insurance,INV-74202,38.63
+09/01/2026,Union Telecom,INV-70043,1865.26
+09/01/2026,Redwood IT Services,INV-71048,25131.44
+09/01/2026,Lakeshore Maintenance,INV-71488,1787.90
+09/01/2026,Tidewater Logistics,INV-71778,4836.05
+09/01/2026,Union Telecom,INV-71820,315.69
+09/01/2026,Oakmont Catering,INV-72117,430.13
+09/01/2026,Cedar Point Legal,INV-72230,5490.17
+09/01/2026,Copperfield Chemicals,INV-72743,1031.24
+09/01/2026,Atlas Fleet Fuel,INV-72776,721.34
+09/01/2026,Redwood IT Services,INV-73060,206.77
+09/01/2026,Granite Equipment Rental,INV-73492,393.57
+09/01/2026,Keystone Insurance,INV-73870,3074.64
+09/02/2026,Tidewater Logistics,INV-70351,51.69
+09/02/2026,Atlas Fleet Fuel,INV-71714,978.67
+09/02/2026,Silverline Software,INV-71814,1229.89
+09/02/2026,Ironclad Security,INV-72689,10242.88
+09/02/2026,Ridge Valley Printing,INV-73977,7707.21
+09/03/2026,Cedar Point Legal,INV-70563,4158.99
+09/03/2026,Northgate Freight,INV-70707,335.45
+09/03/2026,Keystone Insurance,INV-71287,805.19
+09/03/2026,Union Telecom,INV-71564,2366.44
+09/03/2026,Oakmont Catering,INV-72779,808.12
+09/03/2026,Westline Distributors,INV-72969,162.17
+09/03/2026,Tidewater Logistics,INV-73526,3329.40
+09/04/2026,Silverline Software,INV-70411,34643.94
+09/04/2026,City Utilities,INV-71296,2356.73
+09/04/2026,Copperfield Chemicals,INV-72832,291.18
+09/04/2026,Northgate Freight,INV-74099,814.83
+09/04/2026,Pioneer Packaging,INV-74214,2420.74
+09/05/2026,Atlas Fleet Fuel,INV-70117,202.57
+09/05/2026,Bluewater Janitorial,INV-70892,1000.68
+09/05/2026,Evergreen Landscaping,INV-71409,389.84
+09/05/2026,Evergreen Landscaping,INV-71421,528.78
+09/05/2026,Silverline Software,INV-71530,2820.84
+09/05/2026,Calder & Sons,INV-72210,674.22
+09/05/2026,Ironclad Security,INV-73263,2035.11
+09/05/2026,Copperfield Chemicals,INV-73568,21050.45
+09/05/2026,City Utilities,INV-73821,427.19
+09/05/2026,Lakeshore Maintenance,INV-73914,7424.35
+09/05/2026,Tidewater Logistics,INV-74044,1474.94
+09/06/2026,Summit Office Products,INV-70154,2513.76
+09/06/2026,Pioneer Packaging,INV-71141,371.18
+09/06/2026,Westline Distributors,INV-71235,1191.38
+09/06/2026,Atlas Fleet Fuel,INV-71579,269.08
+09/06/2026,Union Telecom,INV-71642,47.15
+09/06/2026,Cedar Point Legal,INV-73084,1618.04
+09/06/2026,Westline Distributors,INV-73790,2933.52
+09/06/2026,Copperfield Chemicals,INV-74131,3769.58
+09/07/2026,Cedar Point Legal,INV-70332,537.76
+09/07/2026,Harbor Industrial Supply,INV-70427,3834.47
+09/07/2026,Westline Distributors,INV-70583,2980.87
+09/07/2026,Westline Distributors,INV-71173,3906.06
+09/07/2026,Bluewater Janitorial,INV-72235,164.42
+09/07/2026,Ridge Valley Printing,INV-72440,470.88
+09/07/2026,Keystone Insurance,INV-72943,85.35
+09/07/2026,Granite Equipment Rental,INV-73102,2243.89
+09/08/2026,Union Telecom,INV-70752,2240.89
+09/08/2026,Evergreen Landscaping,INV-70880,436.79
+09/08/2026,Atlas Fleet Fuel,INV-71492,2451.07
+09/08/2026,Harbor Industrial Supply,INV-71979,18.69
+09/08/2026,Prairie Electric Co-op,INV-72533,5443.77
+09/08/2026,Pioneer Packaging,INV-73928,3010.58
+09/08/2026,Oakmont Catering,INV-74174,4845.42
+09/08/2026,Brightline Consulting LLC,BC-74385,4889.23
+09/08/2026,Brightline Consulting LLC,BC-74386,4674.03
+09/09/2026,Granite Equipment Rental,INV-70019,656.93
+09/09/2026,Prairie Electric Co-op,INV-70603,388.22
+09/09/2026,Cedar Point Legal,INV-71180,95.90
+09/09/2026,Cedar Point Legal,INV-71913,337.21
+09/09/2026,Meridian Staffing,INV-73451,190.89
+09/09/2026,Prairie Electric Co-op,INV-73550,4786.20
+09/09/2026,Union Telecom,INV-73598,76.99
+09/09/2026,Prairie Electric Co-op,INV-73910,546.53
+09/09/2026,Atlas Fleet Fuel,INV-74002,2207.26
+09/09/2026,Brightline Consulting LLC,BC-74393,4855.17
+09/10/2026,Copperfield Chemicals,INV-70323,11538.86
+09/10/2026,Copperfield Chemicals,INV-70714,94.12
+09/10/2026,Copperfield Chemicals,INV-71361,3956.28
+09/10/2026,Redwood IT Services,INV-72380,431.28
+09/10/2026,Northgate Freight,INV-72985,2516.21
+09/10/2026,Summit Office Products,INV-73064,204.29
+09/10/2026,Tidewater Logistics,INV-73254,6314.93
+09/10/2026,Pioneer Packaging,INV-73445,771.93
+09/11/2026,Tidewater Logistics,INV-70464,21687.48
+09/11/2026,Keystone Insurance,INV-71262,361.97
+09/11/2026,Meridian Staffing,INV-72030,30714.16
+09/11/2026,Tidewater Logistics,INV-72489,1942.04
+09/11/2026,Copperfield Chemicals,INV-73318,1534.64
+09/11/2026,Redwood IT Services,INV-73552,390.62
+09/11/2026,Prairie Electric Co-op,INV-73635,132.52
+09/11/2026,Oakmont Catering,INV-74148,2345.31
+09/12/2026,Oakmont Catering,INV-71478,2053.06
+09/12/2026,Evergreen Landscaping,INV-71660,3823.62
+09/12/2026,Silverline Software,INV-71696,1412.94
+09/12/2026,Evergreen Landscaping,INV-72540,593.07
+09/12/2026,Granite Equipment Rental,INV-74083,5492.01
+09/12/2026,Pioneer Packaging,INV-74217,1126.68
+09/13/2026,Harbor Industrial Supply,INV-74018,4678.49
+09/13/2026,Northgate Freight,INV-74151,284.66
+09/13/2026,Northgate Freight,INV-74191,237.10
+09/13/2026,Evergreen Landscaping,INV-74259,1264.73
+09/14/2026,Harbor Industrial Supply,INV-70014,1945.03
+09/14/2026,Union Telecom,INV-70625,9330.82
+09/14/2026,City Utilities,INV-71482,4633.84
+09/14/2026,Oakmont Catering,INV-72282,402.50
+09/14/2026,Ironclad Security,INV-72953,665.93
+09/14/2026,Lakeshore Maintenance,INV-73663,3082.47
+09/14/2026,Evergreen Landscaping,INV-73814,665.76
+09/14/2026,Redwood IT Services,INV-74378,2208.57
+09/15/2026,Oakmont Catering,INV-70169,994.57
+09/15/2026,Prairie Electric Co-op,INV-70339,787.97
+09/15/2026,Granite Equipment Rental,INV-70595,3031.76
+09/15/2026,Atlas Fleet Fuel,INV-71107,478.71
+09/15/2026,City Utilities,INV-71928,1147.31
+09/15/2026,Granite Equipment Rental,INV-72444,1851.58
+09/15/2026,City Utilities,INV-72647,3723.39
+09/15/2026,Pioneer Packaging,INV-73001,3143.63
+09/15/2026,Ridge Valley Printing,INV-73133,2611.26
+09/15/2026,Harbor Industrial Supply,INV-73187,2552.20
+09/16/2026,Tidewater Logistics,INV-70187,148.04
+09/16/2026,Westline Distributors,INV-70430,1026.06
+09/16/2026,Ridge Valley Printing,INV-70491,151.58
+09/16/2026,Cedar Point Legal,INV-70552,5494.21
+09/16/2026,Cedar Point Legal,INV-70764,305.56
+09/16/2026,Silverline Software,INV-70874,2713.47
+09/16/2026,Summit Office Products,INV-71595,24716.17
+09/16/2026,Prairie Electric Co-op,INV-72015,341.76
+09/16/2026,Cedar Point Legal,INV-72138,872.47
+09/16/2026,Westline Distributors,INV-72512,656.89
+09/16/2026,Keystone Insurance,INV-73281,2891.48
+09/16/2026,Bluewater Janitorial,INV-73601,2414.53
+09/16/2026,Summit Office Products,INV-73906,6168.47
+09/16/2026,Summit Office Products,INV-74293,1937.01
+09/16/2026,Copperfield Chemicals,INV-74363,901.97
+09/17/2026,Oakmont Catering,INV-70704,151.85
+09/17/2026,Lakeshore Maintenance,INV-71839,2428.74
+09/17/2026,Calder & Sons,INV-73093,1299.23
+09/17/2026,Silverline Software,INV-73304,4555.15
+09/17/2026,Redwood IT Services,INV-73554,1987.78
+09/18/2026,Calder & Sons,INV-70757,4514.36
+09/18/2026,Redwood IT Services,INV-70779,250.54
+09/18/2026,Meridian Staffing,INV-71515,434.31
+09/18/2026,Ironclad Security,INV-73094,3373.58
+09/18/2026,Lakeshore Maintenance,INV-73649,2641.47
+09/18/2026,Granite Equipment Rental,INV-73756,567.75
+09/18/2026,Summit Office Products,INV-73827,1688.30
+09/18/2026,Silverline Software,INV-74126,208.58
+09/19/2026,Harbor Industrial Supply,INV-70113,112.93
+09/19/2026,City Utilities,INV-70838,94.53
+09/19/2026,Tidewater Logistics,INV-70841,139.41
+09/19/2026,Harbor Industrial Supply,INV-72089,384.07
+09/19/2026,Prairie Electric Co-op,INV-72324,1488.08
+09/19/2026,Evergreen Landscaping,INV-74350,2799.66
+09/19/2026,Brightline Consulting LLC,BC-74392,4926.57
+09/20/2026,Cedar Point Legal,INV-71426,875.03
+09/20/2026,Evergreen Landscaping,INV-71598,699.46
+09/20/2026,Silverline Software,INV-71988,393.70
+09/20/2026,Union Telecom,INV-72224,843.25
+09/20/2026,City Utilities,INV-72351,19350.83
+09/20/2026,Keystone Insurance,INV-73151,1395.73
+09/20/2026,Evergreen Landscaping,INV-74015,1041.15
+09/21/2026,Granite Equipment Rental,INV-70290,2375.30
+09/21/2026,Oakmont Catering,INV-70500,171.29
+09/21/2026,Lakeshore Maintenance,INV-70837,1280.15
+09/21/2026,Ironclad Security,INV-71113,2158.42
+09/21/2026,Atlas Fleet Fuel,INV-71675,263.99
+09/21/2026,Ridge Valley Printing,INV-72626,3127.69
+09/21/2026,Ironclad Security,INV-72974,466.15
+09/21/2026,Cedar Point Legal,INV-73126,295.75
+09/21/2026,Redwood IT Services,INV-73227,69.87
+09/21/2026,Evergreen Landscaping,INV-73235,7531.98
+09/21/2026,Copperfield Chemicals,INV-73448,380.19
+09/21/2026,Westline Distributors,INV-74245,781.72
+09/21/2026,Oakmont Catering,INV-74334,1183.79
+09/22/2026,Harbor Industrial Supply,INV-70009,5886.38
+09/22/2026,Union Telecom,INV-71098,2626.37
+09/22/2026,Tidewater Logistics,INV-71506,174.42
+09/22/2026,Oakmont Catering,INV-73086,531.86
+09/22/2026,Cedar Point Legal,INV-73836,367.53
+09/22/2026,Keystone Insurance,INV-74203,280.73
+09/22/2026,Meridian Staffing,INV-74251,12020.40
+09/23/2026,Ridge Valley Printing,INV-70311,2389.01
+09/23/2026,Lakeshore Maintenance,INV-70407,180.51
+09/23/2026,Ridge Valley Printing,INV-71319,635.12
+09/23/2026,Lakeshore Maintenance,INV-71619,1880.64
+09/23/2026,Prairie Electric Co-op,INV-71666,333.51
+09/23/2026,Granite Equipment Rental,INV-71897,5067.45
+09/23/2026,Prairie Electric Co-op,INV-72320,3707.79
+09/23/2026,Atlas Fleet Fuel,INV-72582,2299.14
+09/23/2026,Brightline Consulting LLC,BC-74384,4744.07
+09/23/2026,Cedar Point Legal,RET-947,2500.00
+09/24/2026,Granite Equipment Rental,INV-70243,12679.26
+09/24/2026,Northgate Freight,INV-70623,3065.23
+09/24/2026,Copperfield Chemicals,INV-71617,2057.49
+09/24/2026,Lakeshore Maintenance,INV-72928,1105.67
+09/24/2026,Calder & Sons,INV-73557,605.34
+09/24/2026,Northgate Freight,INV-74020,411.13
+09/25/2026,Ridge Valley Printing,INV-70386,126.75
+09/25/2026,Harbor Industrial Supply,INV-70826,4338.68
+09/25/2026,Summit Office Products,INV-71219,291.32
+09/25/2026,Silverline Software,INV-71241,155.02
+09/25/2026,Atlas Fleet Fuel,INV-72403,1330.36
+09/25/2026,Calder & Sons,INV-72480,727.75
+09/25/2026,Evergreen Landscaping,INV-73507,4535.15
+09/25/2026,Brightline Consulting LLC,BC-74397,4911.61
+09/26/2026,Prairie Electric Co-op,INV-70212,3368.84
+09/26/2026,City Utilities,INV-70251,385.71
+09/26/2026,Calder & Sons,INV-71479,2357.95
+09/26/2026,Atlas Fleet Fuel,INV-73136,7097.85
+09/27/2026,Bluewater Janitorial,INV-70852,339.76
+09/27/2026,Prairie Electric Co-op,INV-71681,318.44
+09/27/2026,Ironclad Security,INV-73377,20605.64
+09/27/2026,Westline Distributors,INV-73612,2882.09
+09/28/2026,Westline Distributors,INV-70149,89.78
+09/28/2026,Meridian Staffing,INV-70220,19750.43
+09/28/2026,Cedar Point Legal,INV-73736,11931.08
+09/28/2026,Lakeshore Maintenance,INV-73908,5017.10
+09/28/2026,Atlas Fleet Fuel,INV-73911,126.83
+09/29/2026,Harbor Industrial Supply,INV-70559,9178.99
+09/29/2026,Meridian Staffing,INV-71526,313.51
+09/29/2026,Union Telecom,INV-71709,2302.96
+09/30/2026,Pioneer Packaging,INV-71052,104.42
+09/30/2026,Cedar Point Legal,INV-71198,659.83
+09/30/2026,Prairie Electric Co-op,INV-71345,2635.69
+09/30/2026,Ridge Valley Printing,INV-71418,194.93
+09/30/2026,City Utilities,INV-72127,80.95
+09/30/2026,Calder & Sons,INV-73943,1087.95
+10/01/2026,Bluewater Janitorial,INV-70209,9902.49
+10/01/2026,Redwood IT Services,INV-70554,1088.90
+10/01/2026,Atlas Fleet Fuel,INV-70731,4529.31
+10/01/2026,Oakmont Catering,INV-70995,461.67
+10/01/2026,Meridian Staffing,INV-71299,642.94
+10/01/2026,Cedar Point Legal,INV-71452,1160.49
+10/01/2026,Granite Equipment Rental,INV-71787,761.05
+10/01/2026,Ridge Valley Printing,INV-72745,505.94
+10/01/2026,Ridge Valley Printing,INV-73472,1233.19
+10/01/2026,Keystone Insurance,INV-73770,880.57
+10/01/2026,Tidewater Logistics,INV-74230,6321.91
+10/01/2026,Calder & Sons,INV-74375,4451.42
+10/01/2026,Cedar Point Legal,RET-158,2500.00
+10/02/2026,Pioneer Packaging,INV-70607,1290.24
+10/02/2026,Northgate Freight,INV-70935,71.04
+10/02/2026,Meridian Staffing,INV-71181,595.16
+10/02/2026,Cedar Point Legal,INV-71244,601.00
+10/02/2026,Silverline Software,INV-72064,62.64
+10/02/2026,Lakeshore Maintenance,INV-72105,567.21
+10/02/2026,Granite Equipment Rental,INV-72415,471.38
+10/02/2026,Evergreen Landscaping,INV-73701,3431.77
+10/02/2026,Northgate Freight,INV-73722,1044.50
+10/03/2026,Granite Equipment Rental,INV-70152,846.77
+10/03/2026,Oakmont Catering,INV-70510,12727.56
+10/03/2026,Redwood IT Services,INV-70672,1093.35
+10/03/2026,Ironclad Security,INV-70776,460.60
+10/03/2026,Ridge Valley Printing,INV-73936,196.25
+10/04/2026,Atlas Fleet Fuel,INV-70025,1050.03
+10/04/2026,Westline Distributors,INV-70451,47.85
+10/04/2026,Bluewater Janitorial,INV-70770,272.03
+10/04/2026,Prairie Electric Co-op,INV-71769,501.23
+10/04/2026,Copperfield Chemicals,INV-71832,186.15
+10/04/2026,City Utilities,INV-72161,46.91
+10/04/2026,Pioneer Packaging,INV-72366,2754.16
+10/04/2026,City Utilities,INV-73000,1066.22
+10/05/2026,Bluewater Janitorial,INV-70067,1245.74
+10/05/2026,Cedar Point Legal,INV-70971,1506.18
+10/05/2026,Evergreen Landscaping,INV-72211,259.44
+10/05/2026,Meridian Staffing,INV-72623,148.35
+10/06/2026,Ironclad Security,INV-70993,528.87
+10/06/2026,Bluewater Janitorial,INV-73238,9225.83
+10/07/2026,Silverline Software,INV-70121,141.44
+10/07/2026,Cedar Point Legal,INV-70150,884.22
+10/07/2026,Bluewater Janitorial,INV-70516,279.64
+10/07/2026,Cedar Point Legal,INV-70937,6071.71
+10/07/2026,Westline Distributors,INV-70964,625.59
+10/07/2026,Granite Equipment Rental,INV-71908,681.66
+10/07/2026,Cedar Point Legal,INV-72214,5012.62
+10/07/2026,Lakeshore Maintenance,INV-73415,2482.31
+10/07/2026,Atlas Fleet Fuel,INV-73432,686.25
+10/07/2026,Atlas Fleet Fuel,INV-74096,6917.98
+10/08/2026,Calder & Sons,INV-70101,2688.81
+10/08/2026,City Utilities,INV-70422,1372.37
+10/08/2026,Copperfield Chemicals,INV-70615,941.79
+10/08/2026,Union Telecom,INV-71446,1543.30
+10/08/2026,Granite Equipment Rental,INV-71949,46.28
+10/08/2026,Redwood IT Services,INV-73274,2528.34
+10/08/2026,Redwood IT Services,INV-73290,1470.73
+10/08/2026,Cedar Point Legal,INV-73541,49463.36
+10/08/2026,City Utilities,INV-73762,1148.11
+10/09/2026,Summit Office Products,INV-71325,3750.67
+10/09/2026,Cedar Point Legal,INV-72938,2772.16
+10/09/2026,Keystone Insurance,INV-73199,2524.45
+10/09/2026,Oakmont Catering,INV-73298,6718.98
+10/09/2026,Granite Equipment Rental,INV-73317,63.61
+10/09/2026,Keystone Insurance,INV-73355,541.64
+10/10/2026,Bluewater Janitorial,INV-70654,424.31
+10/10/2026,Lakeshore Maintenance,INV-71330,245.31
+10/10/2026,Ironclad Security,INV-71502,1403.16
+10/10/2026,Bluewater Janitorial,INV-72046,2011.51
+10/10/2026,Copperfield Chemicals,INV-73072,3482.97
+10/10/2026,Prairie Electric Co-op,INV-74266,1666.96
+10/10/2026,Copperfield Chemicals,INV-74290,9989.24
+10/11/2026,Pioneer Packaging,INV-70903,407.07
+10/11/2026,Westline Distributors,INV-73149,1308.67
+10/11/2026,Lakeshore Maintenance,INV-74101,1322.20
+10/12/2026,Copperfield Chemicals,INV-70217,112008.57
+10/12/2026,Calder & Sons,INV-70686,577.54
+10/12/2026,Bluewater Janitorial,INV-71024,308.28
+10/12/2026,Silverline Software,INV-72092,1348.21
+10/12/2026,Westline Distributors,INV-72575,1655.36
+10/12/2026,Lakeshore Maintenance,INV-73303,1213.10
+10/12/2026,Lakeshore Maintenance,INV-73397,5473.84
+10/12/2026,Northgate Freight,INV-74053,5792.25
+10/13/2026,Harbor Industrial Supply,INV-70927,131.79
+10/13/2026,Copperfield Chemicals,INV-71453,1893.90
+10/13/2026,Union Telecom,INV-71517,6476.20
+10/13/2026,Calder & Sons,INV-71943,1010.84
+10/13/2026,Westline Distributors,INV-72311,203.50
+10/13/2026,Summit Office Products,INV-72780,12873.10
+10/13/2026,Tidewater Logistics,INV-73340,2063.83
+10/13/2026,Granite Equipment Rental,INV-73873,1156.26
+10/13/2026,Atlas Fleet Fuel,INV-73905,293.56
+10/13/2026,Cedar Point Legal,INV-74277,1144.89
+10/14/2026,City Utilities,INV-70758,2699.16
+10/14/2026,Union Telecom,INV-72016,1666.12
+10/14/2026,Northgate Freight,INV-72926,282.07
+10/14/2026,Meridian Staffing,INV-73893,1656.38
+10/14/2026,Northgate Freight,INV-73994,5024.31
+10/14/2026,Cedar Point Legal,INV-74319,684.60
+10/15/2026,Redwood IT Services,INV-70640,1011.92
+10/15/2026,Union Telecom,INV-71007,3568.93
+10/15/2026,Oakmont Catering,INV-71998,7404.78
+10/15/2026,Atlas Fleet Fuel,INV-73775,6379.57
+10/15/2026,Ridge Valley Printing,INV-73869,413.06
+10/15/2026,Union Telecom,INV-73922,1081.37
+10/16/2026,City Utilities,INV-70037,13357.70
+10/16/2026,Calder & Sons,INV-70245,2827.13
+10/16/2026,Silverline Software,INV-70279,1704.03
+10/16/2026,Granite Equipment Rental,INV-70558,3531.35
+10/16/2026,Evergreen Landscaping,INV-71634,173.76
+10/16/2026,Atlas Fleet Fuel,INV-72757,289.35
+10/16/2026,Summit Office Products,INV-73314,434.68
+10/16/2026,Silverline Software,INV-73713,39.95
+10/16/2026,Lakeshore Maintenance,INV-74184,2823.64
+10/17/2026,Silverline Software,INV-71392,790.97
+10/17/2026,Atlas Fleet Fuel,INV-71431,2769.74
+10/17/2026,Ironclad Security,INV-71865,700.18
+10/17/2026,City Utilities,INV-71876,486.61
+10/17/2026,Copperfield Chemicals,INV-72111,956.18
+10/17/2026,Northgate Freight,INV-72222,1421.23
+10/17/2026,Redwood IT Services,INV-73046,12.12
+10/18/2026,Harbor Industrial Supply,INV-70034,3355.62
+10/18/2026,Granite Equipment Rental,INV-70232,1799.27
+10/18/2026,Ridge Valley Printing,INV-70292,1284.28
+10/18/2026,Westline Distributors,INV-70497,242.81
+10/18/2026,Summit Office Products,INV-70519,1108.94
+10/18/2026,Calder & Sons,INV-71337,2157.38
+10/18/2026,Pioneer Packaging,INV-71538,518.10
+10/18/2026,Cedar Point Legal,INV-71958,465.55
+10/18/2026,Keystone Insurance,INV-73460,353.85
+10/18/2026,Granite Equipment Rental,INV-74154,397.49
+10/19/2026,Union Telecom,INV-70371,1299.26
+10/19/2026,Keystone Insurance,INV-70539,479.90
+10/19/2026,Ironclad Security,INV-70584,851.90
+10/19/2026,Atlas Fleet Fuel,INV-71343,2236.88
+10/19/2026,Evergreen Landscaping,INV-71422,1737.01
+10/19/2026,Calder & Sons,INV-71848,599.04
+10/19/2026,Keystone Insurance,INV-72186,2001.94
+10/19/2026,Pioneer Packaging,INV-72393,174.30
+10/19/2026,Westline Distributors,INV-73370,461.61
+10/19/2026,Pioneer Packaging,INV-73788,2205.18
+10/19/2026,Cedar Point Legal,INV-74056,4765.87
+10/19/2026,Ironclad Security,INV-74070,130.94
+10/20/2026,Prairie Electric Co-op,INV-70446,1290.53
+10/20/2026,Cedar Point Legal,INV-72428,2197.43
+10/20/2026,City Utilities,INV-73407,5061.53
+10/20/2026,Meridian Staffing,INV-73673,1200.28
+10/20/2026,Pioneer Packaging,INV-74347,1318.87
+10/21/2026,Meridian Staffing,INV-70090,43230.11
+10/21/2026,Ironclad Security,INV-70762,803.31
+10/21/2026,Tidewater Logistics,INV-71153,759.48
+10/21/2026,Silverline Software,INV-72329,1787.09
+10/21/2026,Oakmont Catering,INV-72924,1192.74
+10/21/2026,Keystone Insurance,INV-72946,578.88
+10/21/2026,Harbor Industrial Supply,INV-73018,481.29
+10/21/2026,Lakeshore Maintenance,INV-73284,13226.59
+10/21/2026,Summit Office Products,INV-73485,1801.08
+10/21/2026,Bluewater Janitorial,INV-73966,176.75
+10/21/2026,Pioneer Packaging,INV-74029,2038.94
+10/21/2026,Cedar Point Legal,INV-74140,1195.24
+10/22/2026,Westline Distributors,INV-70240,1649.75
+10/22/2026,Summit Office Products,INV-73176,313.06
+10/23/2026,Evergreen Landscaping,INV-70801,49.61
+10/23/2026,Copperfield Chemicals,INV-71387,317.26
+10/23/2026,Evergreen Landscaping,INV-71587,86.17
+10/23/2026,Redwood IT Services,INV-72002,999.97
+10/23/2026,City Utilities,INV-72530,2154.28
+10/23/2026,Silverline Software,INV-72676,623.05
+10/24/2026,Keystone Insurance,INV-70010,808.83
+10/24/2026,Union Telecom,INV-70227,695.94
+10/24/2026,Summit Office Products,INV-70359,5118.32
+10/24/2026,City Utilities,INV-71201,556.41
+10/24/2026,Atlas Fleet Fuel,INV-72004,1055.21
+10/24/2026,Cedar Point Legal,INV-72331,3964.53
+10/24/2026,Pioneer Packaging,INV-74119,8660.84
+10/25/2026,Keystone Insurance,INV-70039,49.49
+10/25/2026,Prairie Electric Co-op,INV-70059,1291.04
+10/25/2026,City Utilities,INV-70412,16408.11
+10/25/2026,Evergreen Landscaping,INV-70969,1700.93
+10/25/2026,Oakmont Catering,INV-71894,19785.59
+10/25/2026,Union Telecom,INV-73257,1996.40
+10/25/2026,Atlas Fleet Fuel,INV-73293,276.59
+10/25/2026,Union Telecom,INV-73710,236.98
+10/25/2026,City Utilities,INV-73957,94.21
+10/26/2026,Cedar Point Legal,INV-71654,1999.55
+10/26/2026,Meridian Staffing,INV-71926,7985.90
+10/26/2026,Keystone Insurance,INV-72373,676.54
+10/26/2026,City Utilities,INV-72664,431.87
+10/26/2026,Meridian Staffing,INV-72972,85.58
+10/27/2026,Meridian Staffing,INV-70011,318.98
+10/27/2026,Prairie Electric Co-op,INV-70181,291.15
+10/27/2026,Copperfield Chemicals,INV-70461,124.20
+10/27/2026,Silverline Software,INV-70659,93.64
+10/27/2026,Keystone Insurance,INV-70875,18680.43
+10/27/2026,Copperfield Chemicals,INV-71047,640.51
+10/27/2026,Oakmont Catering,INV-71077,5200.41
+10/27/2026,Lakeshore Maintenance,INV-73079,1370.09
+10/27/2026,Redwood IT Services,INV-73469,1397.63
+10/27/2026,Prairie Electric Co-op,INV-74221,208.29
+10/28/2026,Calder & Sons,INV-70134,468.45
+10/28/2026,Calder & Sons,INV-70661,473.44
+10/28/2026,Prairie Electric Co-op,INV-70817,41.33
+10/28/2026,Redwood IT Services,INV-71130,985.32
+10/28/2026,Northgate Freight,INV-71742,1195.57
+10/28/2026,Harbor Industrial Supply,INV-72227,1008.08
+10/28/2026,Northgate Freight,INV-72878,518.75
+10/28/2026,Bluewater Janitorial,INV-72888,371.56
+10/28/2026,Ironclad Security,INV-73162,159.73
+10/28/2026,Cedar Point Legal,INV-73768,648.67
+10/28/2026,Ironclad Security,INV-74036,12924.33
+10/28/2026,Cedar Point Legal,INV-74092,1238.64
+10/28/2026,Lakeshore Maintenance,INV-74367,515.47
+10/29/2026,Harbor Industrial Supply,INV-70270,95.59
+10/29/2026,City Utilities,INV-70353,1500.35
+10/29/2026,Union Telecom,INV-71012,1749.67
+10/29/2026,Cedar Point Legal,INV-72060,314.19
+10/29/2026,Union Telecom,INV-72333,212.16
+10/29/2026,Cedar Point Legal,INV-72499,1657.74
+10/29/2026,Meridian Staffing,INV-73182,2917.71
+10/29/2026,Ridge Valley Printing,INV-73516,5406.72
+10/30/2026,Union Telecom,INV-70098,298.37
+10/30/2026,Summit Office Products,INV-70795,2281.18
+10/30/2026,Tidewater Logistics,INV-71836,3118.70
+10/30/2026,Harbor Industrial Supply,INV-72485,296.06
+10/30/2026,Ridge Valley Printing,INV-72798,662.14
+10/30/2026,Lakeshore Maintenance,INV-73210,320.21
+10/30/2026,Union Telecom,INV-73534,256.48
+10/30/2026,Oakmont Catering,INV-74190,2260.13
+10/31/2026,Copperfield Chemicals,INV-70146,523.64
+10/31/2026,Union Telecom,INV-70453,1799.62
+10/31/2026,Ironclad Security,INV-71397,2379.88
+10/31/2026,Lakeshore Maintenance,INV-71593,94.22
+10/31/2026,Atlas Fleet Fuel,INV-71752,796.00
+10/31/2026,Pioneer Packaging,INV-72465,1001.88
+10/31/2026,Ridge Valley Printing,INV-73371,7211.13
+10/31/2026,Ironclad Security,INV-73888,135.92

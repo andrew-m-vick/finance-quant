@@ -1,18 +1,43 @@
-# Finance Quant Toolkit
+# Accounting Portfolio
 
 **Live:** <https://web-production-a0dcb.up.railway.app>
 
-Two quantitative personal-finance tools under one Flask app:
+A portfolio site for an accounting student, built around three working
+accounting tools, each loaded with a fictional sample company:
 
-1. **Financial Stress Test** — scores a user's balance sheet against five
-   adverse scenarios (job loss, market drawdown, emergency expense, debt
-   service, inflation shock) and returns a weighted resilience score.
-2. **Monte Carlo Retirement Simulator** — runs 10,000 geometric Brownian
-   motion paths on a savings+contribution model and reports percentile
-   bands, a distribution histogram, and probability of meeting a user goal.
+1. **Trial Balance → Financial Statements** (`/financial-statements`):
+   adjusted TB in; multi-step income statement, statement of retained
+   earnings, classified balance sheet, closing entries, post-closing TB, and
+   ratios out. When the TB doesn't balance, it diagnoses why: divisible-by-9
+   transpositions (with the specific digit swap), wrong-side postings,
+   omissions, and abnormal balances.
+2. **Bank Reconciliation** (`/bank-reconciliation`): matches the cash
+   ledger to the bank statement (check number, then amount within a date
+   window, then transposition scan), classifies deposits in transit,
+   outstanding checks, NSF items, fees and recording errors, and drafts the
+   adjusting journal entries.
+3. **Audit Data Analytics** (`/audit-analytics`): full-population testing
+   of AP disbursements: Benford first-digit and first-two-digits tests (MAD
+   conformity per Nigrini, chi-square, per-bin z), approval-limit clustering,
+   and duplicate-payment detection, with recommended audit procedures.
 
-A `/methodology` page explains every assumption and formula in plain
-English — read that first if you're reviewing this for depth over polish.
+Two earlier quantitative projects are kept as a secondary section: a
+**Financial Stress Test** and a **Monte Carlo Retirement Simulator**
+(10,000 GBM paths).
+
+All money math uses `decimal.Decimal` rounded to the cent, so ledgers tie
+exactly with no floating-point drift.
+
+## Personalizing
+
+Everything personal (name, school, CPA plan, coursework, skills,
+experience) lives in **[about_me.py](about_me.py)**. Any value still in
+`[square brackets]` is a placeholder; while one remains, every page shows a
+yellow "unfinished profile" banner. To add a résumé, drop it at
+`static/resume.pdf` and the Résumé buttons appear automatically.
+
+A `/methodology` page explains every accounting rule, statistical test, and
+assumption, with sources. Read that first if you're reviewing for depth.
 
 ## Stack
 
@@ -39,8 +64,12 @@ pip install pytest
 python -m pytest tests/ -q
 ```
 
-Covers the stress-test scoring thresholds and the Monte Carlo drift
-correction (verifies `E[B_T] = B_0 · (1+μ)^T` within MC error).
+Tests assert accounting identities rather than just "it runs": debits =
+credits, A = L + E, every closing entry balances and Income Summary nets to
+zero, post-closing TB balances, adjusted bank = adjusted book, and Benford
+tests pass on natural (lognormal) data while catching the planted fraud in
+the sample file. Plus the original stress-test thresholds and the Monte
+Carlo drift correction (`E[B_T] = B_0 · (1+μ)^T` within MC error).
 
 ## PWA
 
@@ -77,18 +106,31 @@ portfolio-traffic levels.
 ## Layout
 
 ```
-app.py              Flask routes + JSON APIs
-stress_test.py      Scenario scoring logic
-monte_carlo.py      NumPy GBM engine
-templates/          Jinja templates (base, index, stress, retirement, methodology)
-static/             style.css, favicon, per-page JS, manifest, service worker
-static/icons/       PNG home-screen icons (180/192/512 + maskable)
-scripts/            gen_icons.py — regenerate PNG icons from brand glyph
-tests/              pytest suite
+app.py                   Flask routes + JSON APIs
+about_me.py              All personal/profile content (edit this)
+ledger_utils.py          Decimal money parsing, dates, CSV reading
+financial_statements.py  TB → statements, closing entries, TB error diagnostics
+bank_rec.py              Three-pass matching + reconciliation + AJEs
+benford.py               Benford tests, threshold + duplicate analytics
+stress_test.py           Scenario scoring logic
+monte_carlo.py           NumPy GBM engine
+templates/               Jinja templates
+static/                  style.css, per-page JS, manifest, service worker
+static/samples/          Fictional sample data for each tool
+static/icons/            PNG home-screen icons (180/192/512 + maskable)
+scripts/                 gen_icons.py, gen_samples.py (rebuilds the AP sample)
+tests/                   pytest suite
 ```
 
 ## What to read first
 
+- [financial_statements.py](financial_statements.py): `diagnose_imbalance`
+  automates the manual TB error-finding techniques (÷9, ÷2, = balance).
+- [bank_rec.py](bank_rec.py): matching passes are ordered by strength of
+  evidence; book-side vs bank-side classification drives which items need
+  adjusting entries.
+- [benford.py](benford.py): why MAD, not chi-square, is the headline
+  verdict on large populations.
 - [monte_carlo.py](monte_carlo.py) — the drift correction
   (`m = ln(1+μ) − σ²/2`) is the non-obvious bit. It makes μ behave as the
   arithmetic annual return so that `E[B_T] = B_0·(1+μ)^T`, avoiding the
@@ -96,4 +138,4 @@ tests/              pytest suite
 - [stress_test.py](stress_test.py) — the weighting rubric is explicit and
   the thresholds are documented in the methodology page.
 
-Educational tool. Not financial advice.
+Sample companies and figures are fictional. Not financial, tax, or audit advice.

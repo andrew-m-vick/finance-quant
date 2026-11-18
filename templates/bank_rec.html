@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Bank Reconciliation — {{ profile.name }}{% endblock %}
+{% block content %}
+<section class="page-header">
+  <h1>Bank Reconciliation</h1>
+  <p class="lede">
+    Match the general-ledger cash account to the bank statement, prove both
+    sides to the same adjusted balance, and draft the adjusting entries the
+    books need.
+  </p>
+</section>
+
+<form id="br-form" class="panel tool-panel">
+  <div class="form-row">
+    <label>Book (GL) ending cash balance
+      <input type="text" name="book_balance" value="28,622.35" inputmode="decimal" required />
+    </label>
+    <label>Bank statement ending balance
+      <input type="text" name="bank_balance" value="27,219.02" inputmode="decimal" required />
+    </label>
+    <label>Matching window (days)
+      <span class="hint">How long an item may take to clear.</span>
+      <input type="number" class="plain" name="window_days" value="7" min="0" max="60" />
+    </label>
+  </div>
+  <div class="two-col">
+    <label>Cash ledger: book side (CSV)
+      <span class="hint">Date, Ref, Description, Amount. Receipts +, payments −. Ref = check #.</span>
+      <textarea class="data" name="book_csv" id="book-csv" spellcheck="false" required></textarea>
+    </label>
+    <label>Bank statement (CSV)
+      <span class="hint">Date, Ref, Description, Amount. Same sign convention.</span>
+      <textarea class="data" name="bank_csv" id="bank-csv" spellcheck="false" required></textarea>
+    </label>
+  </div>
+  <div class="actions">
+    <button type="submit" class="primary">Reconcile</button>
+    <button type="button" class="btn small" id="load-sample">Reload October sample</button>
+  </div>
+  <div id="br-error" class="error-box hidden"></div>
+</form>
+
+<div id="br-results" class="hidden">
+  <div id="br-verdict"></div>
+  <div class="results-grid">
+    <section class="panel span-2" id="rec-panel"></section>
+    <section class="panel" id="aje-panel"></section>
+    <section class="panel" id="match-panel"></section>
+  </div>
+</div>
+<script src="{{ url_for('static', filename='acct.js') }}"></script>
+<script src="{{ url_for('static', filename='bank_rec.js') }}"></script>
+{% endblock %}

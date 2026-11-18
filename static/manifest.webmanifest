@@ -1,14 +1,14 @@
 {
-  "name": "Finance Quant Toolkit",
-  "short_name": "Finance Quant",
-  "description": "Stress test and Monte Carlo retirement simulator.",
+  "name": "Accounting Portfolio",
+  "short_name": "Portfolio",
+  "description": "Accounting portfolio: financial statements, bank reconciliation, and audit data analytics tools.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#1b5e20",
   "theme_color": "#1b5e20",
   "orientation": "portrait-primary",
-  "categories": ["finance", "productivity", "utilities"],
+  "categories": ["finance", "business", "productivity"],
   "icons": [
     {
       "src": "/static/icons/icon-192.png",

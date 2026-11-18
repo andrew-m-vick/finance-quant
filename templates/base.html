@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% block title %}Finance Quant Toolkit{% endblock %}</title>
+  <title>{% block title %}{{ profile.name }} — Accounting Portfolio{% endblock %}</title>
+  <meta name="description" content="{{ profile.headline }}. Working accounting tools: financial statement preparation, bank reconciliation, and audit data analytics." />
   <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
   <link rel="icon" type="image/png" sizes="192x192" href="{{ url_for('static', filename='icons/icon-192.png') }}" />
   <link rel="icon" type="image/png" sizes="512x512" href="{{ url_for('static', filename='icons/icon-512.png') }}" />
@@ -11,7 +12,7 @@
   <link rel="manifest" href="/manifest.webmanifest" />
   <meta name="theme-color" content="#1b5e20" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Finance Quant" />
+  <meta name="apple-mobile-web-app-title" content="Portfolio" />
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
   {% block head %}{% endblock %}
   <script>
@@ -25,22 +26,30 @@
   </script>
 </head>
 <body>
+  {% if profile_incomplete %}
+  <div class="profile-banner">
+    Unfinished profile: replace the <code>[bracketed]</code> placeholders in <code>about_me.py</code> before sharing this site.
+  </div>
+  {% endif %}
+  {% set ep = request.endpoint %}
   <nav class="topnav">
     <a href="{{ url_for('index') }}" class="brand">
       <img src="{{ url_for('static', filename='favicon.svg') }}" alt="" class="brand-icon" />
-      <span>Finance Quant</span>
+      <span>{{ profile.name }}</span>
     </a>
     <div class="nav-links">
-      <a href="{{ url_for('stress_test_page') }}">Stress Test</a>
-      <a href="{{ url_for('retirement_page') }}">Retirement Sim</a>
-      <a href="{{ url_for('methodology_page') }}">Methodology</a>
+      <a href="{{ url_for('financial_statements_page') }}" class="{{ 'active' if ep == 'financial_statements_page' }}">Financial Statements</a>
+      <a href="{{ url_for('bank_rec_page') }}" class="{{ 'active' if ep == 'bank_rec_page' }}">Bank Rec</a>
+      <a href="{{ url_for('audit_analytics_page') }}" class="{{ 'active' if ep == 'audit_analytics_page' }}">Audit Analytics</a>
+      <a href="{{ url_for('methodology_page') }}" class="{{ 'active' if ep == 'methodology_page' }}">Methodology</a>
+      {% if resume_url %}<a href="{{ resume_url }}" class="nav-cta" target="_blank" rel="noopener">Résumé</a>{% endif %}
     </div>
   </nav>
   <main class="container">
     {% block content %}{% endblock %}
   </main>
   <footer class="footer">
-    <span>Educational tool. Not financial advice.</span>
+    <span>Built by {{ profile.name }}. All sample companies and figures are fictional. Not financial, tax, or audit advice.</span>
   </footer>
 </body>
 </html>

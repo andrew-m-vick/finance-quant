@@ -1,38 +1,120 @@
 {% extends "base.html" %}
-{% block title %}Finance Quant Toolkit{% endblock %}
 {% block content %}
-<section class="hero">
-  <h1>Finance Quant Toolkit</h1>
+<section class="hero portfolio">
+  <p class="eyebrow">{{ profile.headline }}</p>
+  <h1>{{ profile.name }}</h1>
+  <p class="cred-line">
+    {{ profile.degree }}, {{ profile.school }}<span class="sep">|</span>{{ profile.graduation }}
+    {% if profile.gpa %}<span class="sep">|</span>GPA {{ profile.gpa }}{% endif %}
+    {% if profile.location %}<span class="sep">|</span>{{ profile.location }}{% endif %}
+  </p>
+  {% for e in profile.other_education %}
+  <p class="muted small" style="margin:4px 0 0">{{ e.credential }}, {{ e.school }}<span class="sep" style="color:var(--line);margin:0 8px">|</span>{{ e.date }}</p>
+  {% endfor %}
   <p class="lede">
-    Two quantitative tools for personal finance decisions. Built for people
-    who want the math, not the marketing.
+    I've kept the books for real: as a restaurant owner and manager I reconcile
+    daily cash and card sales, run payroll, pay vendors, and prepare sales tax
+    filings with our CPA. Now I'm earning my accounting degree and building the
+    tools I'd want on the job: a trial balance that points to its own errors, a
+    bank rec that matches itself and drafts the adjusting entries, and audit
+    analytics that catch what a random sample misses.
   </p>
+  <div class="btn-row">
+    {% if resume_url %}<a class="btn primary-btn" href="{{ resume_url }}" target="_blank" rel="noopener">Download résumé (PDF)</a>{% endif %}
+    {% if profile.email and not profile.email.startswith('[') %}<a class="btn" href="mailto:{{ profile.email }}">Email me</a>{% endif %}
+    {% if profile.linkedin %}<a class="btn" href="{{ profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+    {% if profile.github %}<a class="btn" href="{{ profile.github }}" target="_blank" rel="noopener">Source code</a>{% endif %}
+  </div>
+  {% if profile.open_to %}<p class="muted small" style="margin-top:14px">Open to: {{ profile.open_to }}.</p>{% endif %}
 </section>
-<section class="cards">
-  <a class="card" href="{{ url_for('stress_test_page') }}">
-    <h2>Financial Stress Test</h2>
-    <p>
-      Run your finances through five adverse scenarios — job loss, market
-      drawdown, inflation shock, emergency expense, and debt service. Get a
-      resilience score and a ranked list of weak points.
-    </p>
-    <span class="cta">Open stress test &rarr;</span>
+
+<div class="section-head">
+  <h2>Accounting work</h2>
+  <p>Each tool runs on real accounting logic with a fictional sample company loaded. Click one and press the button; it takes about ten seconds to see.</p>
+</div>
+<section class="cards three">
+  <a class="card" href="{{ url_for('financial_statements_page') }}">
+    <h2>Trial Balance → Financial Statements</h2>
+    <div class="tags"><span class="chip green">Accounting cycle</span><span class="chip">GAAP presentation</span><span class="chip">Closing entries</span></div>
+    <p>Paste an adjusted trial balance; get a multi-step income statement, retained earnings statement, classified balance sheet, closing entries, post-closing TB, and ratios.</p>
+    <p class="proof">If the TB doesn't balance, it tells you why: transpositions (divisible by 9), wrong-side postings, omitted accounts.</p>
+    <span class="cta">Prepare statements &rarr;</span>
   </a>
-  <a class="card" href="{{ url_for('retirement_page') }}">
-    <h2>Monte Carlo Retirement Simulator</h2>
-    <p>
-      10,000 simulated return paths using geometric Brownian motion. See the
-      probability distribution of your retirement outcomes, not just a single
-      point estimate.
-    </p>
-    <span class="cta">Open simulator &rarr;</span>
+  <a class="card" href="{{ url_for('bank_rec_page') }}">
+    <h2>Bank Reconciliation</h2>
+    <div class="tags"><span class="chip green">Month-end close</span><span class="chip">Cash controls</span><span class="chip">Adjusting entries</span></div>
+    <p>Matches the cash ledger to the bank statement by check number, amount, and date; classifies deposits in transit, outstanding checks, NSF items, and fees.</p>
+    <p class="proof">Catches the recording error in the sample (a $429 check booked as $492) and drafts the correcting journal entry.</p>
+    <span class="cta">Reconcile &rarr;</span>
+  </a>
+  <a class="card" href="{{ url_for('audit_analytics_page') }}">
+    <h2>Audit Data Analytics</h2>
+    <div class="tags"><span class="chip green">Fraud risk</span><span class="chip">Benford's Law</span><span class="chip">Full-population testing</span></div>
+    <p>Tests every disbursement, not a sample: first- and first-two-digit Benford tests, approval-limit clustering, and duplicate-payment detection.</p>
+    <p class="proof">Finds a vendor billing just under the $5,000 approval limit in 2,254 AP payments and writes up the follow-up audit procedures.</p>
+    <span class="cta">Run analytics &rarr;</span>
   </a>
 </section>
-<section class="note">
-  <p>
-    Curious about the math? The <a href="{{ url_for('methodology_page') }}">methodology page</a>
-    explains every assumption, why geometric returns matter, and what these
-    models can and can't tell you.
-  </p>
+
+{% if profile.experience %}
+<div class="section-head">
+  <h2>Experience</h2>
+  <p>Years of hands-on bookkeeping, payroll, and P&amp;L ownership, plus data work.</p>
+</div>
+<section class="exp-grid">
+  {% for e in profile.experience %}
+  <div class="panel exp-item">
+    <div class="exp-head"><strong>{{ e.role }}</strong><span class="muted small">{{ e.dates }}</span></div>
+    <div class="muted small">{{ e.org }}{% if e.location %} · {{ e.location }}{% endif %}</div>
+    {% if e.points %}<ul class="small">{% for p in e.points %}<li>{{ p }}</li>{% endfor %}</ul>{% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<section class="info-grid">
+  <div class="panel">
+    <h3>CPA path</h3>
+    <p style="margin:0 0 6px"><strong>{{ profile.cpa.status }}</strong></p>
+    {% if profile.cpa.target %}<p class="muted small" style="margin:0 0 6px">{{ profile.cpa.target }}</p>{% endif %}
+    {% if profile.cpa.credit_hours %}<p class="muted small" style="margin:0">{{ profile.cpa.credit_hours }}</p>{% endif %}
+    {% if profile.coursework %}
+    <h3 style="margin-top:18px">Relevant coursework</h3>
+    <ul class="small">{% for c in profile.coursework %}<li>{{ c }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+  <div class="panel">
+    <h3>Skills</h3>
+    {% for group, items in profile.skills.items() if items %}
+    <div class="skill-group">
+      <div class="label">{{ group }}</div>
+      <div class="tags">{% for s in items %}<span class="chip{{ ' green' if group == 'Accounting' }}">{{ s }}</span>{% endfor %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="panel">
+    <h3>How these are built</h3>
+    <ul class="small">
+      <li>Money math in exact decimal, never floating point, so ledgers tie to the cent.</li>
+      <li>Automated tests check that the debits equal the credits, that A = L + E, and that the reconciliation ties.</li>
+      <li>Every rule is written up, with sources, on the <a href="{{ url_for('methodology_page') }}">methodology page</a>.</li>
+      <li>Your data stays private: nothing is stored, and there's no database.</li>
+    </ul>
+  </div>
+</section>
+
+<div class="section-head">
+  <h2>Quantitative projects</h2>
+  <p>Earlier work in personal-finance modeling, showing the statistics and Python behind the accounting tools.</p>
+</div>
+<section class="quant-list">
+  <a class="quant-item" href="{{ url_for('retirement_page') }}">
+    <strong>Monte Carlo Retirement Simulator</strong>
+    <span>10,000 geometric Brownian motion paths, percentile bands, probability of hitting a goal.</span>
+  </a>
+  <a class="quant-item" href="{{ url_for('stress_test_page') }}">
+    <strong>Personal Financial Stress Test</strong>
+    <span>Five adverse scenarios scored into a weighted resilience grade.</span>
+  </a>
 </section>
 {% endblock %}

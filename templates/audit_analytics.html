@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Audit Data Analytics — {{ profile.name }}{% endblock %}
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+{% endblock %}
+{% block content %}
+<section class="page-header">
+  <h1>Audit Data Analytics</h1>
+  <p class="lede">
+    Test a full year of disbursements, not a sample of 25. Benford's Law digit
+    tests, approval-limit clustering, and duplicate-payment detection, with
+    the follow-up audit procedures written out.
+  </p>
+</section>
+
+<form id="aa-form" class="panel tool-panel">
+  <div class="form-row">
+    <label>Approval limit ($)
+      <span class="hint">Payments at or above this need a second sign-off.</span>
+      <input type="text" name="approval_limit" value="5,000" inputmode="decimal" />
+    </label>
+  </div>
+  <label>Disbursements (CSV)
+    <span class="hint">Needs an Amount column; Vendor and Invoice columns enable the duplicate tests. A bare list of amounts also works. Processed in memory, never stored.</span>
+    <textarea class="data" name="csv" id="aa-csv" spellcheck="false" required style="min-height:180px"></textarea>
+  </label>
+  <div class="actions">
+    <button type="submit" class="primary">Run analytics</button>
+    <button type="button" class="btn small" id="load-sample">Load sample AP file (2,254 payments)</button>
+    <label class="btn small" style="margin:0;font-weight:600">Upload CSV<input type="file" accept=".csv,text/csv,.txt" id="aa-file" hidden /></label>
+  </div>
+  <div id="aa-error" class="error-box hidden"></div>
+</form>
+
+<div id="aa-results" class="hidden">
+  <div class="tiles tool-panel" id="aa-tiles"></div>
+  <div class="results-grid">
+    <section class="panel span-2" id="findings-panel"></section>
+    <section class="panel span-2">
+      <h2 style="margin-bottom:2px">First-two-digits test</h2>
+      <p class="muted small" id="f2-sub" style="margin-top:0"></p>
+      <div class="chart-wrap"><canvas id="f2-chart" aria-label="First-two-digit frequencies, observed versus Benford expected"></canvas></div>
+    </section>
+    <section class="panel">
+      <h2 style="margin-bottom:2px">First-digit test</h2>
+      <p class="muted small" id="f1-sub" style="margin-top:0"></p>
+      <div class="chart-wrap" style="height:260px"><canvas id="f1-chart" aria-label="First-digit frequencies, observed versus Benford expected"></canvas></div>
+    </section>
+    <section class="panel">
+      <h2>First-digit detail</h2>
+      <div class="table-scroll" id="f1-table"></div>
+    </section>
+    <section class="panel" id="dup-panel"></section>
+    <section class="panel" id="thr-panel"></section>
+  </div>
+</div>
+<script src="{{ url_for('static', filename='acct.js') }}"></script>
+<script src="{{ url_for('static', filename='audit_analytics.js') }}"></script>
+{% endblock %}

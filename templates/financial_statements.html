@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Trial Balance to Financial Statements — {{ profile.name }}{% endblock %}
+{% block content %}
+<section class="page-header">
+  <h1>Trial Balance → Financial Statements</h1>
+  <p class="lede">
+    Paste an adjusted trial balance and get the full set of year-end statements,
+    closing entries, and ratios. If it doesn't balance, it shows you where to look.
+  </p>
+</section>
+
+<form id="tb-form" class="panel tool-panel">
+  <div class="form-row">
+    <label>Entity name
+      <input type="text" name="entity" value="Ridgeline Supply Co." maxlength="120" />
+    </label>
+    <label>Period
+      <input type="text" name="period_end" value="For the Year Ended December 31, 2026" maxlength="60" />
+    </label>
+  </div>
+  <label>Adjusted trial balance (CSV)
+    <span class="hint">Columns: Account, Category, Debit, Credit. Paste from Excel as CSV, or upload a file.</span>
+    <textarea class="data" name="csv" id="tb-csv" spellcheck="false" required></textarea>
+  </label>
+  <details class="ref">
+    <summary>Category codes</summary>
+    <p>
+      <code>current_asset</code> <code>contra_current_asset</code> <code>noncurrent_asset</code>
+      <code>contra_noncurrent_asset</code> <code>current_liability</code> <code>noncurrent_liability</code>
+      <code>equity</code> <code>retained_earnings</code> <code>dividends</code> <code>revenue</code>
+      <code>contra_revenue</code> <code>cogs</code> <code>operating_expense</code> <code>other_income</code>
+      <code>other_expense</code> <code>income_tax_expense</code>
+    </p>
+    <p>Retained earnings should be the <em>beginning</em> balance; this is an adjusted TB before closing.</p>
+  </details>
+  <div class="actions">
+    <button type="submit" class="primary">Prepare statements</button>
+    <button type="button" class="btn small" id="load-sample">Load clean sample</button>
+    <button type="button" class="btn small" id="load-error">Load sample with a planted error</button>
+    <label class="btn small" style="margin:0;font-weight:600">Upload CSV<input type="file" accept=".csv,text/csv" id="tb-file" hidden /></label>
+  </div>
+  <div id="tb-error" class="error-box hidden"></div>
+</form>
+
+<div id="tb-results" class="hidden">
+  <div id="tb-verdict"></div>
+  <div class="results-grid">
+    <section class="panel" id="is-panel"></section>
+    <section class="panel" id="bs-panel"></section>
+    <section class="panel" id="re-panel"></section>
+    <section class="panel" id="ratio-panel"></section>
+    <section class="panel span-2" id="close-panel"></section>
+  </div>
+</div>
+<script src="{{ url_for('static', filename='acct.js') }}"></script>
+<script src="{{ url_for('static', filename='financial_statements.js') }}"></script>
+{% endblock %}

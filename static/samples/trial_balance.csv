@@ -1,0 +1,27 @@
+Account,Category,Debit,Credit
+Cash,current_asset,42500.00,
+Accounts Receivable,current_asset,28000.00,
+Allowance for Doubtful Accounts,contra_current_asset,,1400.00
+Inventory,current_asset,36000.00,
+Prepaid Insurance,current_asset,3600.00,
+Equipment,noncurrent_asset,120000.00,
+Accumulated Depreciation - Equipment,contra_noncurrent_asset,,34000.00
+Accounts Payable,current_liability,,19500.00
+Wages Payable,current_liability,,4200.00
+Income Taxes Payable,current_liability,,6500.00
+Unearned Revenue,current_liability,,5000.00
+Notes Payable (due 2030),noncurrent_liability,,60000.00
+Common Stock,equity,,50000.00
+Retained Earnings,retained_earnings,,32700.00
+Dividends,dividends,8000.00,
+Sales Revenue,revenue,,412000.00
+Sales Returns and Allowances,contra_revenue,7000.00,
+Cost of Goods Sold,cogs,238000.00,
+Wages Expense,operating_expense,82000.00,
+Rent Expense,operating_expense,24000.00,
+Depreciation Expense,operating_expense,12000.00,
+Insurance Expense,operating_expense,4800.00,
+Utilities Expense,operating_expense,6200.00,
+Bad Debt Expense,operating_expense,1900.00,
+Interest Expense,other_expense,4800.00,
+Income Tax Expense,income_tax_expense,6500.00,

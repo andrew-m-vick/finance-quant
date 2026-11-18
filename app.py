@@ -1,8 +1,37 @@
+import os
+
 from flask import Flask, render_template, request, jsonify, send_from_directory
-from stress_test import run_stress_test
+
+from bank_rec import reconcile
+from benford import run_benford
+from financial_statements import run_financial_statements
+from ledger_utils import InputError
 from monte_carlo import run_monte_carlo
+from about_me import PROFILE, has_placeholders
+from stress_test import run_stress_test
 
 app = Flask(__name__)
+MAX_INPUT_CHARS = 2_000_000  # ~20k ledger rows; keeps one request from hogging the dyno
+
+
+@app.context_processor
+def inject_profile():
+    resume = os.path.exists(os.path.join(app.static_folder, "resume.pdf"))
+    return {
+        "profile": PROFILE,
+        "profile_incomplete": has_placeholders(),
+        "resume_url": "/static/resume.pdf" if resume else None,
+    }
+
+
+def _payload():
+    data = request.get_json(force=True, silent=True)
+    if not isinstance(data, dict):
+        raise InputError("Request body must be a JSON object.")
+    for v in data.values():
+        if isinstance(v, str) and len(v) > MAX_INPUT_CHARS:
+            raise InputError("Input too large — trim the file and try again.")
+    return data
 
 
 @app.route("/service-worker.js")
@@ -38,6 +67,21 @@ def stress_test_page():
 @app.route("/retirement")
 def retirement_page():
     return render_template("retirement.html")
+
+
+@app.route("/financial-statements")
+def financial_statements_page():
+    return render_template("financial_statements.html")
+
+
+@app.route("/bank-reconciliation")
+def bank_rec_page():
+    return render_template("bank_rec.html")
+
+
+@app.route("/audit-analytics")
+def audit_analytics_page():
+    return render_template("audit_analytics.html")
 
 
 @app.route("/methodology")
@@ -83,5 +127,46 @@ def api_monte_carlo():
     return jsonify(result)
 
 
+@app.route("/api/financial-statements", methods=["POST"])
+def api_financial_statements():
+    try:
+        data = _payload()
+        result = run_financial_statements(
+            data.get("csv", ""),
+            entity=str(data.get("entity", ""))[:120],
+            period_end=str(data.get("period_end", ""))[:60],
+        )
+    except InputError as e:
+        return jsonify({"error": str(e)}), 400
+    return jsonify(result)
+
+
+@app.route("/api/bank-reconciliation", methods=["POST"])
+def api_bank_rec():
+    try:
+        data = _payload()
+        window = int(data.get("window_days", 7))
+        if not 0 <= window <= 60:
+            raise InputError("Matching window must be between 0 and 60 days.")
+        result = reconcile(
+            data.get("book_csv", ""), data.get("bank_csv", ""),
+            data.get("book_balance", ""), data.get("bank_balance", ""),
+            window_days=window,
+        )
+    except (InputError, ValueError) as e:
+        return jsonify({"error": str(e)}), 400
+    return jsonify(result)
+
+
+@app.route("/api/audit-analytics", methods=["POST"])
+def api_audit_analytics():
+    try:
+        data = _payload()
+        result = run_benford(data.get("csv", ""), approval_limit=data.get("approval_limit", 5000))
+    except InputError as e:
+        return jsonify({"error": str(e)}), 400
+    return jsonify(result)
+
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=int(os.environ.get("PORT", 5000)))

@@ -4,20 +4,193 @@
 <section class="page-header">
   <h1>Methodology</h1>
   <p class="lede">
-    The assumptions, the math, and what these models can and can't tell you.
+    The accounting rules, the statistics, and the limits of each tool, written so a reviewer can check the work.
   </p>
 </section>
 
 <article class="prose">
 
-<h2>1. The Stress Test</h2>
+<p class="muted small" style="margin-top:0">
+  Part I covers the accounting tools. Part II covers the earlier quantitative
+  personal-finance models.
+</p>
+
+<h2>Part I · Accounting tools</h2>
+
+<h3>Ground rules for all three</h3>
+<ul>
+  <li>
+    <strong>Exact decimal arithmetic.</strong> Every dollar amount is parsed into
+    Python's <code>Decimal</code> and rounded to the cent (round-half-up).
+    Binary floating point can't represent 0.10 exactly, and a ledger that's
+    off by $0.01 from float drift is still a ledger that doesn't tie.
+  </li>
+  <li>
+    <strong>Stateless.</strong> Pasted data is processed in memory and
+    discarded. There is no database and no logging of inputs.
+  </li>
+  <li>
+    <strong>Tested invariants.</strong> The test suite asserts accounting
+    identities (debits = credits, A = L + E, a post-closing TB that balances,
+    adjusted bank = adjusted book) rather than just "the code runs."
+  </li>
+</ul>
+
+<h2>1. Trial balance → financial statements</h2>
+<p>
+  Input is an <em>adjusted</em> trial balance: adjusting entries (accruals,
+  deferrals, depreciation, bad-debt estimates) are already posted, and Retained
+  Earnings still shows its <em>beginning</em> balance, because closing hasn't
+  happened yet. Each account carries a category that fixes its normal
+  balance and where it is presented.
+</p>
+<h3>1a. Statements produced</h3>
+<ul>
+  <li><strong>Multi-step income statement.</strong> Net sales (gross revenue less
+    contra-revenue such as sales returns) → gross profit → operating income →
+    income before taxes → net income. Non-operating items such as interest are kept
+    below operating income so the operating margin reflects the core business.</li>
+  <li><strong>Statement of retained earnings.</strong>
+    <code>Ending RE = Beginning RE + Net income − Dividends</code>.</li>
+  <li><strong>Classified balance sheet.</strong> Current vs. noncurrent assets and
+    liabilities; contra-assets (accumulated depreciation, allowance for doubtful
+    accounts) are shown as deductions so net book value is visible. Equity uses
+    the <em>ending</em> retained earnings from the statement above. That linkage
+    is what makes the balance sheet balance.</li>
+  <li><strong>Closing entries</strong> in the standard four-step sequence: close
+    revenues to Income Summary, close expenses to Income Summary, close Income
+    Summary to Retained Earnings, close Dividends to Retained Earnings. A
+    <strong>post-closing trial balance</strong> then confirms only permanent
+    accounts remain and still balance.</li>
+</ul>
+<h3>1b. Finding errors in a trial balance that doesn't balance</h3>
+<p>These are the manual techniques taught in Intermediate Accounting, automated:</p>
+<ul>
+  <li><strong>Difference ÷ 9.</strong> Swapping two digits (24 → 42) or sliding a
+    decimal (45 → 450) always changes an amount by a multiple of 9, because
+    <code>10ᵃ ≡ 1 (mod 9)</code>. When the difference is divisible by 9, the tool
+    tries every two-digit swap of every balance and lists those that would make
+    the TB tie, limited to swaps in the direction that would fix the imbalance.</li>
+  <li><strong>Difference ÷ 2.</strong> An amount posted to the wrong side moves the
+    totals by twice its value. Any account equal to half the difference is listed.</li>
+  <li><strong>Difference = an account balance.</strong> Points to an omitted or
+    double-counted account.</li>
+  <li><strong>Abnormal balances.</strong> An expense with a credit balance or an
+    asset with a credit balance is flagged even when the TB balances, because
+    two offsetting errors can still tie.</li>
+</ul>
+<h3>1c. Ratios</h3>
+<p>
+  Current ratio, working capital, debt-to-equity, gross/operating/net margin,
+  ROA, ROE, and effective tax rate. ROA and ROE use <em>ending</em> balances
+  because a single trial balance has no prior period. With comparative data,
+  average balances are the better denominator.
+</p>
+<p class="muted small">
+  Not yet included: the statement of cash flows, which needs a prior-period
+  balance sheet for the indirect method. Comparative trial balance input is
+  the natural next step.
+</p>
+
+<h2>2. Bank reconciliation</h2>
+<p>
+  The goal is to prove that the general-ledger cash balance and the bank's
+  balance describe the same cash once timing differences and errors are
+  explained. It is one of the most basic cash controls, and auditors check
+  that it is done monthly and reviewed by someone other than the preparer.
+</p>
+<h3>2a. Matching, strongest evidence first</h3>
+<ol>
+  <li><strong>Check number.</strong> Same check number on both sides. If the
+    amounts differ, it's a <em>recording error</em>. The bank's cleared amount
+    is treated as correct, since it's what actually left the account. Generic
+    tags like "DEP" are ignored; only references containing digits count.</li>
+  <li><strong>Exact amount within a date window</strong> (default 7 days; the bank may
+    post up to 2 days before the book date). Ties go to the nearest date.</li>
+  <li><strong>Transposition scan.</strong> Leftover pairs whose amounts are digit
+    permutations of each other within the window (e.g. 492.00 vs 429.00).</li>
+</ol>
+<h3>2b. Classifying what's left</h3>
+<pre class="formula">Bank side                              Book side
+  Balance per bank                       Balance per books
++ Deposits in transit                  + Bank credits not recorded (interest, collections)
+− Outstanding checks                   − Bank debits not recorded (fees, NSF checks)
+                                       ± Error corrections
+= Adjusted bank balance        ==      = Adjusted book balance</pre>
+<p>
+  Only book-side items get adjusting journal entries; bank-side items clear
+  on their own next month. Bank items are mapped to accounts by keyword: NSF →
+  Accounts Receivable (the customer still owes), interest → Interest Revenue,
+  service charge → Bank Service Charges Expense. Anything unrecognized goes to
+  Suspense, flagged for investigation rather than guessed.
+</p>
+
+<h2>3. Audit data analytics</h2>
+<h3>3a. Benford's Law</h3>
+<p>
+  In many naturally occurring financial datasets, the leading digit <em>d</em>
+  appears with probability:
+</p>
+<pre class="formula">P(d) = log₁₀(1 + 1/d)      →  1: 30.1%,  2: 17.6%,  …  9: 4.6%
+P(d₁d₂) = log₁₀(1 + 1/d₁d₂)  for the first two digits, 10–99</pre>
+<p>
+  Fabricated numbers tend not to follow this, because people over-use middle
+  digits and cluster amounts below control thresholds. The <strong>first-two-digits
+  test</strong> is the more useful audit test: it has 90 bins instead of 9, so
+  it pinpoints <em>which</em> amounts are over-represented. In the sample file,
+  the first-digit test rates the population "acceptable," and only the
+  first-two-digit test exposes the spike at 47–49.
+</p>
+<h3>3b. Measuring conformity</h3>
+<ul>
+  <li><strong>Mean absolute deviation (MAD)</strong> is the headline verdict, judged
+    against Nigrini's critical values (first digit: ≤ 0.006 close, ≤ 0.012
+    acceptable, ≤ 0.015 marginal, above that nonconformity; first-two: 0.0012 /
+    0.0018 / 0.0022). MAD is used because chi-square's power grows with sample
+    size: with thousands of records it rejects almost any real dataset over
+    trivial deviations.</li>
+  <li><strong>Chi-square</strong> is still reported. For the first-digit test (8 df) the
+    p-value is computed exactly. For the first-two test (89 df) it uses the
+    Wilson–Hilferty approximation.</li>
+  <li><strong>Per-bin z-statistics</strong> with a continuity correction,
+    <code>z = (|p̂ − p| − 1/2N) / √(p(1−p)/N)</code>. Bins with |z| &gt; 1.96 that
+    are over-represented are flagged. With 90 bins, about two spikes are
+    expected at that threshold by chance alone (90 × 2.5%), so an isolated
+    spike matters less than a cluster of adjacent ones, like 47–48–49 in the
+    sample.</li>
+  <li>Amounts under $10 are excluded, following Nigrini: they are dominated by
+    fees and small adjustments that distort the low digits.</li>
+</ul>
+<h3>3c. Approval-limit and duplicate tests</h3>
+<ul>
+  <li><strong>Just-below-limit clustering.</strong> Compares the count of payments
+    in the 10% band below the approval limit with the 10% band above. Benford
+    implies the lower band should hold only slightly more,
+    <code>log(1/0.9) / log(1.1) ≈ 1.11×</code>. A ratio above twice that (with
+    at least 10 items) is flagged, along with which vendors make up the band.
+    This is the classic pattern of invoice splitting to avoid a second approval.</li>
+  <li><strong>Duplicate invoices.</strong> Same vendor and same invoice number paid more
+    than once; the overpayment exposure is every payment after the first.</li>
+  <li><strong>Repeated amounts.</strong> The same vendor paid an identical amount (≥ $100)
+    multiple times. It is often legitimate (retainers, rent) but worth agreeing to a contract.</li>
+</ul>
+<p>
+  Benford's Law is a <em>risk-assessment</em> tool, not proof of fraud. It
+  tells an auditor where to direct substantive testing. It doesn't apply to
+  assigned numbers (check numbers, invoice numbers), amounts with built-in
+  minimums or maximums, or small populations.
+</p>
+
+<h2>Part II · Quantitative personal-finance models</h2>
+
+<h2>4. The Stress Test</h2>
 <p>
   The stress test is a heuristic scorecard, not a statistical model. It runs
   the user's balance sheet through five adverse scenarios and grades the
   response on a weighted rubric.
 </p>
 
-<h3>1a. Scenarios</h3>
+<h3>4a. Scenarios</h3>
 <ul>
   <li>
     <strong>Job loss runway.</strong> Months of fixed expenses plus 50% of
@@ -53,7 +226,7 @@
   </li>
 </ul>
 
-<h3>1b. Scoring</h3>
+<h3>4b. Scoring</h3>
 <p>
   Each scenario maps to a 0–100 severity score. The final resilience score
   is a weighted average:
@@ -67,9 +240,9 @@ score = 0.35·runway + 0.20·emergency + 0.20·DTI + 0.15·inflation + 0.10·dra
   the lowest because, unlike the others, you don't act on it — you wait.
 </p>
 
-<h2>2. The Monte Carlo Retirement Simulator</h2>
+<h2>5. The Monte Carlo Retirement Simulator</h2>
 
-<h3>2a. Model</h3>
+<h3>5a. Model</h3>
 <p>
   Portfolio balance is propagated year-by-year with contributions at the
   start of each year and stochastic returns drawn from a log-normal
@@ -89,7 +262,7 @@ Z_t ~ Normal(ln(1+μ) − σ²/2, σ²)
   <code>exp(μT)</code>. (Those differ noticeably over decades.)
 </p>
 
-<h3>2b. Why geometric, not arithmetic, returns</h3>
+<h3>5b. Why geometric, not arithmetic, returns</h3>
 <p>
   This is the most common mistake in retirement projections. If you project
   growth at the arithmetic mean return <code>μ</code>, you will systematically
@@ -112,7 +285,7 @@ g ≈ μ − σ²/2
   while individual paths still capture volatility drag.
 </p>
 
-<h3>2c. Sequence of returns risk</h3>
+<h3>5c. Sequence of returns risk</h3>
 <p>
   Two retirees with identical average returns can end up in wildly
   different places depending on <em>when</em> the bad years hit. Bad years
@@ -128,7 +301,7 @@ g ≈ μ − σ²/2
   diverge based on sequence, not just mean.
 </p>
 
-<h3>2d. Inflation and real vs. nominal</h3>
+<h3>5d. Inflation and real vs. nominal</h3>
 <p>
   Nominal dollars at retirement are deflated at the user's inflation rate
   to produce real (today's) dollars:
@@ -142,7 +315,7 @@ real = nominal / (1 + i)^years
   and look more impressive, but they are quoted in dollars that buy less.
 </p>
 
-<h3>2e. The 4% rule context</h3>
+<h3>5e. The 4% rule context</h3>
 <p>
   A common way to convert a goal number into retirement income is the 4%
   safe-withdrawal rule (Bengen 1994, Trinity Study 1998): a retiree
@@ -154,7 +327,7 @@ real = nominal / (1 + i)^years
   start of retirement) but it remains a useful sanity check.
 </p>
 
-<h2>3. What these models can't tell you</h2>
+<h2>6. What the quantitative models can't tell you</h2>
 <ul>
   <li>
     <strong>Fat tails.</strong> Both tools assume returns are roughly
@@ -182,6 +355,10 @@ real = nominal / (1 + i)^years
 
 <h2>References</h2>
 <ul>
+  <li>Nigrini, M. (2012). <em>Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection</em>. Wiley.</li>
+  <li>AICPA (2017). <em>Guide to Audit Data Analytics</em>.</li>
+  <li>Kieso, Weygandt &amp; Warfield. <em>Intermediate Accounting</em>: the accounting cycle, closing process, and financial statement presentation.</li>
+  <li>FASB ASC 210 (Balance Sheet) and ASC 225 (Income Statement): classification and presentation.</li>
   <li>Bengen, W. (1994). Determining Withdrawal Rates Using Historical Data.</li>
   <li>Cooley, Hubbard, Walz (1998). Retirement Savings: Choosing a Withdrawal Rate That Is Sustainable (Trinity Study).</li>
   <li>Hull, J. Options, Futures, and Other Derivatives — chapters on GBM and log-normal price models.</li>

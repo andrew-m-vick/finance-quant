@@ -1,20 +1,31 @@
-// Finance Quant service worker.
+// Portfolio service worker.
 // Strategy:
 //   - Precache the app shell (HTML routes + CSS/JS/favicon/manifest) on install.
 //   - Navigation requests: network-first, fall back to cached shell (offline).
 //   - Static same-origin GETs: stale-while-revalidate.
 //   - API POSTs: always network (never cached — results depend on input).
 
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL_CACHE = `fq-shell-${VERSION}`;
 const RUNTIME_CACHE = `fq-runtime-${VERSION}`;
 
 const SHELL_URLS = [
   "/",
+  "/financial-statements",
+  "/bank-reconciliation",
+  "/audit-analytics",
   "/stress-test",
   "/retirement",
   "/methodology",
   "/static/style.css",
+  "/static/acct.js",
+  "/static/financial_statements.js",
+  "/static/bank_rec.js",
+  "/static/audit_analytics.js",
+  "/static/samples/trial_balance.csv",
+  "/static/samples/book_ledger.csv",
+  "/static/samples/bank_statement.csv",
+  "/static/samples/ap_disbursements.csv",
   "/static/stress_test.js",
   "/static/retirement.js",
   "/static/favicon.svg",
